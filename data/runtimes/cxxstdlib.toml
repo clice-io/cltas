@@ -20,6 +20,7 @@ description = "The default C++ standard library for GCC. Ships with every GCC re
 # The GLIBCXX ABI version and GCC version are tightly coupled.
 [implementations.versions]
 # GCC version = release date
+"15.2" = "2025-08-08"
 "15.1" = "2025-04-24"
 "14.2" = "2024-08-01"
 "14.1" = "2024-05-07"
@@ -103,6 +104,8 @@ description = "LLVM's C++ standard library implementation. Default on macOS/iOS 
 
 # libc++ versions correspond to LLVM versions.
 [implementations.versions]
+"22.1" = "2026-02-24"
+"21.1" = "2025-08-26"
 "20.1" = "2025-03-27"
 "19.1" = "2024-09-17"
 "18.1" = "2024-03-05"
@@ -157,6 +160,9 @@ description = "Microsoft's C++ standard library. Ships with Visual Studio and MS
 
 [implementations.versions]
 # Visual Studio version = release date (MSVC _MSC_VER in parentheses)
+"18.4" = "2026-03-01"     # VS 2026 18.4
+"18.0" = "2025-11-01"     # VS 2026 18.0
+"17.14" = "2025-05-01"    # VS 2022 17.14
 "17.13" = "2025-02-25"    # VS 2022 17.13
 "17.12" = "2024-11-12"    # VS 2022 17.12
 "17.11" = "2024-08-13"    # VS 2022 17.11

@@ -65,6 +65,8 @@ releases = [
     { version = "15.2", date = "2024-12-08" },
     { version = "16.1", date = "2025-03-23" },
     { version = "16.2", date = "2025-08-17" },
+    { version = "16.3", date = "2025-04-20" },
+    { version = "17.1", date = "2025-12-20" },
 ]
 
 [[tools]]
@@ -99,6 +101,8 @@ releases = [
     { version = "18.0", date = "2024-03-05" },
     { version = "19.0", date = "2024-09-17" },
     { version = "20.0", date = "2025-03-11" },
+    { version = "21.0", date = "2025-08-26" },
+    { version = "22.0", date = "2026-02-24" },
 ]
 
 [[tools]]
@@ -198,6 +202,7 @@ releases = [
     { version = "3.22.0", date = "2023-10-27" },
     { version = "3.23.0", date = "2024-04-26" },
     { version = "3.24.0", date = "2024-11-08" },
+    { version = "3.26.0", date = "2025-10-24" },
 ]
 
 [[tools]]

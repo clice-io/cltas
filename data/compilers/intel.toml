@@ -7,6 +7,14 @@ description = "Intel oneAPI DPC++/C++ Compiler (icx/icpx/dpcpp) is a next-genera
 # Intel oneAPI Toolkit releases (containing icx/icpx)
 
 [[releases]]
+version = "2025.3"
+date = "2025-11"
+
+[[releases]]
+version = "2025.2"
+date = "2025-06"
+
+[[releases]]
 version = "2025.1"
 date = "2025-03"
 

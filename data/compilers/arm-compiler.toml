@@ -7,6 +7,14 @@ description = "Arm Compiler for Embedded (armclang) is based on LLVM/Clang and t
 # Arm Compiler for Embedded 6.x (armclang-based, LLVM backend)
 
 [[releases]]
+version = "6.24"
+date = "2025-03"
+
+[[releases]]
+version = "6.23"
+date = "2024-10"
+
+[[releases]]
 version = "6.22"
 date = "2024-05"
 

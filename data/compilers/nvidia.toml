@@ -7,6 +7,46 @@ description = "NVIDIA provides nvcc (CUDA C++ compiler) as part of the CUDA Tool
 # CUDA Toolkit releases (nvcc)
 
 [[releases]]
+version = "cuda-13.2.0"
+date = "2026-03"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-13.1.1"
+date = "2026-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-13.1.0"
+date = "2025-12"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-13.0.2"
+date = "2025-10"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-13.0.1"
+date = "2025-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-13.0.0"
+date = "2025-08"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.9.1"
+date = "2025-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.9.0"
+date = "2025-05"
+compiler = "nvcc"
+
+[[releases]]
 version = "cuda-12.8.1"
 date = "2025-02"
 compiler = "nvcc"
@@ -292,6 +332,41 @@ date = "2012-10"
 compiler = "nvcc"
 
 # NVIDIA HPC SDK releases (nvc++)
+
+[[releases]]
+version = "hpc-sdk-26.3"
+date = "2026-03"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-26.1"
+date = "2026-01"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-25.11"
+date = "2025-12"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-25.9"
+date = "2025-09"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-25.7"
+date = "2025-07"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-25.5"
+date = "2025-05"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-25.3"
+date = "2025-03"
+compiler = "nvc++"
 
 [[releases]]
 version = "hpc-sdk-25.1"

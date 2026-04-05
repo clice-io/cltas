@@ -45,6 +45,8 @@ provides = ["unw_*", "_Unwind_*", "UNW_*"]
 notes = "Not to be confused with LLVM libunwind. Supports many architectures including x86, x86_64, ARM, AArch64, MIPS, PowerPC, RISC-V, s390x, and others."
 
 [runtime_libs.versions]
+"1.8.3" = "2025-09-04"
+"1.8.2" = "2025-05-22"
 "1.8.1" = "2024-01-18"
 "1.8.0" = "2024-01-04"
 "1.7.2" = "2023-06-06"
@@ -277,6 +279,11 @@ provides = ["__gthread_*", "mtx_*", "cnd_*", "thrd_*", "_MCF_*"]
 notes = "Adopted by MSYS2 as an alternative threading runtime. Selected at GCC build time with --enable-threads=mcf. Provides better performance than winpthreads for mutex-heavy workloads."
 
 [runtime_libs.versions]
+"2.3-ga.2" = "2026-03-22"
+"2.3-ga.1" = "2026-01-21"
+"2.3-beta" = "2026-01-06"
+"2.2-ga.2" = "2025-10-18"
+"2.2-ga.1" = "2025-09-19"
 "1.8" = "2024-06-15"
 "1.7" = "2024-03-10"
 "1.6" = "2023-09-01"
