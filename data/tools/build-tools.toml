@@ -257,3 +257,40 @@ releases = [
     { version = "0.28.3", date = "2023-04-26", tag = "v0.28.3" },
     { version = "0.28.4", date = "2023-05-31", tag = "v0.28.4" },
 ]
+
+[[tools]]
+name = "distcc"
+vendor = "distcc project"
+url = "https://github.com/distcc/distcc"
+category = "distributed-build"
+description = "Distributed C/C++ compilation across networked machines"
+
+[[tools]]
+name = "icecream"
+vendor = "SUSE"
+url = "https://github.com/icecc/icecream"
+category = "distributed-build"
+description = "Distributed compiler system based on distcc, with automatic job scheduling"
+
+[[tools]]
+name = "goma"
+vendor = "Google"
+url = "https://chromium.googlesource.com/infra/goma/"
+category = "distributed-build"
+description = "Google's distributed compiler service (deprecated, replaced by reclient/reproxy)"
+status = "deprecated"
+successor = "reclient"
+
+[[tools]]
+name = "reclient"
+vendor = "Google"
+url = "https://github.com/bazelbuild/reclient"
+category = "distributed-build"
+description = "Google's remote execution client for builds, successor to goma"
+
+[[tools]]
+name = "Incredibuild"
+vendor = "Incredibuild"
+url = "https://www.incredibuild.com/"
+category = "distributed-build"
+description = "Commercial distributed build acceleration for C/C++, game engines, and CI"

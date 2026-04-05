@@ -302,6 +302,8 @@ GITHUB_BUILD_TOOLS = {
     "sccache":    {"repo": "mozilla/sccache",                     "vendor": "Mozilla",          "url": "https://github.com/mozilla/sccache","desc": "Shared compilation cache with cloud storage",   "category": "build-accelerator"},
     "FASTBuild":  {"repo": "fastbuild/fastbuild",                 "vendor": "FASTBuild",        "url": "http://www.fastbuild.org/",      "desc": "High performance build system with caching and distribution","category": "build-accelerator"},
     "buildcache": {"repo": "mbitsnbites/buildcache",              "vendor": "mbitsnbites",      "url": "https://github.com/mbitsnbites/buildcache","desc": "Advanced compiler cache",                 "category": "build-accelerator"},
+    "distcc":     {"repo": "distcc/distcc",                       "vendor": "distcc project",   "url": "https://github.com/distcc/distcc","desc": "Distributed C/C++ compilation across networked machines","category": "distributed-build"},
+    "icecream":   {"repo": "icecc/icecream",                      "vendor": "SUSE",             "url": "https://github.com/icecc/icecream","desc": "Distributed compiler system based on distcc, with automatic job scheduling","category": "distributed-build"},
 }
 
 GITHUB_ANALYSIS_TOOLS = {
