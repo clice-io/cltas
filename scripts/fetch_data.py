@@ -526,98 +526,65 @@ STATIC_LIBC = [
 
 
 def fetch_runtimes():
+    """Fetch libc versions using merge strategy — never overwrite with empty data."""
     print("Fetching libc versions...")
-    libc_impls = []
+    libc_path = DATA_DIR / "runtimes" / "libc.toml"
 
-    # glibc (GitHub mirror tags)
-    print("  glibc...")
-    glibc_releases = fetch_glibc_versions()
-    libc_impls.append({
-        "name": "glibc",
-        "full_name": "GNU C Library",
-        "vendor": "GNU Project",
-        "url": "https://www.gnu.org/software/libc/",
-        "platforms": ["linux"],
-        "description": "The standard C library for GNU/Linux systems",
-        "releases": glibc_releases,
-    })
+    FETCHABLE_LIBC = [
+        ("glibc", fetch_glibc_versions, {
+            "full_name": "GNU C Library", "vendor": "GNU Project",
+            "url": "https://www.gnu.org/software/libc/", "platforms": ["linux"],
+            "description": "The standard C library for GNU/Linux systems",
+        }),
+        ("musl", fetch_musl_versions, {
+            "full_name": "musl libc", "vendor": "musl project",
+            "url": "https://musl.libc.org/", "platforms": ["linux"],
+            "description": "Lightweight, standards-conforming C library for Linux",
+        }),
+        ("newlib", fetch_newlib_versions, {
+            "full_name": "Newlib", "vendor": "Red Hat / open source",
+            "url": "https://sourceware.org/newlib/", "platforms": ["none", "rtems", "elf"],
+            "description": "C library for embedded systems and bare-metal targets",
+        }),
+    ]
 
-    # musl (website + fallback to GitHub)
-    print("  musl...")
-    musl_releases = fetch_musl_versions()
-    libc_impls.append({
-        "name": "musl",
-        "full_name": "musl libc",
-        "vendor": "musl project",
-        "url": "https://musl.libc.org/",
-        "platforms": ["linux"],
-        "description": "Lightweight, standards-conforming C library for Linux",
-        "releases": musl_releases,
-    })
+    fetched = []
+    for name, fetcher, meta in FETCHABLE_LIBC:
+        print(f"  {name}...")
+        releases = fetcher()
+        if not releases:
+            print(f"    Skipping {name} (no data fetched, preserving existing)")
+            continue
+        fetched.append({"name": name, **meta, "releases": releases})
 
-    # newlib (GitHub mirror tags)
-    print("  newlib...")
-    newlib_releases = fetch_newlib_versions()
-    libc_impls.append({
-        "name": "newlib",
-        "full_name": "Newlib",
-        "vendor": "Red Hat / open source",
-        "url": "https://sourceware.org/newlib/",
-        "platforms": ["none", "rtems", "elf"],
-        "description": "C library for embedded systems and bare-metal targets",
-        "releases": newlib_releases,
-    })
+    # GitHub-released libc implementations
+    for name, repo, meta_entry in [
+        ("uclibc-ng", "wbx-github/uclibc-ng", {
+            "full_name": "uClibc-ng", "vendor": "uClibc-ng project",
+            "url": "https://uclibc-ng.org/", "platforms": ["linux"],
+            "description": "Small C library for embedded Linux systems, actively maintained fork of uClibc",
+        }),
+        ("mingw-w64", "mingw-w64/mingw-w64", {
+            "full_name": "mingw-w64", "vendor": "mingw-w64 project",
+            "url": "https://www.mingw-w64.org/", "platforms": ["windows"],
+            "description": "Windows C runtime headers and import libraries for GCC, targeting msvcrt or ucrt",
+        }),
+        ("picolibc", "picolibc/picolibc",
+         next(s for s in STATIC_LIBC if s["name"] == "picolibc")),
+        ("wasi-libc", "WebAssembly/wasi-libc",
+         next(s for s in STATIC_LIBC if s["name"] == "wasi-libc")),
+    ]:
+        print(f"  {name}...")
+        releases = gh_releases(repo)
+        if not releases:
+            print(f"    Skipping {name} (no data fetched, preserving existing)")
+            continue
+        for r in releases:
+            r.pop("assets", None)
+        fetched.append({"name": name, **meta_entry, "releases": releases})
 
-    # uClibc-ng (GitHub releases)
-    print("  uClibc-ng...")
-    uclibc_releases = fetch_uclibc_ng_versions()
-    for r in uclibc_releases:
-        r.pop("assets", None)
-    libc_impls.append({
-        "name": "uclibc-ng",
-        "full_name": "uClibc-ng",
-        "vendor": "uClibc-ng project",
-        "url": "https://uclibc-ng.org/",
-        "platforms": ["linux"],
-        "description": "Small C library for embedded Linux systems, actively maintained fork of uClibc",
-        "releases": uclibc_releases,
-    })
-
-    # mingw-w64 (GitHub releases, provides msvcrt/ucrt interface on Windows)
-    print("  mingw-w64...")
-    mingw_releases = fetch_mingw_w64_versions()
-    libc_impls.append({
-        "name": "mingw-w64",
-        "full_name": "mingw-w64",
-        "vendor": "mingw-w64 project",
-        "url": "https://www.mingw-w64.org/",
-        "platforms": ["windows"],
-        "description": "Windows C runtime headers and import libraries for GCC, targeting msvcrt or ucrt",
-        "releases": mingw_releases,
-    })
-
-    # picolibc (GitHub releases)
-    print("  picolibc...")
-    picolibc_releases = gh_releases("picolibc/picolibc")
-    for r in picolibc_releases:
-        r.pop("assets", None)
-    static_pico = next(s for s in STATIC_LIBC if s["name"] == "picolibc")
-    libc_impls.append({**static_pico, "releases": picolibc_releases})
-
-    # wasi-libc (GitHub tags)
-    print("  wasi-libc...")
-    wasi_releases = gh_releases("WebAssembly/wasi-libc")
-    for r in wasi_releases:
-        r.pop("assets", None)
-    static_wasi = next(s for s in STATIC_LIBC if s["name"] == "wasi-libc")
-    libc_impls.append({**static_wasi, "releases": wasi_releases})
-
-    # Static entries (no API available)
-    for entry in STATIC_LIBC:
-        if entry["name"] not in ("picolibc", "wasi-libc"):
-            libc_impls.append(entry)
-
-    write_toml(DATA_DIR / "runtimes" / "libc.toml", {"implementations": libc_impls})
+    # Merge: update releases for fetched items, preserve everything else
+    merge_toml_list(libc_path, "implementations", fetched)
 
 
 # ---------------------------------------------------------------------------
