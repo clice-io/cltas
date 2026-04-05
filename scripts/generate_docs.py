@@ -79,6 +79,9 @@ def render_releases_table(releases, max_cols=6):
     if not releases:
         return ""
 
+    # Newest first
+    releases = list(reversed(releases))
+
     skip = {"download_urls", "assets", "url"}
     keys = []
     for r in releases:
