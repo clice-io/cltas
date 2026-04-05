@@ -1,0 +1,404 @@
+[[implementations]]
+name = "glibc"
+full_name = "GNU C Library"
+vendor = "GNU Project"
+url = "https://www.gnu.org/software/libc/"
+platforms = [
+    "linux",
+]
+description = "The standard C library for GNU/Linux systems"
+releases = [
+    { version = "1.09", tag = "glibc-1.09" },
+    { version = "1.90", tag = "glibc-1.90" },
+    { version = "1.91", tag = "glibc-1.91" },
+    { version = "1.92", tag = "glibc-1.92" },
+    { version = "1.93", tag = "glibc-1.93" },
+    { version = "2.0.2", tag = "glibc-2.0.2" },
+    { version = "2.0.4", tag = "glibc-2.0.4" },
+    { version = "2.0.5", tag = "glibc-2.0.5" },
+    { version = "2.0.6", tag = "glibc-2.0.6" },
+    { version = "2.0.92", tag = "glibc-2.0.92" },
+    { version = "2.0.95", tag = "glibc-2.0.95" },
+    { version = "2.0.96", tag = "glibc-2.0.96" },
+    { version = "2.0.97", tag = "glibc-2.0.97" },
+    { version = "2.0.98", tag = "glibc-2.0.98" },
+    { version = "2.0.99", tag = "glibc-2.0.99" },
+    { version = "2.0.100", tag = "glibc-2.0.100" },
+    { version = "2.0.101", tag = "glibc-2.0.101" },
+    { version = "2.0.103", tag = "glibc-2.0.103" },
+    { version = "2.0.106", tag = "glibc-2.0.106" },
+    { version = "2.0.112", tag = "glibc-2.0.112" },
+    { version = "2.1", tag = "glibc-2.1" },
+    { version = "2.1.1", tag = "glibc-2.1.1" },
+    { version = "2.1.2", tag = "glibc-2.1.2" },
+    { version = "2.1.91", tag = "glibc-2.1.91" },
+    { version = "2.1.92", tag = "glibc-2.1.92" },
+    { version = "2.1.93", tag = "glibc-2.1.93" },
+    { version = "2.1.94", tag = "glibc-2.1.94" },
+    { version = "2.1.95", tag = "glibc-2.1.95" },
+    { version = "2.1.96", tag = "glibc-2.1.96" },
+    { version = "2.1.97", tag = "glibc-2.1.97" },
+    { version = "2.2", tag = "glibc-2.2" },
+    { version = "2.2.1", tag = "glibc-2.2.1" },
+    { version = "2.2.2", tag = "glibc-2.2.2" },
+    { version = "2.2.3", tag = "glibc-2.2.3" },
+    { version = "2.2.4", tag = "glibc-2.2.4" },
+    { version = "2.2.5", tag = "glibc-2.2.5" },
+    { version = "2.3", tag = "glibc-2.3" },
+    { version = "2.3.1", tag = "glibc-2.3.1" },
+    { version = "2.3.2", tag = "glibc-2.3.2" },
+    { version = "2.3.3", tag = "glibc-2.3.3" },
+    { version = "2.3.4", tag = "glibc-2.3.4" },
+    { version = "2.3.5", tag = "glibc-2.3.5" },
+    { version = "2.3.6", tag = "glibc-2.3.6" },
+    { version = "2.4", tag = "glibc-2.4" },
+    { version = "2.5", tag = "glibc-2.5" },
+    { version = "2.5.1", tag = "glibc-2.5.1" },
+    { version = "2.6", tag = "glibc-2.6" },
+    { version = "2.6.1", tag = "glibc-2.6.1" },
+    { version = "2.7", tag = "glibc-2.7" },
+    { version = "2.8", tag = "glibc-2.8" },
+    { version = "2.9", tag = "glibc-2.9" },
+    { version = "2.10", tag = "glibc-2.10" },
+    { version = "2.10.1", tag = "glibc-2.10.1" },
+    { version = "2.10.2", tag = "glibc-2.10.2" },
+    { version = "2.11", tag = "glibc-2.11" },
+    { version = "2.11.1", tag = "glibc-2.11.1" },
+    { version = "2.11.2", tag = "glibc-2.11.2" },
+    { version = "2.11.3", tag = "glibc-2.11.3" },
+    { version = "2.12", tag = "glibc-2.12" },
+    { version = "2.12.1", tag = "glibc-2.12.1" },
+    { version = "2.12.2", tag = "glibc-2.12.2" },
+    { version = "2.13", tag = "glibc-2.13" },
+    { version = "2.14", tag = "glibc-2.14" },
+    { version = "2.14.1", tag = "glibc-2.14.1" },
+    { version = "2.14.9000", tag = "glibc-2.14.9000" },
+    { version = "2.15", tag = "glibc-2.15" },
+    { version = "2.16", tag = "glibc-2.16" },
+    { version = "2.16.0", tag = "glibc-2.16.0" },
+    { version = "2.16.90", tag = "glibc-2.16.90" },
+    { version = "2.17", tag = "glibc-2.17" },
+    { version = "2.17.90", tag = "glibc-2.17.90" },
+    { version = "2.18", tag = "glibc-2.18" },
+    { version = "2.18.90", tag = "glibc-2.18.90" },
+    { version = "2.19", tag = "glibc-2.19" },
+    { version = "2.19.90", tag = "glibc-2.19.90" },
+    { version = "2.20", tag = "glibc-2.20" },
+    { version = "2.20.90", tag = "glibc-2.20.90" },
+    { version = "2.21", tag = "glibc-2.21" },
+    { version = "2.21.90", tag = "glibc-2.21.90" },
+    { version = "2.22", tag = "glibc-2.22" },
+    { version = "2.22.90", tag = "glibc-2.22.90" },
+    { version = "2.23", tag = "glibc-2.23" },
+    { version = "2.23.90", tag = "glibc-2.23.90" },
+    { version = "2.24", tag = "glibc-2.24" },
+    { version = "2.24.90", tag = "glibc-2.24.90" },
+    { version = "2.25", tag = "glibc-2.25" },
+    { version = "2.25.90", tag = "glibc-2.25.90" },
+    { version = "2.26", tag = "glibc-2.26" },
+    { version = "2.26.9000", tag = "glibc-2.26.9000" },
+    { version = "2.27", tag = "glibc-2.27" },
+    { version = "2.27.9000", tag = "glibc-2.27.9000" },
+    { version = "2.28", tag = "glibc-2.28" },
+    { version = "2.28.9000", tag = "glibc-2.28.9000" },
+    { version = "2.29", tag = "glibc-2.29" },
+    { version = "2.29.9000", tag = "glibc-2.29.9000" },
+    { version = "2.30", tag = "glibc-2.30" },
+    { version = "2.30.9000", tag = "glibc-2.30.9000" },
+    { version = "2.31", tag = "glibc-2.31" },
+    { version = "2.31.9000", tag = "glibc-2.31.9000" },
+    { version = "2.32", tag = "glibc-2.32" },
+    { version = "2.32.9000", tag = "glibc-2.32.9000" },
+    { version = "2.33", tag = "glibc-2.33" },
+    { version = "2.33.9000", tag = "glibc-2.33.9000" },
+    { version = "2.34", tag = "glibc-2.34" },
+    { version = "2.34.9000", tag = "glibc-2.34.9000" },
+    { version = "2.35", tag = "glibc-2.35" },
+    { version = "2.35.9000", tag = "glibc-2.35.9000" },
+    { version = "2.36", tag = "glibc-2.36" },
+    { version = "2.36.9000", tag = "glibc-2.36.9000" },
+    { version = "2.37", tag = "glibc-2.37" },
+    { version = "2.37.9000", tag = "glibc-2.37.9000" },
+    { version = "2.38", tag = "glibc-2.38" },
+    { version = "2.38.9000", tag = "glibc-2.38.9000" },
+    { version = "2.39", tag = "glibc-2.39" },
+    { version = "2.39.9000", tag = "glibc-2.39.9000" },
+    { version = "2.40", tag = "glibc-2.40" },
+    { version = "2.40.9000", tag = "glibc-2.40.9000" },
+    { version = "2.41", tag = "glibc-2.41" },
+    { version = "2.41.9000", tag = "glibc-2.41.9000" },
+    { version = "2.42", tag = "glibc-2.42" },
+    { version = "2.42.9000", tag = "glibc-2.42.9000" },
+]
+
+[[implementations]]
+name = "musl"
+full_name = "musl libc"
+vendor = "musl project"
+url = "https://musl.libc.org/"
+platforms = [
+    "linux",
+]
+description = "Lightweight, standards-conforming C library for Linux"
+releases = [
+    { version = "0.5.0", date = "2011-02-11" },
+    { version = "0.5.9", date = "2011-02-14" },
+    { version = "0.6.0", date = "2011-02-17" },
+    { version = "0.7.0", date = "2011-03-11" },
+    { version = "0.7.1", date = "2011-03-18" },
+    { version = "0.7.5", date = "2011-04-02" },
+    { version = "0.7.6", date = "2011-04-04" },
+    { version = "0.7.7", date = "2011-04-06" },
+    { version = "0.7.8", date = "2011-04-13" },
+    { version = "0.7.9", date = "2011-04-23" },
+    { version = "0.7.10", date = "2011-05-17" },
+    { version = "0.7.11", date = "2011-06-28" },
+    { version = "0.7.12", date = "2011-07-03" },
+    { version = "0.8.0", date = "2011-09-13" },
+    { version = "0.8.1", date = "2011-09-14" },
+    { version = "0.8.2", date = "2011-09-17" },
+    { version = "0.8.3", date = "2011-09-21" },
+    { version = "0.8.4", date = "2012-01-23" },
+    { version = "0.8.5", date = "2012-02-27" },
+    { version = "0.8.6", date = "2012-02-28" },
+    { version = "0.8.7", date = "2012-03-17" },
+    { version = "0.8.8", date = "2012-04-18" },
+    { version = "0.8.9", date = "2012-04-19" },
+    { version = "0.8.10", date = "2012-04-25" },
+    { version = "0.9.0", date = "2012-05-06" },
+    { version = "0.9.1", date = "2012-06-03" },
+    { version = "0.9.3", date = "2012-08-02" },
+    { version = "0.9.4", date = "2012-08-18" },
+    { version = "0.9.5", date = "2012-09-15" },
+    { version = "0.9.6", date = "2012-09-16" },
+    { version = "0.9.7", date = "2012-10-28" },
+    { version = "0.9.8", date = "2012-11-26" },
+    { version = "0.9.9", date = "2013-02-01" },
+    { version = "0.9.10", date = "2013-04-14" },
+    { version = "0.9.11", date = "2013-06-29" },
+    { version = "0.9.12", date = "2013-07-29" },
+    { version = "0.9.13", date = "2013-08-30" },
+    { version = "0.9.14", date = "2013-09-23" },
+    { version = "0.9.15", date = "2014-01-03" },
+    { version = "1.0.0", date = "2014-03-20" },
+    { version = "1.1.0", date = "2014-04-16" },
+    { version = "1.0.1", date = "2014-04-16" },
+    { version = "1.1.1", date = "2014-05-20" },
+    { version = "1.0.2", date = "2014-05-20" },
+    { version = "1.0.5", date = "2015-03-30" },
+    { version = "1.1.9", date = "2015-05-12" },
+    { version = "1.1.10", date = "2015-06-04" },
+    { version = "1.1.15", date = "2016-07-05" },
+    { version = "1.1.16", date = "2016-12-31" },
+    { version = "1.1.17", date = "2017-10-19" },
+    { version = "1.1.18", date = "2017-10-31" },
+    { version = "1.1.19", date = "2018-02-22" },
+    { version = "1.1.20", date = "2018-09-04" },
+    { version = "1.1.21", date = "2019-01-21" },
+    { version = "1.1.22", date = "2019-04-09" },
+    { version = "1.1.23", date = "2019-07-16" },
+    { version = "1.1.24", date = "2019-10-13" },
+    { version = "1.2.0", date = "2020-02-20" },
+    { version = "1.2.1", date = "2020-08-04" },
+    { version = "1.2.2", date = "2021-01-15" },
+    { version = "1.2.3", date = "2022-04-07" },
+    { version = "1.2.4", date = "2023-05-01" },
+    { version = "1.2.5", date = "2024-02-29" },
+    { version = "1.2.6", date = "2026-03-20" },
+    { version = "1.0.4", date = "Aug 1 2014" },
+    { version = "1.1.11", date = "Aug 30 2015" },
+    { version = "1.1.13", date = "Feb 15 2016" },
+    { version = "1.1.14", date = "Feb 22 2016" },
+    { version = "1.1.6", date = "Jan 13 2015" },
+    { version = "1.1.4", date = "Jul 31 2014" },
+    { version = "1.1.3", date = "Jun 25 2014" },
+    { version = "1.1.2", date = "Jun 6 2014" },
+    { version = "1.0.3", date = "Jun 6 2014" },
+    { version = "1.1.7", date = "Mar 18 2015" },
+    { version = "1.1.8", date = "Mar 29 2015" },
+    { version = "1.1.5", date = "Oct 14 2014" },
+    { version = "1.1.12", date = "Oct 19 2015" },
+]
+
+[[implementations]]
+name = "newlib"
+full_name = "Newlib"
+vendor = "Red Hat / open source"
+url = "https://sourceware.org/newlib/"
+platforms = [
+    "none",
+    "rtems",
+    "elf",
+]
+description = "C library for embedded systems and bare-metal targets"
+releases = [
+    { version = "3.0.0", tag = "newlib-3.0.0" },
+    { version = "3.1.0", tag = "newlib-3.1.0" },
+    { version = "3.2.0", tag = "newlib-3.2.0" },
+    { version = "3.3.0", tag = "newlib-3.3.0" },
+    { version = "4.0.0", tag = "newlib-4.0.0" },
+    { version = "4.1.0", tag = "newlib-4.1.0" },
+    { version = "4.3.0", tag = "newlib-4.3.0" },
+    { version = "4.4.0", tag = "newlib-4.4.0" },
+]
+
+[[implementations]]
+name = "uclibc-ng"
+full_name = "uClibc-ng"
+vendor = "uClibc-ng project"
+url = "https://uclibc-ng.org/"
+platforms = [
+    "linux",
+]
+description = "Small C library for embedded Linux systems, actively maintained fork of uClibc"
+releases = []
+
+[[implementations]]
+name = "mingw-w64"
+full_name = "mingw-w64"
+vendor = "mingw-w64 project"
+url = "https://www.mingw-w64.org/"
+platforms = [
+    "windows",
+]
+description = "Windows C runtime headers and import libraries for GCC, targeting msvcrt or ucrt"
+releases = []
+
+[[implementations]]
+name = "picolibc"
+full_name = "picolibc"
+vendor = "Keith Packard"
+url = "https://github.com/picolibc/picolibc"
+platforms = [
+    "none",
+]
+description = "C library for embedded systems, combining newlib and AVR libc code"
+releases = [
+    { version = "1.4.1", date = "2020-04-01", tag = "1.4.1" },
+    { version = "1.4.4", date = "2020-06-11", tag = "1.4.4" },
+    { version = "1.4.6", date = "2020-08-03", tag = "1.4.6" },
+    { version = "1.4.5", date = "2020-08-03", tag = "1.4.5" },
+    { version = "1.4.7", date = "2020-10-26", tag = "1.4.7" },
+    { version = "1.5", date = "2021-01-08", tag = "1.5" },
+    { version = "1.5.1", date = "2021-01-14", tag = "1.5.1" },
+    { version = "1.6", date = "2021-06-05", tag = "1.6" },
+    { version = "1.6.1", date = "2021-06-11", tag = "1.6.1" },
+    { version = "1.6.2", date = "2021-06-17", tag = "1.6.2" },
+    { version = "1.7", date = "2021-07-02", tag = "1.7" },
+    { version = "1.7.1", date = "2021-07-13", tag = "1.7.1" },
+    { version = "1.7.2", date = "2021-07-18", tag = "1.7.2" },
+    { version = "1.7.3", date = "2021-09-30", tag = "1.7.3" },
+    { version = "1.7.4", date = "2021-11-19", tag = "1.7.4" },
+    { version = "1.7.5", date = "2022-03-14", tag = "1.7.5" },
+    { version = "1.7.6", date = "2022-03-25", tag = "1.7.6" },
+    { version = "1.7.7", date = "2022-05-21", tag = "1.7.7" },
+    { version = "1.7.8", date = "2022-08-11", tag = "1.7.8" },
+    { version = "1.7.9", date = "2022-10-12", tag = "1.7.9" },
+    { version = "1.8", date = "2022-12-23", tag = "1.8" },
+    { version = "1.8.1", date = "2023-04-03", tag = "1.8.1" },
+    { version = "1.8.2", date = "2023-05-29", tag = "1.8.2" },
+    { version = "1.8.3", date = "2023-08-11", tag = "1.8.3" },
+    { version = "1.8.4", date = "2023-09-21", tag = "1.8.4" },
+    { version = "1.8.5", date = "2023-09-26", tag = "1.8.5" },
+    { version = "1.8.6", date = "2024-01-21", tag = "1.8.6" },
+    { version = "1.8.7", date = "2024-09-11", tag = "1.8.7" },
+    { version = "1.8.8", date = "2024-09-26", tag = "1.8.8" },
+    { version = "1.8.9", date = "2025-02-06", tag = "1.8.9" },
+    { version = "1.8.10", date = "2025-04-17", tag = "1.8.10" },
+    { version = "1.8.11", date = "2026-01-27", tag = "1.8.11" },
+]
+
+[[implementations]]
+name = "wasi-libc"
+full_name = "WASI libc"
+vendor = "WebAssembly"
+url = "https://github.com/WebAssembly/wasi-libc"
+platforms = [
+    "wasi",
+]
+description = "C library for WebAssembly System Interface, built on musl and cloudlibc"
+releases = []
+
+[[implementations]]
+name = "bionic"
+full_name = "Android Bionic"
+vendor = "Google"
+url = "https://android.googlesource.com/platform/bionic/"
+platforms = [
+    "android",
+]
+description = "Android's C library, math library, and dynamic linker"
+
+[[implementations]]
+name = "dietlibc"
+full_name = "diet libc"
+vendor = "Felix von Leitner"
+url = "https://www.fefe.de/dietlibc/"
+platforms = [
+    "linux",
+]
+description = "Small C library optimized for small size, for embedded Linux"
+
+[[implementations]]
+name = "msvcrt"
+full_name = "Microsoft Visual C Runtime (Legacy)"
+vendor = "Microsoft"
+url = "https://learn.microsoft.com/en-us/cpp/c-runtime-library/"
+platforms = [
+    "windows",
+]
+description = "Legacy Windows C runtime library (msvcrt.dll), shipped with older Visual Studio versions"
+
+[[implementations]]
+name = "ucrt"
+full_name = "Universal C Runtime"
+vendor = "Microsoft"
+url = "https://learn.microsoft.com/en-us/cpp/c-runtime-library/"
+platforms = [
+    "windows",
+]
+description = "Modern Windows C runtime (ucrtbase.dll), ships with Windows 10+ and Visual Studio 2015+"
+
+[[implementations]]
+name = "libsystem"
+full_name = "Apple libSystem"
+vendor = "Apple"
+url = "https://opensource.apple.com/"
+platforms = [
+    "darwin",
+    "ios",
+    "tvos",
+    "watchos",
+    "visionos",
+]
+description = "Apple's system C library for macOS, iOS, and other Apple platforms"
+
+[[implementations]]
+name = "freebsd-libc"
+full_name = "FreeBSD libc"
+vendor = "FreeBSD Project"
+url = "https://www.freebsd.org/"
+platforms = [
+    "freebsd",
+]
+description = "FreeBSD's standard C library, derived from 4.4BSD"
+
+[[implementations]]
+name = "openbsd-libc"
+full_name = "OpenBSD libc"
+vendor = "OpenBSD Project"
+url = "https://www.openbsd.org/"
+platforms = [
+    "openbsd",
+]
+description = "OpenBSD's standard C library with security-focused hardening"
+
+[[implementations]]
+name = "netbsd-libc"
+full_name = "NetBSD libc"
+vendor = "NetBSD Project"
+url = "https://www.netbsd.org/"
+platforms = [
+    "netbsd",
+]
+description = "NetBSD's standard C library, highly portable across architectures"

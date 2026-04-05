@@ -1,0 +1,6 @@
+site/
+docs/
+mkdocs.yml
+__pycache__/
+*.pyc
+.pixi/

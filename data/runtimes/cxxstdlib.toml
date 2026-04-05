@@ -1,0 +1,305 @@
+# C++ Standard Library Implementations
+# Last updated: 2026-04-05
+
+# =============================================================================
+# libstdc++ - GNU C++ Standard Library
+# =============================================================================
+
+[[implementations]]
+name = "libstdc++"
+full_name = "GNU C++ Standard Library"
+vendor = "GNU Project"
+url = "https://gcc.gnu.org/onlinedocs/libstdc++/"
+source = "https://gcc.gnu.org/git/gcc.git"
+ships_with = "GCC"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw", "macos-gcc"]
+license = "GPL-3.0 WITH GCC-exception-3.1"
+description = "The default C++ standard library for GCC. Ships with every GCC release and is the default on most Linux distributions. Provides comprehensive C++ standard support with GNU extensions."
+
+# libstdc++ versions correspond to GCC versions.
+# The GLIBCXX ABI version and GCC version are tightly coupled.
+[implementations.versions]
+# GCC version = release date
+"15.1" = "2025-04-24"
+"14.2" = "2024-08-01"
+"14.1" = "2024-05-07"
+"13.3" = "2024-05-21"
+"13.2" = "2023-07-27"
+"13.1" = "2023-04-26"
+"12.4" = "2024-06-20"
+"12.3" = "2023-05-08"
+"12.2" = "2022-08-19"
+"12.1" = "2022-05-06"
+"11.5" = "2024-07-19"
+"11.4" = "2023-05-29"
+"11.3" = "2022-04-21"
+"11.2" = "2021-07-28"
+"11.1" = "2021-04-27"
+"10.5" = "2023-07-07"
+"10.4" = "2022-06-28"
+"10.3" = "2021-04-08"
+"10.2" = "2020-07-23"
+"10.1" = "2020-05-07"
+"9.5" = "2022-05-27"
+"9.4" = "2021-06-01"
+"9.3" = "2020-03-12"
+"9.2" = "2019-08-12"
+"9.1" = "2019-05-03"
+"8.5" = "2021-05-14"
+"8.4" = "2020-03-04"
+"8.3" = "2019-02-22"
+"8.2" = "2018-07-26"
+"8.1" = "2018-05-02"
+"7.5" = "2019-11-14"
+"7.4" = "2018-12-06"
+"7.3" = "2018-01-25"
+"7.2" = "2017-08-14"
+"7.1" = "2017-05-02"
+"6.5" = "2018-10-26"
+"6.4" = "2017-07-04"
+"6.3" = "2016-12-21"
+"6.2" = "2016-08-22"
+"6.1" = "2016-04-27"
+"5.5" = "2017-10-10"
+"5.4" = "2016-06-03"
+"5.3" = "2015-12-04"
+"5.2" = "2015-07-16"
+"5.1" = "2015-04-22"
+"4.9.4" = "2016-08-03"
+"4.9.3" = "2015-06-26"
+"4.9.2" = "2014-10-30"
+"4.9.1" = "2014-07-16"
+"4.9.0" = "2014-04-22"
+"4.8.5" = "2015-06-23"
+"4.8.4" = "2014-12-19"
+"4.8.3" = "2014-05-22"
+"4.8.2" = "2013-10-16"
+"4.8.1" = "2013-05-31"
+"4.8.0" = "2013-03-22"
+
+# C++ standard support milestones (GCC version : standard)
+[implementations.standard_support]
+"C++98" = "3.0"     # Full support
+"C++11" = "4.8.1"   # Complete support
+"C++14" = "5.1"     # Complete support
+"C++17" = "7.1"     # Feature-complete, library mostly complete by 9.x
+"C++20" = "11.1"    # Feature-complete, library mostly complete by 13.x
+"C++23" = "14.1"    # Partial support, ongoing
+
+# =============================================================================
+# libc++ - LLVM C++ Standard Library
+# =============================================================================
+
+[[implementations]]
+name = "libc++"
+full_name = "LLVM C++ Standard Library"
+vendor = "LLVM Project"
+url = "https://libcxx.llvm.org/"
+source = "https://github.com/llvm/llvm-project/tree/main/libcxx"
+ships_with = "LLVM/Clang"
+platforms = ["macos", "ios", "linux", "freebsd", "windows", "android", "fuchsia"]
+license = "Apache-2.0 WITH LLVM-exception"
+description = "LLVM's C++ standard library implementation. Default on macOS/iOS (via Apple Clang) and Fuchsia. Designed for standards conformance and ABI stability. Often the first to implement new C++ features."
+
+# libc++ versions correspond to LLVM versions.
+[implementations.versions]
+"20.1" = "2025-03-27"
+"19.1" = "2024-09-17"
+"18.1" = "2024-03-05"
+"17.0" = "2023-09-19"
+"16.0" = "2023-03-18"
+"15.0" = "2022-09-06"
+"14.0" = "2022-03-25"
+"13.0" = "2021-10-04"
+"12.0" = "2021-04-14"
+"11.1" = "2021-02-17"
+"11.0" = "2020-10-12"
+"10.0" = "2020-03-24"
+"9.0" = "2019-09-19"
+"8.0" = "2019-03-20"
+"7.1" = "2019-05-28"
+"7.0" = "2018-09-19"
+"6.0" = "2018-03-08"
+"5.0" = "2017-09-07"
+"4.0" = "2017-03-13"
+"3.9" = "2016-09-02"
+"3.8" = "2016-03-08"
+"3.7" = "2015-09-01"
+"3.6" = "2015-02-27"
+"3.5" = "2014-09-03"
+"3.4" = "2014-01-06"
+"3.3" = "2013-06-17"
+"3.2" = "2012-12-20"
+"3.1" = "2012-05-22"
+"3.0" = "2011-12-01"
+
+[implementations.standard_support]
+"C++11" = "3.4"     # Mostly complete
+"C++14" = "3.5"     # Complete support
+"C++17" = "5.0"     # Feature-complete by 9.x
+"C++20" = "13.0"    # Feature-complete by 17.x
+"C++23" = "18.0"    # Partial support, ongoing
+
+# =============================================================================
+# MSVC STL - Microsoft C++ Standard Library
+# =============================================================================
+
+[[implementations]]
+name = "msvc-stl"
+full_name = "Microsoft C++ Standard Library"
+vendor = "Microsoft"
+url = "https://learn.microsoft.com/en-us/cpp/standard-library/"
+source = "https://github.com/microsoft/STL"
+ships_with = "MSVC (Visual Studio)"
+platforms = ["windows"]
+license = "Apache-2.0 WITH LLVM-exception"
+description = "Microsoft's C++ standard library. Ships with Visual Studio and MSVC compiler. Open-sourced in 2019. Targets Windows exclusively. Known for excellent debug iterator support and visualization."
+
+[implementations.versions]
+# Visual Studio version = release date (MSVC _MSC_VER in parentheses)
+"17.13" = "2025-02-25"    # VS 2022 17.13
+"17.12" = "2024-11-12"    # VS 2022 17.12
+"17.11" = "2024-08-13"    # VS 2022 17.11
+"17.10" = "2024-05-21"    # VS 2022 17.10
+"17.9" = "2024-02-13"     # VS 2022 17.9
+"17.8" = "2023-11-14"     # VS 2022 17.8
+"17.7" = "2023-08-08"     # VS 2022 17.7
+"17.6" = "2023-05-16"     # VS 2022 17.6
+"17.5" = "2023-02-21"     # VS 2022 17.5
+"17.4" = "2022-11-08"     # VS 2022 17.4
+"17.3" = "2022-08-09"     # VS 2022 17.3
+"17.2" = "2022-05-10"     # VS 2022 17.2
+"17.1" = "2022-02-15"     # VS 2022 17.1
+"17.0" = "2021-11-08"     # VS 2022 17.0 (_MSC_VER 1930)
+"16.11" = "2021-08-10"    # VS 2019 16.11
+"16.10" = "2021-05-25"    # VS 2019 16.10
+"16.9" = "2021-03-02"     # VS 2019 16.9
+"16.8" = "2020-11-10"     # VS 2019 16.8
+"16.7" = "2020-08-05"     # VS 2019 16.7
+"16.6" = "2020-05-19"     # VS 2019 16.6
+"16.5" = "2020-03-16"     # VS 2019 16.5
+"16.4" = "2019-12-03"     # VS 2019 16.4
+"16.3" = "2019-09-23"     # VS 2019 16.3
+"16.2" = "2019-07-24"     # VS 2019 16.2
+"16.1" = "2019-05-21"     # VS 2019 16.1
+"16.0" = "2019-04-02"     # VS 2019 16.0 (_MSC_VER 1920)
+"15.9" = "2018-11-19"     # VS 2017 15.9
+"15.8" = "2018-08-14"     # VS 2017 15.8
+"15.7" = "2018-05-07"     # VS 2017 15.7
+"15.6" = "2018-03-06"     # VS 2017 15.6
+"15.5" = "2017-12-04"     # VS 2017 15.5
+"15.4" = "2017-10-10"     # VS 2017 15.4
+"15.3" = "2017-08-14"     # VS 2017 15.3
+"15.2" = "2017-03-31"     # VS 2017 15.2
+"15.0" = "2017-03-07"     # VS 2017 15.0 (_MSC_VER 1910)
+"14.0" = "2015-07-20"     # VS 2015 (_MSC_VER 1900)
+"12.0" = "2013-10-17"     # VS 2013 (_MSC_VER 1800)
+"11.0" = "2012-09-12"     # VS 2012 (_MSC_VER 1700)
+"10.0" = "2010-04-12"     # VS 2010 (_MSC_VER 1600)
+"9.0" = "2007-11-19"      # VS 2008 (_MSC_VER 1500)
+"8.0" = "2005-11-07"      # VS 2005 (_MSC_VER 1400)
+
+[implementations.standard_support]
+"C++14" = "14.0"     # VS 2015 - mostly complete
+"C++17" = "15.7"     # VS 2017 15.7 - feature-complete
+"C++20" = "16.11"    # VS 2019 16.11 - feature-complete
+"C++23" = "17.6"     # VS 2022 17.6 - partial, ongoing
+
+# =============================================================================
+# Apache C++ Standard Library (stdcxx) - Historical
+# =============================================================================
+
+[[implementations]]
+name = "stdcxx"
+full_name = "Apache C++ Standard Library"
+vendor = "Apache Software Foundation (originally Rogue Wave)"
+url = "https://stdcxx.apache.org/"
+ships_with = "Standalone / HP-UX aCC"
+platforms = ["linux", "solaris", "hpux", "aix", "windows"]
+license = "Apache-2.0"
+description = "Originally Rogue Wave's C++ Standard Library, donated to Apache. Was used as the default C++ library on HP-UX and some commercial Unix systems. Project is retired/dormant."
+
+[implementations.versions]
+"4.3.0" = "2014-01-01"
+"4.2.1" = "2008-10-01"
+"4.2.0" = "2008-05-01"
+"4.1.3" = "2006-11-01"
+
+# =============================================================================
+# STLport - Historical
+# =============================================================================
+
+[[implementations]]
+name = "stlport"
+full_name = "STLport"
+vendor = "STLport Project (originally Boris Fomitchev)"
+url = "http://www.stlport.org/"
+ships_with = "Standalone"
+platforms = ["linux", "windows", "solaris", "macos", "embedded"]
+license = "BSD-like"
+description = "Multiplatform C++ standard library based on SGI STL. Was popular in the 2000s as a portable, high-performance alternative. Development ceased around 2012."
+
+[implementations.versions]
+"5.2.1" = "2008-10-01"
+"5.2.0" = "2008-08-01"
+"5.1.7" = "2008-04-01"
+"5.1.5" = "2006-08-01"
+"5.0" = "2005-06-01"
+"4.6.2" = "2004-01-01"
+
+# =============================================================================
+# Dinkumware - Commercial
+# =============================================================================
+
+[[implementations]]
+name = "dinkumware"
+full_name = "Dinkum C++ Library"
+vendor = "Dinkumware, Ltd. (P.J. Plauger)"
+url = "https://www.dinkumware.com/"
+ships_with = "Commercial license / was used by MSVC historically"
+platforms = ["windows", "embedded", "cross-platform"]
+license = "Commercial"
+description = "Commercial C++ standard library. Historical basis for Microsoft's STL implementation. Also sold for embedded and cross-platform use. Still available commercially."
+
+# =============================================================================
+# ETL - Embedded Template Library
+# =============================================================================
+
+[[implementations]]
+name = "etl"
+full_name = "Embedded Template Library"
+vendor = "John Wellbelove / community"
+url = "https://www.etlcpp.com/"
+source = "https://github.com/ETLCPP/etl"
+ships_with = "Standalone"
+platforms = ["embedded", "bare-metal", "any"]
+license = "MIT"
+description = "C++ template library for embedded applications. Provides fixed-capacity containers and utilities that do not use dynamic memory. Not a full std implementation but a practical alternative for resource-constrained targets."
+
+[implementations.versions]
+"20.39.4" = "2024-08-01"
+"20.38.0" = "2024-01-01"
+"20.37.0" = "2023-06-01"
+"20.35.0" = "2023-01-01"
+
+# =============================================================================
+# EASTL - Electronic Arts Standard Template Library
+# =============================================================================
+
+[[implementations]]
+name = "eastl"
+full_name = "EASTL"
+vendor = "Electronic Arts"
+url = "https://github.com/electronicarts/EASTL"
+source = "https://github.com/electronicarts/EASTL"
+ships_with = "Standalone"
+platforms = ["windows", "linux", "macos", "consoles"]
+license = "BSD-3-Clause"
+description = "Game-oriented C++ standard library alternative from EA. Designed for high-performance game development with custom allocator support and predictable performance. Not a full std replacement but provides containers and algorithms."
+
+[implementations.versions]
+"3.21.23" = "2024-02-01"
+"3.21.12" = "2023-07-01"
+"3.20.04" = "2023-02-01"
+"3.19.05" = "2022-05-01"
+"3.18.00" = "2021-01-01"

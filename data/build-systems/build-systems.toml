@@ -1,0 +1,9597 @@
+[[build_systems]]
+name = "CMake"
+vendor = "Kitware"
+url = "https://cmake.org/"
+repo = "https://github.com/Kitware/CMake"
+description = "Cross-platform build system generator"
+
+[[build_systems.releases]]
+version = "3.13.0"
+date = "2018-11-21"
+tag = "v3.13.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.12.4"
+date = "2018-11-21"
+tag = "v3.12.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.13.1"
+date = "2018-11-28"
+tag = "v3.13.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.12.3"
+date = "2018-11-30"
+tag = "v3.12.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.12.2"
+date = "2018-11-30"
+tag = "v3.12.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.12.1"
+date = "2018-11-30"
+tag = "v3.12.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.12.0"
+date = "2018-11-30"
+tag = "v3.12.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.11.4"
+date = "2018-11-30"
+tag = "v3.11.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.11.3"
+date = "2018-11-30"
+tag = "v3.11.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.11.2"
+date = "2018-11-30"
+tag = "v3.11.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.11.1"
+date = "2018-11-30"
+tag = "v3.11.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.11.0"
+date = "2018-11-30"
+tag = "v3.11.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.10.3"
+date = "2018-11-30"
+tag = "v3.10.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.10.2"
+date = "2018-11-30"
+tag = "v3.10.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.10.1"
+date = "2018-11-30"
+tag = "v3.10.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.10.0"
+date = "2018-11-30"
+tag = "v3.10.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.6"
+date = "2018-11-30"
+tag = "v3.9.6"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.4"
+date = "2018-11-30"
+tag = "v3.9.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.0"
+date = "2018-11-30"
+tag = "v3.9.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.8.2"
+date = "2018-11-30"
+tag = "v3.8.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.8.1"
+date = "2018-11-30"
+tag = "v3.8.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.8.0"
+date = "2018-11-30"
+tag = "v3.8.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.7.2"
+date = "2018-11-30"
+tag = "v3.7.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.7.1"
+date = "2018-11-30"
+tag = "v3.7.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.6.1"
+date = "2018-11-30"
+tag = "v3.6.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.6.0"
+date = "2018-11-30"
+tag = "v3.6.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.5"
+date = "2018-12-03"
+tag = "v3.9.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.3"
+date = "2018-12-03"
+tag = "v3.9.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.2"
+date = "2018-12-03"
+tag = "v3.9.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.9.1"
+date = "2018-12-03"
+tag = "v3.9.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.7.0"
+date = "2018-12-03"
+tag = "v3.7.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.6.3"
+date = "2018-12-03"
+tag = "v3.6.3"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.6.2"
+date = "2018-12-03"
+tag = "v3.6.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.5.2"
+date = "2018-12-03"
+tag = "v3.5.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.5.1"
+date = "2018-12-03"
+tag = "v3.5.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.5.0"
+date = "2018-12-03"
+tag = "v3.5.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.4.3"
+date = "2018-12-03"
+tag = "v3.4.3"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.4.2"
+date = "2018-12-03"
+tag = "v3.4.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.4.1"
+date = "2018-12-03"
+tag = "v3.4.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.4.0"
+date = "2018-12-03"
+tag = "v3.4.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.3.2"
+date = "2018-12-03"
+tag = "v3.3.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.3.1"
+date = "2018-12-03"
+tag = "v3.3.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.3.0"
+date = "2018-12-03"
+tag = "v3.3.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.2.3"
+date = "2018-12-03"
+tag = "v3.2.3"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.2.2"
+date = "2018-12-03"
+tag = "v3.2.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.2.1"
+date = "2018-12-03"
+tag = "v3.2.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.2.0"
+date = "2018-12-03"
+tag = "v3.2.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.1.3"
+date = "2018-12-03"
+tag = "v3.1.3"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.1.2"
+date = "2018-12-03"
+tag = "v3.1.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.1.1"
+date = "2018-12-03"
+tag = "v3.1.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.1.0"
+date = "2018-12-03"
+tag = "v3.1.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.2"
+date = "2018-12-03"
+tag = "v3.0.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "3.0.1"
+date = "2018-12-03"
+tag = "v3.0.1"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "3.0.0"
+date = "2018-12-03"
+tag = "v3.0.0"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.8.10.2"
+date = "2018-12-03"
+tag = "v2.8.10.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.8.12.2"
+date = "2018-12-06"
+tag = "v2.8.12.2"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.6.4"
+date = "2018-12-06"
+tag = "v2.6.4"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.4.8"
+date = "2018-12-06"
+tag = "v2.4.8"
+platforms = [
+    "darwin",
+    "i386",
+    "linux",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "3.13.2"
+date = "2018-12-13"
+tag = "v3.13.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.13.3"
+date = "2019-01-14"
+tag = "v3.13.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.13.4"
+date = "2019-02-01"
+tag = "v3.13.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.0"
+date = "2019-03-14"
+tag = "v3.14.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.1"
+date = "2019-03-29"
+tag = "v3.14.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.2"
+date = "2019-04-12"
+tag = "v3.14.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.3"
+date = "2019-04-22"
+tag = "v3.14.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.4"
+date = "2019-05-14"
+tag = "v3.14.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.13.5"
+date = "2019-05-14"
+tag = "v3.13.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.5"
+date = "2019-05-31"
+tag = "v3.14.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.0-rc4"
+date = "2019-07-10"
+tag = "v3.15.0-rc4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.6"
+date = "2019-07-16"
+tag = "v3.14.6"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.0"
+date = "2019-07-17"
+tag = "v3.15.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.1"
+date = "2019-07-26"
+tag = "v3.15.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.2"
+date = "2019-08-07"
+tag = "v3.15.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.3"
+date = "2019-09-04"
+tag = "v3.15.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.4"
+date = "2019-10-02"
+tag = "v3.15.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.14.7"
+date = "2019-10-02"
+tag = "v3.14.7"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.5"
+date = "2019-10-30"
+tag = "v3.15.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.0"
+date = "2019-11-26"
+tag = "v3.16.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.1"
+date = "2019-12-10"
+tag = "v3.16.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.6"
+date = "2019-12-16"
+tag = "v3.15.6"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.2"
+date = "2019-12-19"
+tag = "v3.16.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.3"
+date = "2020-01-21"
+tag = "v3.16.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.15.7"
+date = "2020-02-04"
+tag = "v3.15.7"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.4"
+date = "2020-02-05"
+tag = "v3.16.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.5"
+date = "2020-03-04"
+tag = "v3.16.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.17.0"
+date = "2020-03-20"
+tag = "v3.17.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.17.1"
+date = "2020-04-09"
+tag = "v3.17.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.6"
+date = "2020-04-10"
+tag = "v3.16.6"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.17.2"
+date = "2020-04-28"
+tag = "v3.17.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.7"
+date = "2020-05-27"
+tag = "v3.16.7"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.17.3"
+date = "2020-05-28"
+tag = "v3.17.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.8"
+date = "2020-06-01"
+tag = "v3.16.8"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.0"
+date = "2020-07-15"
+tag = "v3.18.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.1"
+date = "2020-07-30"
+tag = "v3.18.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.17.4"
+date = "2020-07-30"
+tag = "v3.17.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.2"
+date = "2020-08-20"
+tag = "v3.18.2"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.17.5"
+date = "2020-09-15"
+tag = "v3.17.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.16.9"
+date = "2020-09-15"
+tag = "v3.16.9"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.3"
+date = "2020-09-22"
+tag = "v3.18.3"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.4"
+date = "2020-10-06"
+tag = "v3.18.4"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.0"
+date = "2020-11-18"
+tag = "v3.19.0"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.5"
+date = "2020-11-18"
+tag = "v3.18.5"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.1"
+date = "2020-11-24"
+tag = "v3.19.1"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.2"
+date = "2020-12-16"
+tag = "v3.19.2"
+platforms = [
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.3"
+date = "2021-01-13"
+tag = "v3.19.3"
+platforms = [
+    "aarch64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.4"
+date = "2021-01-28"
+tag = "v3.19.4"
+platforms = [
+    "aarch64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.18.6"
+date = "2021-02-11"
+tag = "v3.18.6"
+platforms = [
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.5"
+date = "2021-02-15"
+tag = "v3.19.5"
+platforms = [
+    "aarch64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.0-rc1"
+date = "2021-02-16"
+tag = "v3.20.0-rc1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.0-rc2"
+date = "2021-02-24"
+tag = "v3.20.0-rc2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.6"
+date = "2021-02-24"
+tag = "v3.19.6"
+platforms = [
+    "aarch64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.0-rc3"
+date = "2021-03-03"
+tag = "v3.20.0-rc3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.0-rc4"
+date = "2021-03-11"
+tag = "v3.20.0-rc4"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.7"
+date = "2021-03-15"
+tag = "v3.19.7"
+platforms = [
+    "aarch64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.0-rc5"
+date = "2021-03-17"
+tag = "v3.20.0-rc5"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.0"
+date = "2021-03-23"
+tag = "v3.20.0"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.19.8"
+date = "2021-04-06"
+tag = "v3.19.8"
+platforms = [
+    "aarch64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.1"
+date = "2021-04-08"
+tag = "v3.20.1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.2"
+date = "2021-04-29"
+tag = "v3.20.2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.3"
+date = "2021-05-27"
+tag = "v3.20.3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.4"
+date = "2021-06-14"
+tag = "v3.20.4"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.5"
+date = "2021-06-21"
+tag = "v3.20.5"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.0-rc1"
+date = "2021-06-23"
+tag = "v3.21.0-rc1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.0-rc2"
+date = "2021-06-30"
+tag = "v3.21.0-rc2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.0-rc3"
+date = "2021-07-08"
+tag = "v3.21.0-rc3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.0"
+date = "2021-07-14"
+tag = "v3.21.0"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.1"
+date = "2021-07-27"
+tag = "v3.21.1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.2"
+date = "2021-08-25"
+tag = "v3.21.2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.3"
+date = "2021-09-20"
+tag = "v3.21.3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.20.6"
+date = "2021-09-20"
+tag = "v3.20.6"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.0-rc1"
+date = "2021-10-14"
+tag = "v3.22.0-rc1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.4"
+date = "2021-10-27"
+tag = "v3.21.4"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.0-rc2"
+date = "2021-10-28"
+tag = "v3.22.0-rc2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.0-rc3"
+date = "2021-11-12"
+tag = "v3.22.0-rc3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.0"
+date = "2021-11-18"
+tag = "v3.22.0"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.1"
+date = "2021-12-07"
+tag = "v3.22.1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.2"
+date = "2022-01-25"
+tag = "v3.22.2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.5"
+date = "2022-02-01"
+tag = "v3.21.5"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.0-rc1"
+date = "2022-02-08"
+tag = "v3.23.0-rc1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.0-rc2"
+date = "2022-02-23"
+tag = "v3.23.0-rc2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.3"
+date = "2022-03-04"
+tag = "v3.22.3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.6"
+date = "2022-03-04"
+tag = "v3.21.6"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.0-rc3"
+date = "2022-03-10"
+tag = "v3.23.0-rc3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.0-rc4"
+date = "2022-03-18"
+tag = "v3.23.0-rc4"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.0-rc5"
+date = "2022-03-23"
+tag = "v3.23.0-rc5"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.0"
+date = "2022-03-29"
+tag = "v3.23.0"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.1"
+date = "2022-04-12"
+tag = "v3.23.1"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.4"
+date = "2022-04-12"
+tag = "v3.22.4"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.2"
+date = "2022-05-25"
+tag = "v3.23.2"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.5"
+date = "2022-06-01"
+tag = "v3.22.5"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.21.7"
+date = "2022-06-01"
+tag = "v3.21.7"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.0-rc1"
+date = "2022-06-14"
+tag = "v3.24.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.0-rc2"
+date = "2022-06-23"
+tag = "v3.24.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.0-rc3"
+date = "2022-07-07"
+tag = "v3.24.0-rc3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.0-rc4"
+date = "2022-07-20"
+tag = "v3.24.0-rc4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.0-rc5"
+date = "2022-07-28"
+tag = "v3.24.0-rc5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.3"
+date = "2022-07-28"
+tag = "v3.23.3"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.22.6"
+date = "2022-07-28"
+tag = "v3.22.6"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.0"
+date = "2022-08-04"
+tag = "v3.24.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.1"
+date = "2022-08-17"
+tag = "v3.24.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.2"
+date = "2022-09-13"
+tag = "v3.24.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.4"
+date = "2022-10-04"
+tag = "v3.23.4"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.3"
+date = "2022-11-01"
+tag = "v3.24.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.23.5"
+date = "2022-11-01"
+tag = "v3.23.5"
+platforms = [
+    "aarch64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.25.0"
+date = "2022-11-16"
+tag = "v3.25.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.25.1"
+date = "2022-11-30"
+tag = "v3.25.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.25.2"
+date = "2023-01-19"
+tag = "v3.25.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0-rc1"
+date = "2023-02-02"
+tag = "v3.26.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0-rc2"
+date = "2023-02-09"
+tag = "v3.26.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0-rc3"
+date = "2023-02-15"
+tag = "v3.26.0-rc3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0-rc4"
+date = "2023-02-22"
+tag = "v3.26.0-rc4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0-rc5"
+date = "2023-03-01"
+tag = "v3.26.0-rc5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0-rc6"
+date = "2023-03-08"
+tag = "v3.26.0-rc6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.25.3"
+date = "2023-03-08"
+tag = "v3.25.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.24.4"
+date = "2023-03-08"
+tag = "v3.24.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.0"
+date = "2023-03-14"
+tag = "v3.26.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.1"
+date = "2023-03-23"
+tag = "v3.26.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.2"
+date = "2023-03-29"
+tag = "v3.26.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.3"
+date = "2023-04-04"
+tag = "v3.26.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.4"
+date = "2023-05-18"
+tag = "v3.26.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.0-rc1"
+date = "2023-06-08"
+tag = "v3.27.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.0-rc2"
+date = "2023-06-12"
+tag = "v3.27.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.0-rc3"
+date = "2023-06-20"
+tag = "v3.27.0-rc3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.0-rc4"
+date = "2023-06-30"
+tag = "v3.27.0-rc4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.0-rc5"
+date = "2023-07-14"
+tag = "v3.27.0-rc5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.0"
+date = "2023-07-18"
+tag = "v3.27.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.5"
+date = "2023-07-19"
+tag = "v3.26.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.1"
+date = "2023-07-25"
+tag = "v3.27.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.2"
+date = "2023-08-10"
+tag = "v3.27.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.3"
+date = "2023-08-16"
+tag = "v3.27.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.4"
+date = "2023-08-23"
+tag = "v3.27.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.5"
+date = "2023-09-14"
+tag = "v3.27.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.6"
+date = "2023-09-20"
+tag = "v3.27.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.7"
+date = "2023-10-06"
+tag = "v3.27.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0-rc1"
+date = "2023-10-11"
+tag = "v3.28.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0-rc2"
+date = "2023-10-18"
+tag = "v3.28.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0-rc3"
+date = "2023-10-24"
+tag = "v3.28.0-rc3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0-rc4"
+date = "2023-11-06"
+tag = "v3.28.0-rc4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0-rc5"
+date = "2023-11-15"
+tag = "v3.28.0-rc5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.8"
+date = "2023-11-15"
+tag = "v3.27.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.26.6"
+date = "2023-11-27"
+tag = "v3.26.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.27.9"
+date = "2023-11-28"
+tag = "v3.27.9"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0-rc6"
+date = "2023-11-30"
+tag = "v3.28.0-rc6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.0"
+date = "2023-12-06"
+tag = "v3.28.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.1"
+date = "2023-12-14"
+tag = "v3.28.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.2"
+date = "2024-01-29"
+tag = "v3.28.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.3"
+date = "2024-02-05"
+tag = "v3.28.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.0-rc1"
+date = "2024-02-13"
+tag = "v3.29.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.0-rc2"
+date = "2024-02-22"
+tag = "v3.29.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.4"
+date = "2024-03-20"
+tag = "v3.28.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.0"
+date = "2024-03-21"
+tag = "v3.29.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.1"
+date = "2024-04-03"
+tag = "v3.29.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.2"
+date = "2024-04-11"
+tag = "v3.29.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.3"
+date = "2024-05-07"
+tag = "v3.29.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.5"
+date = "2024-05-07"
+tag = "v3.28.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.4"
+date = "2024-06-03"
+tag = "v3.29.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.28.6"
+date = "2024-06-03"
+tag = "v3.28.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.5"
+date = "2024-06-06"
+tag = "v3.29.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.6"
+date = "2024-06-17"
+tag = "v3.29.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.0"
+date = "2024-07-02"
+tag = "v3.30.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.7"
+date = "2024-07-16"
+tag = "v3.29.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.1"
+date = "2024-07-18"
+tag = "v3.30.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.2"
+date = "2024-08-02"
+tag = "v3.30.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.3"
+date = "2024-08-29"
+tag = "v3.30.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.8"
+date = "2024-08-29"
+tag = "v3.29.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.4"
+date = "2024-09-27"
+tag = "v3.30.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.5"
+date = "2024-10-08"
+tag = "v3.30.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.0"
+date = "2024-11-06"
+tag = "v3.31.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.1"
+date = "2024-11-21"
+tag = "v3.31.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.6"
+date = "2024-11-21"
+tag = "v3.30.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.29.9"
+date = "2024-11-21"
+tag = "v3.29.9"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.2"
+date = "2024-12-05"
+tag = "v3.31.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.3"
+date = "2024-12-19"
+tag = "v3.31.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.4"
+date = "2025-01-10"
+tag = "v3.31.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.5"
+date = "2025-01-23"
+tag = "v3.31.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.7"
+date = "2025-01-23"
+tag = "v3.30.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.6"
+date = "2025-02-24"
+tag = "v3.31.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.8"
+date = "2025-02-24"
+tag = "v3.30.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.0"
+date = "2025-03-27"
+tag = "v4.0.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.1"
+date = "2025-04-10"
+tag = "v4.0.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.7"
+date = "2025-04-10"
+tag = "v3.31.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.2"
+date = "2025-05-05"
+tag = "v4.0.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.30.9"
+date = "2025-06-11"
+tag = "v3.30.9"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.3"
+date = "2025-06-12"
+tag = "v4.0.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.8"
+date = "2025-06-12"
+tag = "v3.31.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.0"
+date = "2025-08-05"
+tag = "v4.1.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.1"
+date = "2025-08-27"
+tag = "v4.1.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.4"
+date = "2025-09-08"
+tag = "v4.0.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.9"
+date = "2025-09-24"
+tag = "v3.31.9"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.2"
+date = "2025-09-30"
+tag = "v4.1.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.10"
+date = "2025-11-17"
+tag = "v3.31.10"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.3"
+date = "2025-11-18"
+tag = "v4.1.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.5"
+date = "2025-11-18"
+tag = "v4.0.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.0"
+date = "2025-11-19"
+tag = "v4.2.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.1"
+date = "2025-12-08"
+tag = "v4.2.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.4"
+date = "2025-12-08"
+tag = "v4.1.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.2"
+date = "2026-01-20"
+tag = "v4.2.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.31.11"
+date = "2026-01-26"
+tag = "v3.31.11"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.3"
+date = "2026-01-27"
+tag = "v4.2.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.5"
+date = "2026-01-27"
+tag = "v4.1.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.6"
+date = "2026-01-27"
+tag = "v4.0.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.3.0"
+date = "2026-03-17"
+tag = "v4.3.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.3.1"
+date = "2026-03-27"
+tag = "v4.3.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.4"
+date = "2026-03-27"
+tag = "v4.2.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems]]
+name = "Meson"
+vendor = "Meson Project"
+url = "https://mesonbuild.com/"
+repo = "https://github.com/mesonbuild/meson"
+description = "Fast and user-friendly build system"
+releases = [
+    { version = "0.17.0", date = "2014-06-15", tag = "0.17.0" },
+    { version = "0.18.0", date = "2014-07-14", tag = "0.18.0" },
+    { version = "0.19.0", date = "2014-08-10", tag = "0.19.0" },
+    { version = "0.20.0", date = "2014-09-12", tag = "0.20.0" },
+    { version = "0.21.0", date = "2014-10-24", tag = "0.21.0" },
+    { version = "0.22.0", date = "2015-01-19", tag = "0.22.0" },
+    { version = "0.23.0", date = "2015-03-30", tag = "0.23.0" },
+    { version = "0.24.0", date = "2015-05-23", tag = "0.24.0" },
+    { version = "0.25.0", date = "2015-07-12", tag = "0.25.0" },
+    { version = "0.26.0", date = "2015-09-12", tag = "0.26.0" },
+    { version = "0.27.0", date = "2015-11-25", tag = "0.27.0" },
+    { version = "0.28.0", date = "2015-12-28", tag = "0.28.0" },
+    { version = "0.29.0", date = "2016-01-24", tag = "0.29.0" },
+    { version = "0.30.0", date = "2016-03-12", tag = "0.30.0" },
+    { version = "0.31.0", date = "2016-04-13", tag = "0.31.0" },
+    { version = "0.32.0", date = "2016-06-05", tag = "0.32.0" },
+    { version = "0.33.0", date = "2016-07-30", tag = "0.33.0" },
+    { version = "0.34.0", date = "2016-09-05", tag = "0.34.0" },
+    { version = "0.35.0", date = "2016-10-03", tag = "0.35.0" },
+    { version = "0.35.1", date = "2016-10-17", tag = "0.35.1" },
+    { version = "0.36.0", date = "2016-11-14", tag = "0.36.0" },
+    { version = "0.37.0", date = "2016-12-18", tag = "0.37.0" },
+    { version = "0.37.1", date = "2016-12-20", tag = "0.37.1" },
+    { version = "0.38.0", date = "2017-01-29", tag = "0.38.0" },
+    { version = "0.38.1", date = "2017-02-07", tag = "0.38.1" },
+    { version = "0.39.0", date = "2017-03-05", tag = "0.39.0" },
+    { version = "0.39.1", date = "2017-03-15", tag = "0.39.1" },
+    { version = "0.40.0", date = "2017-04-22", tag = "0.40.0" },
+    { version = "0.40.1", date = "2017-04-28", tag = "0.40.1" },
+    { version = "0.41.0", date = "2017-06-12", tag = "0.41.0" },
+    { version = "0.41.1", date = "2017-06-19", tag = "0.41.1" },
+    { version = "0.41.2", date = "2017-07-19", tag = "0.41.2" },
+    { version = "0.42.0", date = "2017-08-14", tag = "0.42.0" },
+    { version = "0.42.1", date = "2017-09-12", tag = "0.42.1" },
+    { version = "0.43.0", date = "2017-10-08", tag = "0.43.0" },
+    { version = "0.44.0", date = "2017-12-10", tag = "0.44.0" },
+    { version = "0.44.1", date = "2018-02-20", tag = "0.44.1" },
+    { version = "0.45.0", date = "2018-03-04", tag = "0.45.0" },
+    { version = "0.45.1", date = "2018-03-21", tag = "0.45.1" },
+    { version = "0.46.0", date = "2018-04-23", tag = "0.46.0" },
+    { version = "0.46.1", date = "2018-05-16", tag = "0.46.1" },
+    { version = "0.47.0", date = "2018-07-02", tag = "0.47.0" },
+    { version = "0.47.1", date = "2018-07-10", tag = "0.47.1" },
+    { version = "0.47.2", date = "2018-08-25", tag = "0.47.2" },
+    { version = "0.48.0", date = "2018-09-22", tag = "0.48.0" },
+    { version = "0.48.1", date = "2018-10-17", tag = "0.48.1" },
+    { version = "0.48.2", date = "2018-11-08", tag = "0.48.2" },
+    { version = "0.49.0", date = "2018-12-09", tag = "0.49.0" },
+    { version = "0.49.1", date = "2019-01-23", tag = "0.49.1" },
+    { version = "0.49.2", date = "2019-02-04", tag = "0.49.2" },
+    { version = "0.50.0", date = "2019-03-10", tag = "0.50.0" },
+    { version = "0.50.1", date = "2019-04-17", tag = "0.50.1" },
+    { version = "0.51.0", date = "2019-06-16", tag = "0.51.0" },
+    { version = "0.51.1", date = "2019-07-09", tag = "0.51.1" },
+    { version = "0.51.2", date = "2019-08-26", tag = "0.51.2" },
+    { version = "0.52.0", date = "2019-10-06", tag = "0.52.0" },
+    { version = "0.52.1", date = "2019-11-29", tag = "0.52.1" },
+    { version = "0.53.0", date = "2020-01-07", tag = "0.53.0" },
+    { version = "0.53.1", date = "2020-01-23", tag = "0.53.1" },
+    { version = "0.53.2", date = "2020-02-25", tag = "0.53.2" },
+    { version = "0.54.0", date = "2020-03-29", tag = "0.54.0" },
+    { version = "0.54.1", date = "2020-04-26", tag = "0.54.1" },
+    { version = "0.54.2", date = "2020-05-15", tag = "0.54.2" },
+    { version = "0.54.3", date = "2020-06-15", tag = "0.54.3" },
+    { version = "0.55.0", date = "2020-07-12", tag = "0.55.0" },
+    { version = "0.55.1", date = "2020-08-15", tag = "0.55.1" },
+    { version = "0.55.2", date = "2020-09-10", tag = "0.55.2" },
+    { version = "0.55.3", date = "2020-09-11", tag = "0.55.3" },
+    { version = "0.56.0.rc1", date = "2020-10-18", tag = "0.56.0.rc1" },
+    { version = "0.56.0.rc2", date = "2020-10-26", tag = "0.56.0.rc2" },
+    { version = "0.56.0", date = "2020-10-30", tag = "0.56.0" },
+    { version = "0.56.1", date = "2021-01-06", tag = "0.56.1" },
+    { version = "0.56.2", date = "2021-01-10", tag = "0.56.2" },
+    { version = "0.57.0", date = "2021-02-14", tag = "0.57.0" },
+    { version = "0.57.1", date = "2021-02-20", tag = "0.57.1" },
+    { version = "0.57.2", date = "2021-04-10", tag = "0.57.2" },
+    { version = "0.58.0", date = "2021-05-02", tag = "0.58.0" },
+    { version = "0.58.1", date = "2021-06-07", tag = "0.58.1" },
+    { version = "0.59.0", date = "2021-07-18", tag = "0.59.0" },
+    { version = "0.58.2", date = "2021-07-20", tag = "0.58.2" },
+    { version = "0.59.1", date = "2021-08-18", tag = "0.59.1" },
+    { version = "0.59.2", date = "2021-09-28", tag = "0.59.2" },
+    { version = "0.59.3", date = "2021-10-23", tag = "0.59.3" },
+    { version = "0.60.0", date = "2021-10-24", tag = "0.60.0" },
+    { version = "0.59.4", date = "2021-10-28", tag = "0.59.4" },
+    { version = "0.60.1", date = "2021-11-02", tag = "0.60.1" },
+    { version = "0.60.2", date = "2021-11-25", tag = "0.60.2" },
+    { version = "0.60.3", date = "2021-12-22", tag = "0.60.3" },
+    { version = "0.61.0", date = "2022-01-10", tag = "0.61.0" },
+    { version = "0.61.1", date = "2022-01-17", tag = "0.61.1" },
+    { version = "0.61.2", date = "2022-02-14", tag = "0.61.2" },
+    { version = "0.61.3", date = "2022-03-14", tag = "0.61.3" },
+    { version = "0.62.0", date = "2022-03-21", tag = "0.62.0" },
+    { version = "0.61.4", date = "2022-03-25", tag = "0.61.4" },
+    { version = "0.62.1", date = "2022-04-23", tag = "0.62.1" },
+    { version = "0.62.2", date = "2022-06-02", tag = "0.62.2" },
+    { version = "0.61.5", date = "2022-06-07", tag = "0.61.5" },
+    { version = "0.63.0", date = "2022-07-03", tag = "0.63.0" },
+    { version = "0.63.1", date = "2022-08-13", tag = "0.63.1" },
+    { version = "0.63.2", date = "2022-09-03", tag = "0.63.2" },
+    { version = "0.63.3", date = "2022-10-05", tag = "0.63.3" },
+    { version = "0.64.0", date = "2022-11-06", tag = "0.64.0" },
+    { version = "0.64.1", date = "2022-11-22", tag = "0.64.1" },
+    { version = "1.0.0", date = "2022-12-23", tag = "1.0.0" },
+    { version = "1.0.1", date = "2023-02-23", tag = "1.0.1" },
+    { version = "1.1.0", date = "2023-04-10", tag = "1.1.0" },
+    { version = "1.0.2", date = "2023-04-21", tag = "1.0.2" },
+    { version = "1.1.1", date = "2023-05-25", tag = "1.1.1" },
+    { version = "1.2.0", date = "2023-07-16", tag = "1.2.0" },
+    { version = "1.2.1", date = "2023-08-08", tag = "1.2.1" },
+    { version = "1.2.2", date = "2023-09-29", tag = "1.2.2" },
+    { version = "1.2.3", date = "2023-10-20", tag = "1.2.3" },
+    { version = "1.3.0", date = "2023-11-19", tag = "1.3.0" },
+    { version = "1.3.1", date = "2023-12-26", tag = "1.3.1" },
+    { version = "1.3.2", date = "2024-02-13", tag = "1.3.2" },
+    { version = "1.4.0", date = "2024-03-12", tag = "1.4.0" },
+    { version = "1.4.1", date = "2024-05-30", tag = "1.4.1" },
+    { version = "1.5.0", date = "2024-07-10", tag = "1.5.0" },
+    { version = "1.4.2", date = "2024-07-10", tag = "1.4.2" },
+    { version = "1.5.1", date = "2024-07-27", tag = "1.5.1" },
+    { version = "1.5.2", date = "2024-09-20", tag = "1.5.2" },
+    { version = "1.6.0", date = "2024-10-20", tag = "1.6.0" },
+    { version = "1.6.1", date = "2024-12-16", tag = "1.6.1" },
+    { version = "1.7.0", date = "2025-01-26", tag = "1.7.0" },
+    { version = "1.7.1", date = "2025-04-01", tag = "1.7.1" },
+    { version = "1.7.2", date = "2025-04-04", tag = "1.7.2" },
+    { version = "1.8.0", date = "2025-04-28", tag = "1.8.0" },
+    { version = "1.8.1", date = "2025-05-23", tag = "1.8.1" },
+    { version = "1.8.2", date = "2025-06-09", tag = "1.8.2" },
+    { version = "1.8.3", date = "2025-07-30", tag = "1.8.3" },
+    { version = "1.8.4", date = "2025-08-20", tag = "1.8.4" },
+    { version = "1.9.0", date = "2025-08-24", tag = "1.9.0" },
+    { version = "1.9.1", date = "2025-09-22", tag = "1.9.1" },
+    { version = "1.8.5", date = "2025-09-26", tag = "1.8.5" },
+    { version = "1.9.2", date = "2025-12-04", tag = "1.9.2" },
+    { version = "1.10.0", date = "2025-12-08", tag = "1.10.0" },
+    { version = "1.10.1", date = "2026-01-18", tag = "1.10.1" },
+    { version = "1.10.2", date = "2026-03-15", tag = "1.10.2" },
+]
+
+[[build_systems]]
+name = "Ninja"
+vendor = "Google"
+url = "https://ninja-build.org/"
+repo = "https://github.com/ninja-build/ninja"
+description = "Small, fast build system focused on speed"
+
+[[build_systems.releases]]
+version = "1.4.0"
+date = "2013-09-12"
+tag = "v1.4.0"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.3.4"
+date = "2013-09-12"
+tag = "v1.3.4"
+
+[[build_systems.releases]]
+version = "1.3.3"
+date = "2013-09-12"
+tag = "v1.3.3"
+
+[[build_systems.releases]]
+version = "1.3.2"
+date = "2013-09-12"
+tag = "v1.3.2"
+
+[[build_systems.releases]]
+version = "1.3.1"
+date = "2013-09-12"
+tag = "v1.3.1"
+
+[[build_systems.releases]]
+version = "1.3.0"
+date = "2013-09-12"
+tag = "v1.3.0"
+
+[[build_systems.releases]]
+version = "1.2.0"
+date = "2013-09-12"
+tag = "v1.2.0"
+
+[[build_systems.releases]]
+version = "1.1.0"
+date = "2013-09-12"
+tag = "v1.1.0"
+
+[[build_systems.releases]]
+version = "1.0.0"
+date = "2013-09-12"
+tag = "v1.0.0"
+
+[[build_systems.releases]]
+version = "120715"
+date = "2013-09-12"
+tag = "release-120715"
+
+[[build_systems.releases]]
+version = "120508"
+date = "2013-09-12"
+tag = "release-120508"
+
+[[build_systems.releases]]
+version = "1.5.1"
+date = "2014-06-28"
+tag = "v1.5.1"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.5.3"
+date = "2014-11-24"
+tag = "v1.5.3"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.6.0"
+date = "2015-06-29"
+tag = "v1.6.0"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.7.1"
+date = "2016-04-28"
+tag = "v1.7.1"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.7.2"
+date = "2016-11-07"
+tag = "v1.7.2"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.8.2"
+date = "2017-09-13"
+tag = "v1.8.2"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.9.0"
+date = "2019-01-30"
+tag = "v1.9.0"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.10.0"
+date = "2020-01-28"
+tag = "v1.10.0"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.10.1"
+date = "2020-08-18"
+tag = "v1.10.1"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.10.2"
+date = "2020-11-28"
+tag = "v1.10.2"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.11.0"
+date = "2022-05-15"
+tag = "v1.11.0"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.11.1"
+date = "2022-08-30"
+tag = "v1.11.1"
+platforms = [
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.12.0"
+date = "2024-04-11"
+tag = "v1.12.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.12.1"
+date = "2024-05-11"
+tag = "v1.12.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.13.0"
+date = "2025-06-18"
+tag = "v1.13.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.13.1"
+date = "2025-07-10"
+tag = "v1.13.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+]
+
+[[build_systems.releases]]
+version = "1.13.2"
+date = "2025-11-20"
+tag = "v1.13.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+]
+
+[[build_systems]]
+name = "Bazel"
+vendor = "Google"
+url = "https://bazel.build/"
+repo = "https://github.com/bazelbuild/bazel"
+description = "Fast, scalable, multi-language build system"
+
+[[build_systems.releases]]
+version = "0.1.0"
+date = "2015-09-10"
+tag = "0.1.0"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.1.1"
+date = "2015-10-15"
+tag = "0.1.1"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.1.2"
+date = "2015-12-05"
+tag = "0.1.2"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.1.3"
+date = "2016-01-11"
+tag = "0.1.3"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.1.4"
+date = "2016-01-21"
+tag = "0.1.4"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.1.5"
+date = "2016-02-09"
+tag = "0.1.5"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.2.0"
+date = "2016-02-23"
+tag = "0.2.0"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.2.1"
+date = "2016-03-31"
+tag = "0.2.1"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.2.2"
+date = "2016-04-21"
+tag = "0.2.2"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.2.2b"
+date = "2016-04-25"
+tag = "0.2.2b"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.2.3"
+date = "2016-05-17"
+tag = "0.2.3"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.3.0"
+date = "2016-06-10"
+tag = "0.3.0"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.3.1"
+date = "2016-07-29"
+tag = "0.3.1"
+platforms = [
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.3.2"
+date = "2016-10-07"
+tag = "0.3.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.4.0"
+date = "2016-11-02"
+tag = "0.4.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.4.1"
+date = "2016-11-30"
+tag = "0.4.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.4.2"
+date = "2016-12-07"
+tag = "0.4.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.4.3"
+date = "2016-12-22"
+tag = "0.4.3"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.4.4"
+date = "2017-02-01"
+tag = "0.4.4"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.4.5"
+date = "2017-03-16"
+tag = "0.4.5"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.5.0"
+date = "2017-05-26"
+tag = "0.5.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.5.1"
+date = "2017-06-06"
+tag = "0.5.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.5.2"
+date = "2017-06-27"
+tag = "0.5.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.5.3"
+date = "2017-07-28"
+tag = "0.5.3"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.5.4"
+date = "2017-08-25"
+tag = "0.5.4"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.6.0"
+date = "2017-09-28"
+tag = "0.6.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.6.1"
+date = "2017-10-05"
+tag = "0.6.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.7.0"
+date = "2017-10-18"
+tag = "0.7.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.8.0"
+date = "2017-11-27"
+tag = "0.8.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.8.1"
+date = "2017-12-05"
+tag = "0.8.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.9.0"
+date = "2017-12-19"
+tag = "0.9.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.10.0"
+date = "2018-02-01"
+tag = "0.10.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.10.1"
+date = "2018-02-15"
+tag = "0.10.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.11.0"
+date = "2018-02-23"
+tag = "0.11.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.11.1"
+date = "2018-03-07"
+tag = "0.11.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.12.0"
+date = "2018-04-11"
+tag = "0.12.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.13.0"
+date = "2018-04-30"
+tag = "0.13.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.13.1"
+date = "2018-05-23"
+tag = "0.13.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.14.0"
+date = "2018-06-01"
+tag = "0.14.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.14.1"
+date = "2018-06-08"
+tag = "0.14.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.15.0"
+date = "2018-06-26"
+tag = "0.15.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.15.1"
+date = "2018-07-16"
+tag = "0.15.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.15.2"
+date = "2018-07-17"
+tag = "0.15.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.16.0"
+date = "2018-07-31"
+tag = "0.16.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.16.1"
+date = "2018-08-13"
+tag = "0.16.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.17.1"
+date = "2018-09-14"
+tag = "0.17.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.17.2"
+date = "2018-09-21"
+tag = "0.17.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.18.0"
+date = "2018-10-15"
+tag = "0.18.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.19.0"
+date = "2018-10-29"
+tag = "0.19.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.18.1"
+date = "2018-10-31"
+tag = "0.18.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.19.1"
+date = "2018-11-12"
+tag = "0.19.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.19.2"
+date = "2018-11-19"
+tag = "0.19.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.20.0"
+date = "2018-11-30"
+tag = "0.20.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.21.0"
+date = "2018-12-19"
+tag = "0.21.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.22.0"
+date = "2019-01-28"
+tag = "0.22.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.23.0"
+date = "2019-02-26"
+tag = "0.23.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.23.1"
+date = "2019-03-04"
+tag = "0.23.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.23.2"
+date = "2019-03-11"
+tag = "0.23.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.24.0"
+date = "2019-03-26"
+tag = "0.24.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.24.1"
+date = "2019-04-02"
+tag = "0.24.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.25.0"
+date = "2019-05-01"
+tag = "0.25.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.25.1"
+date = "2019-05-07"
+tag = "0.25.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.25.2"
+date = "2019-05-10"
+tag = "0.25.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.25.3"
+date = "2019-05-23"
+tag = "0.25.3"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.26.0"
+date = "2019-05-28"
+tag = "0.26.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.26.1"
+date = "2019-06-06"
+tag = "0.26.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.27.0"
+date = "2019-06-17"
+tag = "0.27.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.27.1"
+date = "2019-07-02"
+tag = "0.27.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.28.0"
+date = "2019-07-10"
+tag = "0.28.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.27.2"
+date = "2019-07-10"
+tag = "0.27.2"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.28.1"
+date = "2019-07-19"
+tag = "0.28.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.29.0"
+date = "2019-08-28"
+tag = "0.29.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "0.29.1"
+date = "2019-09-10"
+tag = "0.29.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.0.0"
+date = "2019-10-10"
+tag = "1.0.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.1.0"
+date = "2019-10-21"
+tag = "1.1.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.0.1"
+date = "2019-10-22"
+tag = "1.0.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.2.0"
+date = "2019-11-20"
+tag = "1.2.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.2.1"
+date = "2019-11-26"
+tag = "1.2.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.0.0"
+date = "2019-12-19"
+tag = "2.0.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.1.0"
+date = "2020-02-07"
+tag = "2.1.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.1.1"
+date = "2020-02-21"
+tag = "2.1.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.0.1"
+date = "2020-02-21"
+tag = "2.0.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.2.0"
+date = "2020-03-03"
+tag = "2.2.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.0"
+date = "2020-04-06"
+tag = "3.0.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.1.0"
+date = "2020-04-22"
+tag = "3.1.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.2.0"
+date = "2020-05-27"
+tag = "3.2.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.3.0"
+date = "2020-06-17"
+tag = "3.3.0"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.3.1"
+date = "2020-06-30"
+tag = "3.3.1"
+platforms = [
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.4.0"
+date = "2020-07-13"
+tag = "3.4.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.4.1"
+date = "2020-07-14"
+tag = "3.4.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.5.0"
+date = "2020-09-02"
+tag = "3.5.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.5.1"
+date = "2020-10-01"
+tag = "3.5.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.6.0"
+date = "2020-10-06"
+tag = "3.6.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.7.0"
+date = "2020-10-20"
+tag = "3.7.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.7.1"
+date = "2020-11-24"
+tag = "3.7.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.7.2"
+date = "2020-12-17"
+tag = "3.7.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.0.0"
+date = "2021-01-21"
+tag = "4.0.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.1.0"
+date = "2021-05-21"
+tag = "4.1.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.0"
+date = "2021-08-18"
+tag = "4.2.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.1"
+date = "2021-08-30"
+tag = "4.2.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.2"
+date = "2021-12-03"
+tag = "4.2.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.0.0"
+date = "2022-01-19"
+tag = "5.0.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.1.0"
+date = "2022-03-24"
+tag = "5.1.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.1.1"
+date = "2022-04-08"
+tag = "5.1.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.2.0"
+date = "2022-06-07"
+tag = "5.2.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.3.0"
+date = "2022-08-23"
+tag = "5.3.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.3.1"
+date = "2022-09-19"
+tag = "5.3.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.3.2"
+date = "2022-10-19"
+tag = "5.3.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.3"
+date = "2022-10-19"
+tag = "4.2.3"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.4.0"
+date = "2022-12-15"
+tag = "5.4.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.0.0"
+date = "2022-12-19"
+tag = "6.0.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.1.0"
+date = "2023-03-06"
+tag = "6.1.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.1.1"
+date = "2023-03-15"
+tag = "6.1.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.1.2"
+date = "2023-04-18"
+tag = "6.1.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "5.4.1"
+date = "2023-04-19"
+tag = "5.4.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.4"
+date = "2023-04-20"
+tag = "4.2.4"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.2.0"
+date = "2023-05-09"
+tag = "6.2.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.2.1"
+date = "2023-06-02"
+tag = "6.2.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.3.0"
+date = "2023-07-24"
+tag = "6.3.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.3.1"
+date = "2023-07-31"
+tag = "6.3.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.3.2"
+date = "2023-08-08"
+tag = "6.3.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.4.0"
+date = "2023-10-19"
+tag = "6.4.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.0.0"
+date = "2023-12-11"
+tag = "7.0.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.0.1"
+date = "2024-01-18"
+tag = "7.0.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.5.0"
+date = "2024-01-23"
+tag = "6.5.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.0.2"
+date = "2024-01-25"
+tag = "7.0.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.1.0"
+date = "2024-03-11"
+tag = "7.1.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.1.1"
+date = "2024-03-21"
+tag = "7.1.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.1.2"
+date = "2024-05-08"
+tag = "7.1.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.2.0"
+date = "2024-06-10"
+tag = "7.2.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.2.1"
+date = "2024-06-25"
+tag = "7.2.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.3.0"
+date = "2024-08-12"
+tag = "7.3.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.3.1"
+date = "2024-08-19"
+tag = "7.3.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.3.2"
+date = "2024-10-01"
+tag = "7.3.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.4.0"
+date = "2024-10-22"
+tag = "7.4.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.4.1"
+date = "2024-11-12"
+tag = "7.4.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.0.0"
+date = "2024-12-09"
+tag = "8.0.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.0.1"
+date = "2025-01-17"
+tag = "8.0.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.5.0"
+date = "2025-01-30"
+tag = "7.5.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.1.0"
+date = "2025-02-13"
+tag = "8.1.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.1.1"
+date = "2025-02-25"
+tag = "8.1.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.6.0"
+date = "2025-03-24"
+tag = "7.6.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.6.1"
+date = "2025-03-31"
+tag = "7.6.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.2.0"
+date = "2025-04-14"
+tag = "8.2.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.2.1"
+date = "2025-04-17"
+tag = "8.2.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.3.0"
+date = "2025-06-23"
+tag = "8.3.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.3.1"
+date = "2025-06-30"
+tag = "8.3.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.4.0"
+date = "2025-09-04"
+tag = "8.4.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.4.1"
+date = "2025-09-11"
+tag = "8.4.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.4.2"
+date = "2025-10-01"
+tag = "8.4.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.6.2"
+date = "2025-10-08"
+tag = "7.6.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.7.0"
+date = "2025-10-30"
+tag = "7.7.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "7.7.1"
+date = "2025-11-12"
+tag = "7.7.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.5.0"
+date = "2025-12-11"
+tag = "8.5.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.5.1"
+date = "2026-01-12"
+tag = "8.5.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "9.0.0"
+date = "2026-01-20"
+tag = "9.0.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "6.6.0"
+date = "2026-01-21"
+tag = "6.6.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "8.6.0"
+date = "2026-02-26"
+tag = "8.6.0"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "9.0.1"
+date = "2026-03-10"
+tag = "9.0.1"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems]]
+name = "Buck2"
+vendor = "Meta"
+url = "https://buck2.build/"
+repo = "https://github.com/facebook/buck2"
+description = "Large-scale build system from Meta"
+releases = []
+
+[[build_systems]]
+name = "xmake"
+vendor = "xmake-io"
+url = "https://xmake.io/"
+repo = "https://github.com/xmake-io/xmake"
+description = "Cross-platform build utility based on Lua"
+
+[[build_systems.releases]]
+version = "1.0.3"
+date = "2016-01-06"
+tag = "v1.0.3"
+
+[[build_systems.releases]]
+version = "1.0.2"
+date = "2016-01-06"
+tag = "v1.0.2"
+
+[[build_systems.releases]]
+version = "1.0.1"
+date = "2016-01-06"
+tag = "v1.0.1"
+
+[[build_systems.releases]]
+version = "1.0.4"
+date = "2016-01-10"
+tag = "v1.0.4"
+
+[[build_systems.releases]]
+version = "2.0.1"
+date = "2016-06-17"
+tag = "v2.0.1"
+
+[[build_systems.releases]]
+version = "2.0.2"
+date = "2016-07-06"
+tag = "v2.0.2"
+
+[[build_systems.releases]]
+version = "2.0.3"
+date = "2016-07-17"
+tag = "v2.0.3"
+
+[[build_systems.releases]]
+version = "2.0.4"
+date = "2016-08-29"
+tag = "v2.0.4"
+
+[[build_systems.releases]]
+version = "2.0.5"
+date = "2016-10-28"
+tag = "v2.0.5"
+
+[[build_systems.releases]]
+version = "2.1.1"
+date = "2017-03-04"
+tag = "v2.1.1"
+
+[[build_systems.releases]]
+version = "2.1.2"
+date = "2017-03-23"
+tag = "v2.1.2"
+platforms = [
+    "amd64",
+    "rhel5",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.1.3"
+date = "2017-04-02"
+tag = "v2.1.3"
+platforms = [
+    "amd64",
+    "macos",
+    "rhel5",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.1.4"
+date = "2017-05-10"
+tag = "v2.1.4"
+platforms = [
+    "amd64",
+    "macos",
+]
+
+[[build_systems.releases]]
+version = "2.1.5"
+date = "2017-08-05"
+tag = "v2.1.5"
+platforms = [
+    "amd64",
+    "macos",
+]
+
+[[build_systems.releases]]
+version = "2.1.6"
+date = "2017-08-16"
+tag = "v2.1.6"
+platforms = [
+    "amd64",
+    "macos",
+]
+
+[[build_systems.releases]]
+version = "2.1.7"
+date = "2017-10-13"
+tag = "v2.1.7"
+platforms = [
+    "amd64",
+]
+
+[[build_systems.releases]]
+version = "2.1.8"
+date = "2017-11-07"
+tag = "v2.1.8"
+platforms = [
+    "amd64",
+]
+
+[[build_systems.releases]]
+version = "2.1.9"
+date = "2018-02-03"
+tag = "v2.1.9"
+platforms = [
+    "amd64",
+]
+
+[[build_systems.releases]]
+version = "2.2.1"
+date = "2018-06-16"
+tag = "v2.2.1"
+platforms = [
+    "amd64",
+    "macos",
+]
+
+[[build_systems.releases]]
+version = "2.2.2"
+date = "2018-10-16"
+tag = "v2.2.2"
+platforms = [
+    "amd64",
+    "macos",
+    "ubuntu.",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.2.3"
+date = "2018-11-28"
+tag = "v2.2.3"
+platforms = [
+    "amd64",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.2.5"
+date = "2019-04-01"
+tag = "v2.2.5"
+platforms = [
+    "amd64",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.2.6"
+date = "2019-05-28"
+tag = "v2.2.6"
+platforms = [
+    "amd64",
+    "win32",
+]
+
+[[build_systems.releases]]
+version = "2.2.7"
+date = "2019-06-20"
+tag = "v2.2.7"
+platforms = [
+    "amd64",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.2.8"
+date = "2019-08-26"
+tag = "v2.2.8"
+platforms = [
+    "amd64",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.2.9"
+date = "2019-12-20"
+tag = "v2.2.9"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.1"
+date = "2020-02-23"
+tag = "v2.3.1"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.2"
+date = "2020-03-28"
+tag = "v2.3.2"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.3"
+date = "2020-04-26"
+tag = "v2.3.3"
+platforms = [
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.4"
+date = "2020-06-07"
+tag = "v2.3.4"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.5"
+date = "2020-06-28"
+tag = "v2.3.5"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.6"
+date = "2020-07-28"
+tag = "v2.3.6"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.7"
+date = "2020-09-14"
+tag = "v2.3.7"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.8"
+date = "2020-10-17"
+tag = "v2.3.8"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.3.9"
+date = "2020-11-25"
+tag = "v2.3.9"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.1"
+date = "2021-01-21"
+tag = "v2.5.1"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.2"
+date = "2021-02-28"
+tag = "v2.5.2"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.3"
+date = "2021-04-07"
+tag = "v2.5.3"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.4"
+date = "2021-05-15"
+tag = "v2.5.4"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.5"
+date = "2021-07-01"
+tag = "v2.5.5"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.6"
+date = "2021-07-26"
+tag = "v2.5.6"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.7"
+date = "2021-08-29"
+tag = "v2.5.7"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.8"
+date = "2021-10-08"
+tag = "v2.5.8"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.5.9"
+date = "2021-10-31"
+tag = "v2.5.9"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.1"
+date = "2021-12-03"
+tag = "v2.6.1"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.2"
+date = "2021-12-17"
+tag = "v2.6.2"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.3"
+date = "2022-01-22"
+tag = "v2.6.3"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.4"
+date = "2022-03-07"
+tag = "v2.6.4"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.5"
+date = "2022-04-25"
+tag = "v2.6.5"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.6"
+date = "2022-05-25"
+tag = "v2.6.6"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.7"
+date = "2022-05-29"
+tag = "v2.6.7"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.8"
+date = "2022-06-22"
+tag = "v2.6.8"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.6.9"
+date = "2022-07-17"
+tag = "v2.6.9"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.1"
+date = "2022-08-26"
+tag = "v2.7.1"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.2"
+date = "2022-10-10"
+tag = "v2.7.2"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.3"
+date = "2022-11-08"
+tag = "v2.7.3"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.4"
+date = "2022-12-24"
+tag = "v2.7.4"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.5"
+date = "2023-01-07"
+tag = "v2.7.5"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.6"
+date = "2023-01-27"
+tag = "v2.7.6"
+platforms = [
+    "amd64",
+    "macos",
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.7"
+date = "2023-02-24"
+tag = "v2.7.7"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.8"
+date = "2023-04-05"
+tag = "v2.7.8"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.7.9"
+date = "2023-05-15"
+tag = "v2.7.9"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.1"
+date = "2023-07-11"
+tag = "v2.8.1"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.2"
+date = "2023-08-22"
+tag = "v2.8.2"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.3"
+date = "2023-09-26"
+tag = "v2.8.3"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.5"
+date = "2023-11-07"
+tag = "v2.8.5"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.6"
+date = "2023-12-26"
+tag = "v2.8.6"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.7"
+date = "2024-02-25"
+tag = "v2.8.7"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.8"
+date = "2024-03-02"
+tag = "v2.8.8"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.8.9"
+date = "2024-03-21"
+tag = "v2.8.9"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.9.1"
+date = "2024-04-22"
+tag = "v2.9.1"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.9.2"
+date = "2024-05-23"
+tag = "v2.9.2"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.9.3"
+date = "2024-06-24"
+tag = "v2.9.3"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.9.4"
+date = "2024-07-29"
+tag = "v2.9.4"
+platforms = [
+    "win32",
+    "win64",
+]
+
+[[build_systems.releases]]
+version = "2.9.5"
+date = "2024-09-14"
+tag = "v2.9.5"
+platforms = [
+    "arm64",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.6"
+date = "2024-10-30"
+tag = "v2.9.6"
+platforms = [
+    "arm64",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.7"
+date = "2024-12-19"
+tag = "v2.9.7"
+platforms = [
+    "arm64",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.8"
+date = "2025-02-04"
+tag = "v2.9.8"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.9"
+date = "2025-04-08"
+tag = "v2.9.9"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.0"
+date = "2025-06-15"
+tag = "v3.0.0"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.1"
+date = "2025-07-18"
+tag = "v3.0.1"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.2"
+date = "2025-09-04"
+tag = "v3.0.2"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.3"
+date = "2025-09-21"
+tag = "v3.0.3"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.4"
+date = "2025-10-14"
+tag = "v3.0.4"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.5"
+date = "2025-11-25"
+tag = "v3.0.5"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.6"
+date = "2026-01-04"
+tag = "v3.0.6"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.7"
+date = "2026-02-10"
+tag = "v3.0.7"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "3.0.8"
+date = "2026-03-23"
+tag = "v3.0.8"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[build_systems]]
+name = "Premake"
+vendor = "Premake"
+url = "https://premake.github.io/"
+repo = "https://github.com/premake/premake-core"
+description = "Build configuration tool generating IDE projects and makefiles"
+
+[[build_systems.releases]]
+version = "5.0.0.alpha4"
+date = "2015-06-16"
+tag = "v5.0.0.alpha4"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha5"
+date = "2015-08-18"
+tag = "v5.0.0-alpha5"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha6"
+date = "2015-10-11"
+tag = "v5.0.0-alpha6"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha7"
+date = "2015-12-17"
+tag = "v5.0.0-alpha7"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha8"
+date = "2016-02-23"
+tag = "v5.0.0-alpha8"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha9"
+date = "2016-06-06"
+tag = "v5.0.0-alpha9"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha10"
+date = "2016-10-04"
+tag = "v5.0.0-alpha10"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha11"
+date = "2017-01-13"
+tag = "v5.0.0-alpha11"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha12"
+date = "2017-08-23"
+tag = "v5.0.0-alpha12"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha13"
+date = "2018-10-18"
+tag = "v5.0.0-alpha13"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha14"
+date = "2019-05-05"
+tag = "v5.0.0-alpha14"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha15"
+date = "2020-04-23"
+tag = "v5.0.0-alpha15"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-alpha16"
+date = "2021-04-13"
+tag = "v5.0.0-alpha16"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta1"
+date = "2021-10-29"
+tag = "v5.0.0-beta1"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta2"
+date = "2022-09-03"
+tag = "v5.0.0-beta2"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta3"
+date = "2024-11-11"
+tag = "v5.0.0-beta3"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta4"
+date = "2024-12-30"
+tag = "v5.0.0-beta4"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta5"
+date = "2025-02-17"
+tag = "v5.0.0-beta5"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta6"
+date = "2025-03-30"
+tag = "v5.0.0-beta6"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta7"
+date = "2025-06-12"
+tag = "v5.0.0-beta7"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems.releases]]
+version = "5.0.0-beta8"
+date = "2026-01-24"
+tag = "v5.0.0-beta8"
+platforms = [
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[build_systems]]
+name = "SCons"
+vendor = "SCons Foundation"
+url = "https://scons.org/"
+repo = "https://github.com/SCons/scons"
+description = "Software construction tool using Python"
+releases = [
+    { version = "4.1.0", date = "2021-01-19", tag = "4.1.0" },
+    { version = "4.2.0", date = "2021-08-05", tag = "4.2.0" },
+    { version = "4.3.0", date = "2022-02-15", tag = "4.3.0" },
+    { version = "4.4.0", date = "2022-07-30", tag = "4.4.0" },
+    { version = "4.5.0", date = "2023-03-05", tag = "4.5.0" },
+    { version = "4.5.1", date = "2023-03-07", tag = "4.5.1" },
+    { version = "4.5.2", date = "2023-03-21", tag = "4.5.2" },
+    { version = "4.6.0", date = "2023-11-20", tag = "4.6.0" },
+    { version = "4.7.0", date = "2024-03-18", tag = "4.7.0" },
+    { version = "4.8.0", date = "2024-07-08", tag = "4.8.0" },
+    { version = "4.8.1", date = "2024-09-04", tag = "4.8.1" },
+    { version = "4.9.0", date = "2025-03-02", tag = "4.9.0" },
+    { version = "4.9.1", date = "2025-03-27", tag = "4.9.1" },
+    { version = "4.10.0", date = "2025-10-02", tag = "4.10.0" },
+    { version = "4.10.1", date = "2025-11-16", tag = "4.10.1" },
+]
+
+[[build_systems]]
+name = "Conan"
+vendor = "JFrog"
+url = "https://conan.io/"
+repo = "https://github.com/conan-io/conan"
+description = "C/C++ package manager and build integrator"
+
+[[build_systems.releases]]
+version = "0.13.3"
+date = "2016-10-17"
+tag = "0.13.3"
+
+[[build_systems.releases]]
+version = "0.14.1"
+date = "2016-10-20"
+tag = "0.14.1"
+
+[[build_systems.releases]]
+version = "0.14.0"
+date = "2016-10-20"
+tag = "0.14.0"
+
+[[build_systems.releases]]
+version = "0.15.0"
+date = "2016-11-08"
+tag = "0.15.0"
+
+[[build_systems.releases]]
+version = "0.16.0"
+date = "2016-11-29"
+tag = "0.16.0"
+
+[[build_systems.releases]]
+version = "0.16.1"
+date = "2016-12-05"
+tag = "0.16.1"
+
+[[build_systems.releases]]
+version = "0.17.0"
+date = "2016-12-13"
+tag = "0.17.0"
+
+[[build_systems.releases]]
+version = "0.17.1"
+date = "2016-12-15"
+tag = "0.17.1"
+
+[[build_systems.releases]]
+version = "0.17.2"
+date = "2016-12-21"
+tag = "0.17.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.18.0"
+date = "2017-01-03"
+tag = "0.18.0"
+
+[[build_systems.releases]]
+version = "0.18.1"
+date = "2017-01-11"
+tag = "0.18.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.19.0"
+date = "2017-01-31"
+tag = "0.19.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.19.1"
+date = "2017-02-02"
+tag = "0.19.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.19.2"
+date = "2017-02-15"
+tag = "0.19.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.20.0"
+date = "2017-02-27"
+tag = "0.20.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.19.3"
+date = "2017-02-27"
+tag = "0.19.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.20.1"
+date = "2017-03-01"
+tag = "0.20.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.20.2"
+date = "2017-03-02"
+tag = "0.20.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.20.3"
+date = "2017-03-06"
+tag = "0.20.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.21.0"
+date = "2017-03-21"
+tag = "0.21.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.21.1"
+date = "2017-03-23"
+tag = "0.21.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.21.2"
+date = "2017-04-04"
+tag = "0.21.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.22.1"
+date = "2017-04-18"
+tag = "0.22.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.22.0"
+date = "2017-04-18"
+tag = "0.22.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.22.2"
+date = "2017-04-20"
+tag = "0.22.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.22.3"
+date = "2017-05-03"
+tag = "0.22.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.23.0"
+date = "2017-06-01"
+tag = "0.23.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.23.1"
+date = "2017-06-05"
+tag = "0.23.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.23.2"
+date = "2017-06-11"
+tag = "0.23.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.24.0"
+date = "2017-06-16"
+tag = "0.24.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.25.0"
+date = "2017-07-19"
+tag = "0.25.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.25.1"
+date = "2017-07-20"
+tag = "0.25.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.26.0"
+date = "2017-08-31"
+tag = "0.26.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.26.1"
+date = "2017-09-05"
+tag = "0.26.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.27.0"
+date = "2017-09-20"
+tag = "0.27.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.28.0"
+date = "2017-10-27"
+tag = "0.28.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.28.1"
+date = "2017-10-31"
+tag = "0.28.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.29.0"
+date = "2017-11-21"
+tag = "0.29.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.29.1"
+date = "2017-11-23"
+tag = "0.29.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.29.2"
+date = "2017-12-02"
+tag = "0.29.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.30.1"
+date = "2017-12-13"
+tag = "0.30.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.30.0"
+date = "2017-12-13"
+tag = "0.30.0"
+
+[[build_systems.releases]]
+version = "0.30.2"
+date = "2017-12-14"
+tag = "0.30.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "0.30.3"
+date = "2017-12-15"
+tag = "0.30.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.0-beta.3"
+date = "2017-12-28"
+tag = "1.0.0-beta.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.0-beta.4"
+date = "2018-01-04"
+tag = "1.0.0-beta.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.0-beta.5"
+date = "2018-01-08"
+tag = "1.0.0-beta.5"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.0"
+date = "2018-01-10"
+tag = "1.0.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.1"
+date = "2018-01-12"
+tag = "1.0.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.2"
+date = "2018-01-16"
+tag = "1.0.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.3"
+date = "2018-01-22"
+tag = "1.0.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.0.4"
+date = "2018-01-30"
+tag = "1.0.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.1.0"
+date = "2018-02-27"
+tag = "1.1.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.1.1"
+date = "2018-03-05"
+tag = "1.1.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.2.0"
+date = "2018-03-28"
+tag = "1.2.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.2.1"
+date = "2018-04-03"
+tag = "1.2.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.2.3"
+date = "2018-04-10"
+tag = "1.2.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.2.2"
+date = "2018-04-10"
+tag = "1.2.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.3.0"
+date = "2018-04-30"
+tag = "1.3.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.3.1"
+date = "2018-05-03"
+tag = "1.3.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.3.2"
+date = "2018-05-07"
+tag = "1.3.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.3.3"
+date = "2018-05-10"
+tag = "1.3.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.4.0"
+date = "2018-05-30"
+tag = "1.4.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.4.1"
+date = "2018-05-31"
+tag = "1.4.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.4.2"
+date = "2018-06-04"
+tag = "1.4.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.4.3"
+date = "2018-06-06"
+tag = "1.4.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.4.4"
+date = "2018-06-11"
+tag = "1.4.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.4.5"
+date = "2018-06-22"
+tag = "1.4.5"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.5.0"
+date = "2018-06-28"
+tag = "1.5.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.5.1"
+date = "2018-06-29"
+tag = "1.5.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.5.2"
+date = "2018-07-05"
+tag = "1.5.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.6.0"
+date = "2018-07-19"
+tag = "1.6.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.6.1"
+date = "2018-07-27"
+tag = "1.6.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.7.0"
+date = "2018-08-29"
+tag = "1.7.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.7.1"
+date = "2018-08-31"
+tag = "1.7.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.7.2"
+date = "2018-09-04"
+tag = "1.7.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.7.3"
+date = "2018-09-06"
+tag = "1.7.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.7.4"
+date = "2018-09-18"
+tag = "1.7.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.8.0"
+date = "2018-10-09"
+tag = "1.8.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.8.2"
+date = "2018-10-10"
+tag = "1.8.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.8.1"
+date = "2018-10-10"
+tag = "1.8.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.8.3"
+date = "2018-10-17"
+tag = "1.8.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.8.4"
+date = "2018-10-19"
+tag = "1.8.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.9.0"
+date = "2018-10-30"
+tag = "1.9.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.9.1"
+date = "2018-11-08"
+tag = "1.9.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.9.2"
+date = "2018-11-20"
+tag = "1.9.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.10.0"
+date = "2018-12-04"
+tag = "1.10.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.10.1"
+date = "2018-12-11"
+tag = "1.10.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.10.2"
+date = "2018-12-17"
+tag = "1.10.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.11.0"
+date = "2018-12-19"
+tag = "1.11.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.11.1"
+date = "2018-12-20"
+tag = "1.11.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.11.2"
+date = "2019-01-08"
+tag = "1.11.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.12.0"
+date = "2019-01-30"
+tag = "1.12.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.12.1"
+date = "2019-02-05"
+tag = "1.12.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.12.2"
+date = "2019-02-08"
+tag = "1.12.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.12.3"
+date = "2019-02-18"
+tag = "1.12.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.13.0"
+date = "2019-03-07"
+tag = "1.13.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.13.1"
+date = "2019-03-15"
+tag = "1.13.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.13.2"
+date = "2019-03-21"
+tag = "1.13.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.13.3"
+date = "2019-03-27"
+tag = "1.13.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.14.0"
+date = "2019-03-28"
+tag = "1.14.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.14.1"
+date = "2019-04-01"
+tag = "1.14.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.14.3"
+date = "2019-04-11"
+tag = "1.14.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.14.2"
+date = "2019-04-11"
+tag = "1.14.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.14.4"
+date = "2019-04-25"
+tag = "1.14.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.14.5"
+date = "2019-04-30"
+tag = "1.14.5"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.15.0"
+date = "2019-05-06"
+tag = "1.15.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.15.1"
+date = "2019-05-16"
+tag = "1.15.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.15.2"
+date = "2019-05-31"
+tag = "1.15.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.16.0"
+date = "2019-06-04"
+tag = "1.16.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.15.3"
+date = "2019-06-11"
+tag = "1.15.3"
+
+[[build_systems.releases]]
+version = "1.15.4"
+date = "2019-06-12"
+tag = "1.15.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.16.1"
+date = "2019-06-14"
+tag = "1.16.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.17.0"
+date = "2019-07-09"
+tag = "1.17.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.17.1"
+date = "2019-07-22"
+tag = "1.17.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.17.2"
+date = "2019-07-25"
+tag = "1.17.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.18.0"
+date = "2019-07-30"
+tag = "1.18.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.18.1"
+date = "2019-08-08"
+tag = "1.18.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.18.2"
+date = "2019-08-30"
+tag = "1.18.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.18.3"
+date = "2019-09-10"
+tag = "1.18.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.18.4"
+date = "2019-09-12"
+tag = "1.18.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.18.5"
+date = "2019-09-24"
+tag = "1.18.5"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.19.0"
+date = "2019-09-30"
+tag = "1.19.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.19.1"
+date = "2019-10-03"
+tag = "1.19.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.19.2"
+date = "2019-10-16"
+tag = "1.19.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.19.3"
+date = "2019-10-29"
+tag = "1.19.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.20.0"
+date = "2019-11-04"
+tag = "1.20.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.20.1"
+date = "2019-11-05"
+tag = "1.20.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.20.2"
+date = "2019-11-06"
+tag = "1.20.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.20.3"
+date = "2019-11-11"
+tag = "1.20.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.20.4"
+date = "2019-11-19"
+tag = "1.20.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.20.5"
+date = "2019-12-03"
+tag = "1.20.5"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.21.0"
+date = "2019-12-10"
+tag = "1.21.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.21.1"
+date = "2020-01-14"
+tag = "1.21.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.21.2"
+date = "2020-01-31"
+tag = "1.21.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.22.0"
+date = "2020-02-05"
+tag = "1.22.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.22.1"
+date = "2020-02-11"
+tag = "1.22.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.22.2"
+date = "2020-02-13"
+tag = "1.22.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.21.3"
+date = "2020-03-03"
+tag = "1.21.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.22.3"
+date = "2020-03-05"
+tag = "1.22.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.23.0"
+date = "2020-03-10"
+tag = "1.23.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.24.0"
+date = "2020-03-31"
+tag = "1.24.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.24.1"
+date = "2020-04-21"
+tag = "1.24.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.25.0"
+date = "2020-05-06"
+tag = "1.25.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.25.1"
+date = "2020-05-13"
+tag = "1.25.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.25.2"
+date = "2020-05-19"
+tag = "1.25.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.26.0"
+date = "2020-06-10"
+tag = "1.26.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.26.1"
+date = "2020-06-23"
+tag = "1.26.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.27.0"
+date = "2020-07-01"
+tag = "1.27.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.27.1"
+date = "2020-07-10"
+tag = "1.27.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.28.0"
+date = "2020-07-31"
+tag = "1.28.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.28.1"
+date = "2020-08-06"
+tag = "1.28.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.28.2"
+date = "2020-08-31"
+tag = "1.28.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.29.0"
+date = "2020-09-02"
+tag = "1.29.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.29.1"
+date = "2020-09-17"
+tag = "1.29.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.29.2"
+date = "2020-09-21"
+tag = "1.29.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.30.0"
+date = "2020-10-05"
+tag = "1.30.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.30.1"
+date = "2020-10-09"
+tag = "1.30.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.30.2"
+date = "2020-10-15"
+tag = "1.30.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.31.0"
+date = "2020-10-30"
+tag = "1.31.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.31.1"
+date = "2020-11-10"
+tag = "1.31.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.31.2"
+date = "2020-11-11"
+tag = "1.31.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.31.3"
+date = "2020-11-17"
+tag = "1.31.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.31.4"
+date = "2020-11-25"
+tag = "1.31.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.32.0"
+date = "2020-12-03"
+tag = "1.32.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.32.1"
+date = "2020-12-15"
+tag = "1.32.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.33.0"
+date = "2021-01-20"
+tag = "1.33.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.33.1"
+date = "2021-02-02"
+tag = "1.33.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.34.0"
+date = "2021-02-26"
+tag = "1.34.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.34.1"
+date = "2021-03-10"
+tag = "1.34.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.35.0"
+date = "2021-03-30"
+tag = "1.35.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.35.1"
+date = "2021-04-13"
+tag = "1.35.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.35.2"
+date = "2021-04-19"
+tag = "1.35.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.36.0"
+date = "2021-04-28"
+tag = "1.36.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.37.0"
+date = "2021-05-31"
+tag = "1.37.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.37.1"
+date = "2021-06-08"
+tag = "1.37.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.37.2"
+date = "2021-06-14"
+tag = "1.37.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.38.0"
+date = "2021-06-30"
+tag = "1.38.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.39.0"
+date = "2021-07-27"
+tag = "1.39.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.40.0"
+date = "2021-09-06"
+tag = "1.40.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.40.1"
+date = "2021-09-14"
+tag = "1.40.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.40.2"
+date = "2021-09-21"
+tag = "1.40.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.40.3"
+date = "2021-09-30"
+tag = "1.40.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.40.4"
+date = "2021-10-05"
+tag = "1.40.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.41.0"
+date = "2021-10-06"
+tag = "1.41.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.42.0"
+date = "2021-10-29"
+tag = "1.42.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.42.1"
+date = "2021-11-08"
+tag = "1.42.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.42.2"
+date = "2021-11-22"
+tag = "1.42.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.43.0"
+date = "2021-12-03"
+tag = "1.43.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.43.1"
+date = "2021-12-17"
+tag = "1.43.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.43.2"
+date = "2021-12-21"
+tag = "1.43.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.44.0"
+date = "2021-12-29"
+tag = "1.44.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.44.1"
+date = "2022-01-13"
+tag = "1.44.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.43.3"
+date = "2022-01-13"
+tag = "1.43.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.45.0"
+date = "2022-02-02"
+tag = "1.45.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.43.4"
+date = "2022-02-18"
+tag = "1.43.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.46.0"
+date = "2022-03-07"
+tag = "1.46.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.46.1"
+date = "2022-03-17"
+tag = "1.46.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.46.2"
+date = "2022-03-18"
+tag = "1.46.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.47.0"
+date = "2022-03-31"
+tag = "1.47.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.48.0"
+date = "2022-05-03"
+tag = "1.48.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.48.1"
+date = "2022-05-18"
+tag = "1.48.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.48.2"
+date = "2022-06-02"
+tag = "1.48.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.49.0"
+date = "2022-06-02"
+tag = "1.49.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.50.0"
+date = "2022-06-29"
+tag = "1.50.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.51.0"
+date = "2022-07-28"
+tag = "1.51.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.50.1"
+date = "2022-07-28"
+tag = "1.50.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.51.1"
+date = "2022-08-09"
+tag = "1.51.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.50.2"
+date = "2022-08-11"
+tag = "1.50.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.51.2"
+date = "2022-08-11"
+tag = "1.51.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.51.3"
+date = "2022-08-18"
+tag = "1.51.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.52.0"
+date = "2022-08-31"
+tag = "1.52.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.53.0"
+date = "2022-10-04"
+tag = "1.53.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.54.0"
+date = "2022-11-07"
+tag = "1.54.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.55.0"
+date = "2022-11-30"
+tag = "1.55.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.56.0"
+date = "2022-12-21"
+tag = "1.56.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.57.0"
+date = "2023-01-12"
+tag = "1.57.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.58.0"
+date = "2023-01-30"
+tag = "1.58.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.59.0"
+date = "2023-02-16"
+tag = "1.59.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.0"
+date = "2023-02-22"
+tag = "2.0.0"
+
+[[build_systems.releases]]
+version = "2.0.1"
+date = "2023-03-03"
+tag = "2.0.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.2"
+date = "2023-03-15"
+tag = "2.0.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.3"
+date = "2023-04-03"
+tag = "2.0.3"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.4"
+date = "2023-04-11"
+tag = "2.0.4"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.60.0"
+date = "2023-05-11"
+tag = "1.60.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.5"
+date = "2023-05-18"
+tag = "2.0.5"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.6"
+date = "2023-05-26"
+tag = "2.0.6"
+platforms = [
+    "linux",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.60.1"
+date = "2023-05-30"
+tag = "1.60.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.7"
+date = "2023-06-21"
+tag = "2.0.7"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.8"
+date = "2023-07-13"
+tag = "2.0.8"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.9"
+date = "2023-07-19"
+tag = "2.0.9"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.60.2"
+date = "2023-07-26"
+tag = "1.60.2"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.10"
+date = "2023-08-29"
+tag = "2.0.10"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.61.0"
+date = "2023-09-13"
+tag = "1.61.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.11"
+date = "2023-09-18"
+tag = "2.0.11"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.12"
+date = "2023-09-26"
+tag = "2.0.12"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.13"
+date = "2023-09-28"
+tag = "2.0.13"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.14"
+date = "2023-11-14"
+tag = "2.0.14"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.62.0"
+date = "2023-11-14"
+tag = "1.62.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.15"
+date = "2023-12-20"
+tag = "2.0.15"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.16"
+date = "2023-12-21"
+tag = "2.0.16"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.0.17"
+date = "2024-01-10"
+tag = "2.0.17"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "1.63.0"
+date = "2024-02-12"
+tag = "1.63.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.1.0"
+date = "2024-02-15"
+tag = "2.1.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.2.1"
+date = "2024-03-20"
+tag = "2.2.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.2.0"
+date = "2024-03-20"
+tag = "2.2.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.2.2"
+date = "2024-03-25"
+tag = "2.2.2"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.64.0"
+date = "2024-04-04"
+tag = "1.64.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.2.3"
+date = "2024-04-17"
+tag = "2.2.3"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.3.0"
+date = "2024-05-06"
+tag = "2.3.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.64.1"
+date = "2024-05-14"
+tag = "1.64.1"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.3.1"
+date = "2024-05-16"
+tag = "2.3.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.3.2"
+date = "2024-05-28"
+tag = "2.3.2"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.4.0"
+date = "2024-06-05"
+tag = "2.4.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.4.1"
+date = "2024-06-10"
+tag = "2.4.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.5.0"
+date = "2024-07-03"
+tag = "2.5.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.6.0"
+date = "2024-08-01"
+tag = "2.6.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.65.0"
+date = "2024-08-12"
+tag = "1.65.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.7.0"
+date = "2024-08-28"
+tag = "2.7.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.7.1"
+date = "2024-09-11"
+tag = "2.7.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.8.0"
+date = "2024-09-30"
+tag = "2.8.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.8.1"
+date = "2024-10-17"
+tag = "2.8.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.0"
+date = "2024-10-29"
+tag = "2.9.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.1"
+date = "2024-10-30"
+tag = "2.9.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.2"
+date = "2024-11-07"
+tag = "2.9.2"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.9.3"
+date = "2024-11-21"
+tag = "2.9.3"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "1.66.0"
+date = "2024-12-02"
+tag = "1.66.0"
+platforms = [
+    "ubuntu",
+]
+
+[[build_systems.releases]]
+version = "2.10.0"
+date = "2024-12-03"
+tag = "2.10.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.10.1"
+date = "2024-12-04"
+tag = "2.10.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.10.2"
+date = "2024-12-10"
+tag = "2.10.2"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.11.0"
+date = "2024-12-18"
+tag = "2.11.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.10.3"
+date = "2024-12-18"
+tag = "2.10.3"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.12.0"
+date = "2025-01-27"
+tag = "2.12.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.12.1"
+date = "2025-01-28"
+tag = "2.12.1"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.12.2"
+date = "2025-02-12"
+tag = "2.12.2"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.13.0"
+date = "2025-02-26"
+tag = "2.13.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.14.0"
+date = "2025-03-12"
+tag = "2.14.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.15.0"
+date = "2025-03-31"
+tag = "2.15.0"
+platforms = [
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.15.1"
+date = "2025-04-14"
+tag = "2.15.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.16.1"
+date = "2025-04-29"
+tag = "2.16.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.16.0"
+date = "2025-04-29"
+tag = "2.16.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.17.0"
+date = "2025-05-28"
+tag = "2.17.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.17.1"
+date = "2025-06-23"
+tag = "2.17.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.18.0"
+date = "2025-06-30"
+tag = "2.18.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.18.1"
+date = "2025-07-04"
+tag = "2.18.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.19.0"
+date = "2025-07-23"
+tag = "2.19.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.19.1"
+date = "2025-07-30"
+tag = "2.19.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.20.0"
+date = "2025-09-01"
+tag = "2.20.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.20.1"
+date = "2025-09-04"
+tag = "2.20.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.21.0"
+date = "2025-09-29"
+tag = "2.21.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.22.0"
+date = "2025-10-29"
+tag = "2.22.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.22.1"
+date = "2025-10-30"
+tag = "2.22.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.22.2"
+date = "2025-11-07"
+tag = "2.22.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.23.0"
+date = "2025-11-25"
+tag = "2.23.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.24.0"
+date = "2025-12-15"
+tag = "2.24.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.25.0"
+date = "2026-01-28"
+tag = "2.25.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.25.1"
+date = "2026-01-29"
+tag = "2.25.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.25.2"
+date = "2026-02-04"
+tag = "2.25.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.26.0"
+date = "2026-02-25"
+tag = "2.26.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.26.1"
+date = "2026-02-27"
+tag = "2.26.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.26.2"
+date = "2026-03-05"
+tag = "2.26.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.27.0"
+date = "2026-03-25"
+tag = "2.27.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems]]
+name = "vcpkg"
+vendor = "Microsoft"
+url = "https://vcpkg.io/"
+repo = "https://github.com/microsoft/vcpkg"
+description = "C/C++ library manager for Windows, Linux, and macOS"
+releases = [
+    { version = "2019.06", date = "2019-07-19", tag = "2019.06" },
+    { version = "2019.07", date = "2019-08-01", tag = "2019.07" },
+    { version = "2019.08", date = "2019-09-10", tag = "2019.08" },
+    { version = "2019.09", date = "2019-10-02", tag = "2019.09" },
+    { version = "2019.10", date = "2019-11-01", tag = "2019.10" },
+    { version = "2019.11", date = "2019-12-03", tag = "2019.11" },
+    { version = "2019.12", date = "2020-01-09", tag = "2019.12" },
+    { version = "2020.01", date = "2020-02-06", tag = "2020.01" },
+    { version = "2020.04", date = "2020-04-22", tag = "2020.04" },
+    { version = "2020.06", date = "2020-06-16", tag = "2020.06" },
+    { version = "2020.07", date = "2020-09-02", tag = "2020.07" },
+    { version = "2020.11", date = "2020-11-03", tag = "2020.11" },
+    { version = "2020.11-1", date = "2020-11-03", tag = "2020.11-1" },
+    { version = "2021.04.30", date = "2021-05-02", tag = "2021.04.30" },
+    { version = "2021.05.12", date = "2021-05-13", tag = "2021.05.12" },
+    { version = "2022.02.23", date = "2022-02-25", tag = "2022.02.23" },
+    { version = "2022.01.31", date = "2022-02-25", tag = "2022.01.31" },
+    { version = "2021.12.31", date = "2022-02-25", tag = "2021.12.31" },
+    { version = "2021.11.30", date = "2022-02-25", tag = "2021.11.30" },
+    { version = "2021.10.31", date = "2022-02-25", tag = "2021.10.31" },
+    { version = "2021.09.30", date = "2022-02-25", tag = "2021.09.30" },
+    { version = "2021.08.31", date = "2022-02-25", tag = "2021.08.31" },
+    { version = "2021.07.31", date = "2022-02-25", tag = "2021.07.31" },
+    { version = "2021.06.31", date = "2022-02-25", tag = "2021.06.31" },
+    { version = "2022.03.10", date = "2022-03-12", tag = "2022.03.10" },
+    { version = "2022.04.12", date = "2022-04-13", tag = "2022.04.12" },
+    { version = "2022.05.10", date = "2022-05-11", tag = "2022.05.10" },
+    { version = "2022.06.15", date = "2022-06-16", tag = "2022.06.15" },
+    { version = "2022.06.16.1", date = "2022-06-20", tag = "2022.06.16.1" },
+    { version = "2022.07.25", date = "2022-07-25", tag = "2022.07.25" },
+    { version = "2022.08.15", date = "2022-08-16", tag = "2022.08.15" },
+    { version = "2022.09.27", date = "2022-09-27", tag = "2022.09.27" },
+    { version = "2022.10.19", date = "2022-10-21", tag = "2022.10.19" },
+    { version = "2022.11.14", date = "2022-11-14", tag = "2022.11.14" },
+    { version = "2023.01.09", date = "2023-01-09", tag = "2023.01.09" },
+    { version = "2023.02.24", date = "2023-02-24", tag = "2023.02.24" },
+    { version = "2023.04.15", date = "2023-04-17", tag = "2023.04.15" },
+    { version = "2023.06.20", date = "2023-06-20", tag = "2023.06.20" },
+    { version = "2023.07.21", date = "2023-07-24", tag = "2023.07.21" },
+    { version = "2023.08.09", date = "2023-08-14", tag = "2023.08.09" },
+    { version = "2023.10.19", date = "2023-10-19", tag = "2023.10.19" },
+    { version = "2023.11.20", date = "2023-11-21", tag = "2023.11.20" },
+    { version = "2023.12.12", date = "2023-12-13", tag = "2023.12.12" },
+    { version = "2024.01.12", date = "2024-01-13", tag = "2024.01.12" },
+    { version = "2024.02.14", date = "2024-02-15", tag = "2024.02.14" },
+    { version = "2024.03.19", date = "2024-03-20", tag = "2024.03.19" },
+    { version = "2024.03.25", date = "2024-03-25", tag = "2024.03.25" },
+    { version = "2024.04.26", date = "2024-05-01", tag = "2024.04.26" },
+    { version = "2024.05.24", date = "2024-05-28", tag = "2024.05.24" },
+    { version = "2024.06.15", date = "2024-06-17", tag = "2024.06.15" },
+    { version = "2024.07.12", date = "2024-07-16", tag = "2024.07.12" },
+    { version = "2024.08.23", date = "2024-08-28", tag = "2024.08.23" },
+    { version = "2024.09.23", date = "2024-09-27", tag = "2024.09.23" },
+    { version = "2024.09.30", date = "2024-10-01", tag = "2024.09.30" },
+    { version = "2024.10.21", date = "2024-10-24", tag = "2024.10.21" },
+    { version = "2024.11.16", date = "2024-11-19", tag = "2024.11.16" },
+    { version = "2024.12.16", date = "2024-12-19", tag = "2024.12.16" },
+    { version = "2025.01.13", date = "2025-01-17", tag = "2025.01.13" },
+    { version = "2025.02.14", date = "2025-02-19", tag = "2025.02.14" },
+    { version = "2025.03.19", date = "2025-03-21", tag = "2025.03.19" },
+    { version = "2025.04.09", date = "2025-04-11", tag = "2025.04.09" },
+    { version = "2025.06.13", date = "2025-06-16", tag = "2025.06.13" },
+    { version = "2025.07.25", date = "2025-07-28", tag = "2025.07.25" },
+    { version = "2025.08.27", date = "2025-08-28", tag = "2025.08.27" },
+    { version = "2025.09.17", date = "2025-09-22", tag = "2025.09.17" },
+    { version = "2025.10.17", date = "2025-10-21", tag = "2025.10.17" },
+    { version = "2025.12.12", date = "2025-12-15", tag = "2025.12.12" },
+    { version = "2026.01.16", date = "2026-01-21", tag = "2026.01.16" },
+    { version = "2026.02.27", date = "2026-03-04", tag = "2026.02.27" },
+    { version = "2026.03.18", date = "2026-03-19", tag = "2026.03.18" },
+]

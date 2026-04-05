@@ -1,6 +1,6 @@
 # cltas
 
-A unified, open database of C++ toolchain metadata — system header paths, implicit flags, platform quirks, and cross-compilation info.
+**C/C++ Language Toolchain And System** — a unified, open database of C/C++ toolchain metadata: system header paths, implicit flags, platform quirks, and cross-compilation info.
 
 ## The Problem
 

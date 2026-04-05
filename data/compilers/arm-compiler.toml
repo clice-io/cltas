@@ -1,0 +1,129 @@
+[meta]
+name = "Arm Compiler for Embedded"
+vendor = "Arm"
+url = "https://developer.arm.com/Tools%20and%20Software/Arm%20Compiler%20for%20Embedded"
+description = "Arm Compiler for Embedded (armclang) is based on LLVM/Clang and targets Arm Cortex-M, Cortex-R, and Cortex-A processors for bare-metal and RTOS-based embedded applications."
+
+# Arm Compiler for Embedded 6.x (armclang-based, LLVM backend)
+
+[[releases]]
+version = "6.22"
+date = "2024-05"
+
+[[releases]]
+version = "6.21"
+date = "2023-10"
+
+[[releases]]
+version = "6.20"
+date = "2023-05"
+
+[[releases]]
+version = "6.19"
+date = "2022-09"
+
+[[releases]]
+version = "6.18"
+date = "2022-03"
+
+[[releases]]
+version = "6.17"
+date = "2021-10"
+
+[[releases]]
+version = "6.16"
+date = "2021-03"
+
+[[releases]]
+version = "6.15"
+date = "2020-09"
+
+[[releases]]
+version = "6.14"
+date = "2020-03"
+
+[[releases]]
+version = "6.13"
+date = "2019-10"
+
+[[releases]]
+version = "6.12"
+date = "2019-03"
+
+[[releases]]
+version = "6.11"
+date = "2018-10"
+
+[[releases]]
+version = "6.10"
+date = "2018-03"
+
+[[releases]]
+version = "6.9"
+date = "2017-08"
+
+[[releases]]
+version = "6.8"
+date = "2017-03"
+
+[[releases]]
+version = "6.7"
+date = "2016-10"
+
+[[releases]]
+version = "6.6"
+date = "2016-03"
+
+# Arm Compiler 5.x (armcc-based, legacy)
+
+[[releases]]
+version = "5.06u7"
+date = "2019-10"
+
+[[releases]]
+version = "5.06u6"
+date = "2018-06"
+
+[[releases]]
+version = "5.06u5"
+date = "2017-06"
+
+[[releases]]
+version = "5.06u4"
+date = "2016-09"
+
+[[releases]]
+version = "5.06u3"
+date = "2016-03"
+
+[[releases]]
+version = "5.06u2"
+date = "2015-10"
+
+[[releases]]
+version = "5.06u1"
+date = "2015-04"
+
+[[releases]]
+version = "5.06"
+date = "2014-12"
+
+[[releases]]
+version = "5.05"
+date = "2014-06"
+
+[[releases]]
+version = "5.04"
+date = "2013-12"
+
+[[releases]]
+version = "5.03"
+date = "2013-01"
+
+[[releases]]
+version = "5.02"
+date = "2012-06"
+
+[[releases]]
+version = "5.01"
+date = "2011-09"

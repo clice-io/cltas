@@ -1,0 +1,354 @@
+# C/C++ Runtime and Low-Level Support Libraries
+# Last updated: 2026-04-05
+
+# =============================================================================
+# UNWINDER LIBRARIES
+# =============================================================================
+# Unwinder libraries provide stack unwinding support, essential for C++
+# exception handling, backtraces, and debugger integration. The unwinding
+# process walks the call stack using metadata (typically DWARF .eh_frame)
+# to restore register state at each frame.
+
+# -----------------------------------------------------------------------------
+# libunwind (LLVM)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libunwind"
+full_name = "LLVM libunwind"
+vendor = "LLVM Project"
+component_of = "LLVM"
+url = "https://libcxx.llvm.org/UnwindLibrary.html"
+source = "https://github.com/llvm/llvm-project/tree/main/libunwind"
+license = "Apache-2.0 WITH LLVM-exception"
+platforms = ["linux", "darwin", "freebsd", "fuchsia", "android"]
+description = "LLVM's implementation of the Itanium C++ ABI stack unwinding API (level 1) and a C API for programmatic unwinding (level 2). Designed to be a drop-in replacement for nongnu libunwind. Used as the default unwinder on macOS/iOS and commonly paired with libc++ on Linux."
+provides = ["_Unwind_*", "__unw_*", "unw_*"]
+notes = "On Apple platforms, this is the system unwinder shipped in libSystem. Versions track LLVM releases."
+
+# LLVM libunwind versions follow LLVM release numbering.
+
+# -----------------------------------------------------------------------------
+# libunwind (nongnu.org / original)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libunwind-nongnu"
+full_name = "libunwind (nongnu.org)"
+vendor = "Independent"
+url = "https://www.nongnu.org/libunwind/"
+source = "https://github.com/libunwind/libunwind"
+license = "MIT"
+platforms = ["linux", "freebsd", "hpux"]
+description = "The original portable libunwind library, providing a C API for determining and manipulating the call chain of a program. Supports local (same-process) and remote (cross-process) unwinding, making it popular with profilers and debuggers."
+provides = ["unw_*", "_Unwind_*", "UNW_*"]
+notes = "Not to be confused with LLVM libunwind. Supports many architectures including x86, x86_64, ARM, AArch64, MIPS, PowerPC, RISC-V, s390x, and others."
+
+[runtime_libs.versions]
+"1.8.1" = "2024-01-18"
+"1.8.0" = "2024-01-04"
+"1.7.2" = "2023-06-06"
+"1.7.0" = "2023-03-24"
+"1.6.2" = "2021-03-02"
+"1.6.0" = "2021-10-27"
+"1.5.0" = "2019-10-07"
+"1.4.0" = "2019-07-18"
+"1.3.2" = "2019-04-22"
+"1.3.1" = "2018-10-11"
+"1.3.0" = "2018-09-13"
+"1.2.1" = "2017-06-03"
+"1.2.0" = "2017-05-28"
+"1.1.0" = "2014-06-19"
+"1.0.1" = "2012-01-10"
+"1.0.0" = "2011-11-08"
+
+# -----------------------------------------------------------------------------
+# libgcc_s - GCC runtime support (includes unwinder)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libgcc_s"
+full_name = "GCC Low-Level Runtime Library (shared)"
+vendor = "GNU Project"
+component_of = "GCC"
+url = "https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw", "darwin-gcc", "hurd"]
+description = "The shared library portion of GCC's low-level runtime. Contains the stack unwinder (_Unwind_*), software implementations of arithmetic operations (e.g., 128-bit integer and floating-point), and other compiler support routines. Loaded at runtime by any executable compiled with GCC."
+provides = ["_Unwind_*", "__gcc_personality_v0", "__divdi3", "__muldi3", "__udivti3"]
+notes = "Versioned with GLIBC-style symbol versioning (GCC_3.0, GCC_4.0, etc.). The unwinder in libgcc_s is the default on most Linux distros. libgcc_s.so.1 is nearly ubiquitous on Linux systems."
+
+# libgcc_s versions are tied to GCC releases.
+
+# =============================================================================
+# COMPILER RUNTIME LIBRARIES
+# =============================================================================
+# Compiler runtimes provide low-level support functions that the compiler may
+# emit calls to: integer/float builtins, profiling hooks, sanitizer runtimes,
+# and other instrumentation support.
+
+# -----------------------------------------------------------------------------
+# compiler-rt (LLVM)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "compiler-rt"
+full_name = "LLVM Compiler Runtime"
+vendor = "LLVM Project"
+component_of = "LLVM"
+url = "https://compiler-rt.llvm.org/"
+source = "https://github.com/llvm/llvm-project/tree/main/compiler-rt"
+license = "Apache-2.0 WITH LLVM-exception"
+platforms = ["linux", "darwin", "windows", "freebsd", "android", "fuchsia", "netbsd"]
+description = "Runtime support library providing low-level target-specific hooks (builtins), profiling runtime (used by -fprofile-instr-generate / PGO), sanitizer runtimes (ASan, MSan, TSan, UBSan, etc.), fuzzer runtime (libFuzzer), and XRay instrumentation."
+provides = ["builtins", "profile", "sanitizers", "fuzzer", "xray", "scudo", "dfsan", "safestack", "shadowcallstack", "gwp_asan"]
+notes = "compiler-rt builtins serve as a replacement for libgcc. On Apple platforms, compiler-rt builtins are part of libclang_rt shipped with Xcode. Versions track LLVM releases."
+
+# compiler-rt versions follow LLVM release numbering.
+
+# -----------------------------------------------------------------------------
+# libgcc (static)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libgcc"
+full_name = "GCC Low-Level Runtime Library (static)"
+vendor = "GNU Project"
+component_of = "GCC"
+url = "https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw", "darwin-gcc", "hurd", "bare-metal"]
+description = "The static portion of GCC's low-level runtime. Provides compiler builtins (soft-float arithmetic, integer division for targets lacking hardware support, overflow-checked arithmetic), stack protection helpers (__stack_chk_fail), and other target-specific support routines. Linked statically into every GCC-compiled binary."
+provides = ["__divdi3", "__moddi3", "__fixsfdi", "__floatdidf", "__stack_chk_fail", "__enable_execute_stack"]
+notes = "libgcc.a is the static archive; libgcc_s.so is the shared counterpart. Together they form GCC's complete low-level runtime. Use -static-libgcc to force static linking."
+
+# libgcc versions are tied to GCC releases.
+
+# =============================================================================
+# C++ ABI LIBRARIES
+# =============================================================================
+# C++ ABI libraries implement the low-level C++ ABI: RTTI, dynamic_cast,
+# exception handling glue, guard variables for thread-safe static initialization,
+# and the C++ standard exception types (std::bad_alloc, std::type_info, etc.).
+# They sit between the unwinder and the full C++ standard library.
+
+# -----------------------------------------------------------------------------
+# libc++abi (LLVM)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libc++abi"
+full_name = "LLVM C++ ABI Library"
+vendor = "LLVM Project"
+component_of = "LLVM"
+url = "https://libcxxabi.llvm.org/"
+source = "https://github.com/llvm/llvm-project/tree/main/libcxxabi"
+license = "Apache-2.0 WITH LLVM-exception"
+platforms = ["linux", "darwin", "freebsd", "fuchsia", "android"]
+description = "Implements the Itanium C++ ABI runtime support: exception handling (__cxa_throw, __cxa_begin_catch, __cxa_end_catch), RTTI (dynamic_cast, typeid), guard variables for static local initialization (__cxa_guard_acquire), operator new/delete, and std::terminate/std::unexpected handling."
+provides = ["__cxa_*", "__gxx_personality_v0", "operator new", "operator delete", "std::type_info", "std::bad_alloc"]
+notes = "On Apple platforms, libc++abi is shipped as part of libc++.dylib. On Linux, it is typically a separate shared library. Versions track LLVM releases."
+
+# libc++abi versions follow LLVM release numbering.
+
+# -----------------------------------------------------------------------------
+# libsupc++ (GCC)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libsupc++"
+full_name = "GCC C++ ABI Support Library"
+vendor = "GNU Project"
+component_of = "GCC/libstdc++"
+url = "https://gcc.gnu.org/onlinedocs/libstdc++/"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw", "hurd"]
+description = "The C++ runtime support sublibrary extracted from libstdc++. Provides the same ABI-level functionality as libc++abi: exception handling (__cxa_* functions), RTTI, dynamic_cast support, guard variables, and standard exception classes. Can be used standalone without the full libstdc++ (link with -lsupc++)."
+provides = ["__cxa_*", "__gxx_personality_v0", "operator new", "operator delete", "std::type_info", "std::bad_alloc", "std::exception"]
+notes = "Built from sources within the libstdc++-v3 tree. Historically used to pair GCC's ABI layer with alternative standard libraries. Versions are tied to GCC releases."
+
+# libsupc++ versions are tied to GCC releases.
+
+# -----------------------------------------------------------------------------
+# libcxxrt
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libcxxrt"
+full_name = "PathScale C++ Runtime"
+vendor = "PathScale (now community-maintained)"
+url = "https://github.com/libcxxrt/libcxxrt"
+source = "https://github.com/libcxxrt/libcxxrt"
+license = "BSD-2-Clause"
+platforms = ["freebsd", "netbsd", "linux"]
+description = "An alternative implementation of the Itanium C++ ABI. Originally developed by PathScale, now community-maintained. Provides the same ABI-level symbols as libc++abi/libsupc++. Used as the default C++ ABI library on FreeBSD (paired with either libc++ or libstdc++)."
+provides = ["__cxa_*", "__gxx_personality_v0", "operator new", "operator delete", "std::type_info"]
+notes = "FreeBSD switched from libsupc++ to libcxxrt and then paired it with libc++ starting in FreeBSD 10. Can also be used on Linux as a drop-in replacement."
+
+# =============================================================================
+# EXCEPTION HANDLING
+# =============================================================================
+# Exception handling in C++ relies on several cooperating components:
+# - The compiler emits unwind tables (.eh_frame / .eh_frame_hdr) and personality routines.
+# - The unwinder library walks the stack using those tables.
+# - The ABI library provides __cxa_throw, __cxa_begin_catch, etc.
+#
+# Exception Handling Models:
+# - DWARF: Uses DWARF unwind information (.eh_frame). Default on Linux, macOS, BSDs.
+#   Zero-cost when no exception is thrown; unwinding is expensive but rare.
+# - SJLJ (setjmp/longjmp): Uses setjmp at try blocks and longjmp to throw.
+#   Portable but has runtime overhead even when no exception is thrown.
+#   Used on some older ARM targets, some MinGW configurations.
+# - SEH (Structured Exception Handling): Windows native exception handling.
+#   Integrated with the OS. Used by MSVC and MinGW-w64 (x86_64 SEH variant).
+#   Zero-cost on x86_64, table-based like DWARF.
+# - Wasm EH: WebAssembly exception handling proposal. Tag-based, integrated with
+#   the Wasm runtime.
+
+# -----------------------------------------------------------------------------
+# libgcc_eh - GCC exception handling (static)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libgcc_eh"
+full_name = "GCC Exception Handling Library"
+vendor = "GNU Project"
+component_of = "GCC"
+url = "https://gcc.gnu.org/onlinedocs/gccint/Libgcc.html"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "hurd"]
+description = "Static library providing the exception handling unwinder for statically-linked programs. Contains the same _Unwind_* symbols as libgcc_s but in static archive form. Linked when using -static or -static-libgcc so that unwinding works without the shared libgcc_s.so."
+provides = ["_Unwind_RaiseException", "_Unwind_Resume", "_Unwind_GetIP", "_Unwind_SetIP", "_Unwind_GetLanguageSpecificData"]
+notes = "When linking dynamically, the unwinder comes from libgcc_s.so.1 instead. libgcc_eh.a exists specifically for the static linking case."
+
+# =============================================================================
+# THREAD SUPPORT LIBRARIES
+# =============================================================================
+# Thread libraries provide the threading primitives (mutexes, condition
+# variables, thread creation) used by both application code and the C/C++
+# standard libraries' threading facilities (std::thread, std::mutex, etc.).
+
+# -----------------------------------------------------------------------------
+# pthreads (POSIX Threads)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "pthreads"
+full_name = "POSIX Threads"
+vendor = "POSIX / OS vendor"
+url = "https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/pthread.h.html"
+license = "Varies (part of system libc)"
+platforms = ["linux", "darwin", "freebsd", "netbsd", "openbsd", "solaris", "aix", "hurd"]
+description = "The POSIX standard threading API. Provides thread creation/joining (pthread_create, pthread_join), mutexes (pthread_mutex_*), condition variables (pthread_cond_*), read-write locks, barriers, thread-local storage (pthread_key_*), and more. On Linux, implemented within glibc (libpthread merged into libc in glibc 2.34+). On macOS/BSDs, part of the system libc."
+provides = ["pthread_create", "pthread_join", "pthread_mutex_*", "pthread_cond_*", "pthread_rwlock_*", "pthread_key_*"]
+notes = "On glibc 2.34+, libpthread symbols are in libc.so.6 directly; -lpthread is still accepted but is a no-op. Older glibc versions have a separate libpthread.so.0."
+
+# -----------------------------------------------------------------------------
+# winpthreads (mingw-w64)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "winpthreads"
+full_name = "mingw-w64 POSIX Threads"
+vendor = "mingw-w64"
+component_of = "mingw-w64"
+url = "https://www.mingw-w64.org/"
+source = "https://github.com/mingw-w64/mingw-w64/tree/master/mingw-w64-libraries/winpthreads"
+license = "MIT AND BSD-2-Clause"
+platforms = ["windows-mingw"]
+description = "A pthreads implementation for Windows built on top of native Windows threading primitives (SRW locks, condition variables, _beginthreadex). Allows POSIX threading code and C++11 std::thread/std::mutex to work on MinGW-w64 without modification."
+provides = ["pthread_create", "pthread_join", "pthread_mutex_*", "pthread_cond_*", "pthread_rwlock_*"]
+notes = "One of three threading model choices in MinGW-w64 (alongside mcfgthread and Win32 threads). Selected at toolchain build time with --with-default-msvcrt and --enable-threads=posix."
+
+# -----------------------------------------------------------------------------
+# mcfgthread
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "mcfgthread"
+full_name = "MCF Gthread Library"
+vendor = "LH_Mouse"
+url = "https://github.com/lhmouse/mcfgthread"
+source = "https://github.com/lhmouse/mcfgthread"
+license = "LGPL-3.0-or-later"
+platforms = ["windows-mingw"]
+description = "A high-performance threading library for Windows MinGW-w64 that implements both the GCC gthread interface and a C11 threads interface. Uses Windows-native Keyed Events / NT synchronization primitives for minimal overhead. Designed as a faster alternative to winpthreads."
+provides = ["__gthread_*", "mtx_*", "cnd_*", "thrd_*", "_MCF_*"]
+notes = "Adopted by MSYS2 as an alternative threading runtime. Selected at GCC build time with --enable-threads=mcf. Provides better performance than winpthreads for mutex-heavy workloads."
+
+[runtime_libs.versions]
+"1.8" = "2024-06-15"
+"1.7" = "2024-03-10"
+"1.6" = "2023-09-01"
+"1.5" = "2023-06-15"
+
+# =============================================================================
+# OTHER RUNTIME COMPONENTS
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# libatomic (GCC)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libatomic"
+full_name = "GCC Atomic Operations Library"
+vendor = "GNU Project"
+component_of = "GCC"
+url = "https://gcc.gnu.org/wiki/Atomic"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw"]
+description = "Provides runtime support for atomic operations that cannot be implemented as inline instructions on the target architecture. For example, 16-byte atomic operations on x86_64 (without -mcx16), or any atomic operation wider than the target's native word size. The compiler automatically emits calls to __atomic_* functions when inline atomics are not available."
+provides = ["__atomic_load", "__atomic_store", "__atomic_exchange", "__atomic_compare_exchange", "__atomic_fetch_add"]
+notes = "Typically needed on 32-bit targets for 64-bit atomics, or when using std::atomic<T> with T larger than a pointer. Link with -latomic. LLVM/clang also falls back to libatomic or its own compiler-rt builtins."
+
+# -----------------------------------------------------------------------------
+# libgomp (GCC OpenMP Runtime)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libgomp"
+full_name = "GNU OpenMP Runtime Library"
+vendor = "GNU Project"
+component_of = "GCC"
+url = "https://gcc.gnu.org/onlinedocs/libgomp/"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw", "darwin-gcc"]
+description = "GCC's implementation of the OpenMP API for shared-memory parallel programming. Provides the runtime functions behind #pragma omp parallel, #pragma omp for, and other OpenMP directives. Supports OpenMP 4.5+ offloading to accelerators (GPU via nvptx, amdgcn backends)."
+provides = ["omp_get_num_threads", "omp_set_num_threads", "omp_get_thread_num", "GOMP_parallel", "GOMP_barrier"]
+notes = "Linked automatically when compiling with -fopenmp. Supports OpenMP 5.0/5.1/5.2 features progressively across GCC versions."
+
+# -----------------------------------------------------------------------------
+# libomp (LLVM OpenMP Runtime)
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libomp"
+full_name = "LLVM OpenMP Runtime"
+vendor = "LLVM Project"
+component_of = "LLVM"
+url = "https://openmp.llvm.org/"
+source = "https://github.com/llvm/llvm-project/tree/main/openmp"
+license = "Apache-2.0 WITH LLVM-exception"
+platforms = ["linux", "darwin", "windows", "freebsd", "android"]
+description = "LLVM's OpenMP runtime library, originally derived from Intel's OpenMP runtime (libiomp5). Provides runtime support for OpenMP directives compiled by Clang. Also includes offloading support for GPU targets (CUDA, AMDGPU, and generic plugin-based offloading via libomptarget)."
+provides = ["omp_get_num_threads", "omp_set_num_threads", "omp_get_thread_num", "__kmpc_fork_call", "__kmpc_barrier"]
+notes = "Linked automatically when compiling with clang -fopenmp. Provides the libomptarget sublibrary for GPU offloading. Also ships libarcher for TSan-aware OpenMP debugging."
+
+# libomp versions follow LLVM release numbering.
+
+# -----------------------------------------------------------------------------
+# libstdc++fs / std::filesystem support
+# -----------------------------------------------------------------------------
+
+[[runtime_libs]]
+name = "libstdc++fs"
+full_name = "GCC Filesystem Library"
+vendor = "GNU Project"
+component_of = "GCC/libstdc++"
+url = "https://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html"
+license = "GPL-3.0 WITH GCC-exception-3.1"
+platforms = ["linux", "freebsd", "netbsd", "windows-mingw"]
+description = "A separate static library providing the std::filesystem implementation for libstdc++. In older GCC versions (8.x, 9.x), std::filesystem was not part of the main libstdc++.so and required explicit linking with -lstdc++fs. Also provided std::experimental::filesystem for GCC 7.x."
+provides = ["std::filesystem::*", "std::experimental::filesystem::*"]
+notes = "Since GCC 10 (with sufficiently recent glibc), std::filesystem is merged into the main libstdc++.so.6 and -lstdc++fs is no longer needed. For GCC 8-9, -lstdc++fs is still required. libc++ includes filesystem support in the main library (no separate linking needed since LLVM 9)."

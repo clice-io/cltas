@@ -1,0 +1,169 @@
+[meta]
+name = "Intel oneAPI DPC++/C++ Compiler"
+vendor = "Intel"
+url = "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html"
+description = "Intel oneAPI DPC++/C++ Compiler (icx/icpx/dpcpp) is a next-generation compiler based on LLVM. It replaces the classic Intel C++ Compiler (icc/icpc). Supports SYCL, OpenMP offload, and targets Intel CPUs, GPUs, and FPGAs."
+
+# Intel oneAPI Toolkit releases (containing icx/icpx)
+
+[[releases]]
+version = "2025.1"
+date = "2025-03"
+
+[[releases]]
+version = "2025.0"
+date = "2024-10"
+
+[[releases]]
+version = "2024.2"
+date = "2024-07"
+
+[[releases]]
+version = "2024.1"
+date = "2024-04"
+
+[[releases]]
+version = "2024.0"
+date = "2023-11"
+
+[[releases]]
+version = "2023.2"
+date = "2023-07"
+
+[[releases]]
+version = "2023.1"
+date = "2023-04"
+
+[[releases]]
+version = "2023.0"
+date = "2022-12"
+
+[[releases]]
+version = "2022.2"
+date = "2022-08"
+
+[[releases]]
+version = "2022.1"
+date = "2022-03"
+
+[[releases]]
+version = "2022.0"
+date = "2021-12"
+
+[[releases]]
+version = "2021.4"
+date = "2021-12"
+
+[[releases]]
+version = "2021.3"
+date = "2021-06"
+
+[[releases]]
+version = "2021.2"
+date = "2021-03"
+
+[[releases]]
+version = "2021.1"
+date = "2020-12"
+
+# Classic Intel C++ Compiler (icc/icpc) - final releases
+
+[[releases]]
+version = "2021.10.0"
+date = "2023-10"
+note = "classic icc, final version"
+
+[[releases]]
+version = "2021.9.0"
+date = "2023-04"
+note = "classic icc"
+
+[[releases]]
+version = "2021.8.0"
+date = "2022-12"
+note = "classic icc"
+
+[[releases]]
+version = "2021.7.0"
+date = "2022-08"
+note = "classic icc"
+
+[[releases]]
+version = "2021.6.0"
+date = "2022-03"
+note = "classic icc"
+
+[[releases]]
+version = "2021.5.0"
+date = "2021-12"
+note = "classic icc"
+
+[[releases]]
+version = "2021.4.0"
+date = "2021-09"
+note = "classic icc"
+
+[[releases]]
+version = "2021.3.0"
+date = "2021-06"
+note = "classic icc"
+
+[[releases]]
+version = "2021.2.0"
+date = "2021-03"
+note = "classic icc"
+
+[[releases]]
+version = "2021.1.2"
+date = "2020-12"
+note = "classic icc"
+
+[[releases]]
+version = "19.1"
+date = "2019-12"
+note = "classic icc (Intel Parallel Studio XE 2020)"
+
+[[releases]]
+version = "19.0"
+date = "2018-10"
+note = "classic icc (Intel Parallel Studio XE 2019)"
+
+[[releases]]
+version = "18.0"
+date = "2017-10"
+note = "classic icc (Intel Parallel Studio XE 2018)"
+
+[[releases]]
+version = "17.0"
+date = "2016-09"
+note = "classic icc (Intel Parallel Studio XE 2017)"
+
+[[releases]]
+version = "16.0"
+date = "2015-08"
+note = "classic icc (Intel Parallel Studio XE 2016)"
+
+[[releases]]
+version = "15.0"
+date = "2014-07"
+note = "classic icc (Intel Parallel Studio XE 2015)"
+
+[[releases]]
+version = "14.0"
+date = "2013-09"
+note = "classic icc (Intel Composer XE 2013 SP1)"
+
+[[releases]]
+version = "13.0"
+date = "2012-09"
+note = "classic icc (Intel Composer XE 2013)"
+
+[[releases]]
+version = "12.1"
+date = "2011-11"
+note = "classic icc (Intel Composer XE 2011 Update)"
+
+[[releases]]
+version = "12.0"
+date = "2010-11"
+note = "classic icc (Intel Composer XE 2011)"

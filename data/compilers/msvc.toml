@@ -1,0 +1,263 @@
+[meta]
+name = "Microsoft Visual C++"
+vendor = "Microsoft"
+url = "https://visualstudio.microsoft.com/"
+description = "Microsoft Visual C++ (MSVC) is the C/C++ compiler included with Visual Studio and the Build Tools. The compiler executable is cl.exe. _MSC_VER is the primary version macro."
+
+# Visual Studio 2022 (v17.x) — MSVC toolset 14.3x-14.4x
+
+[[releases]]
+version = "14.42"
+date = "2024-11"
+_MSC_VER = "1942"
+visual_studio = "2022 17.12"
+
+[[releases]]
+version = "14.41"
+date = "2024-08"
+_MSC_VER = "1941"
+visual_studio = "2022 17.11"
+
+[[releases]]
+version = "14.40"
+date = "2024-05"
+_MSC_VER = "1940"
+visual_studio = "2022 17.10"
+
+[[releases]]
+version = "14.39"
+date = "2024-02"
+_MSC_VER = "1939"
+visual_studio = "2022 17.9"
+
+[[releases]]
+version = "14.38"
+date = "2023-11"
+_MSC_VER = "1938"
+visual_studio = "2022 17.8"
+
+[[releases]]
+version = "14.37"
+date = "2023-08"
+_MSC_VER = "1937"
+visual_studio = "2022 17.7"
+
+[[releases]]
+version = "14.36"
+date = "2023-05"
+_MSC_VER = "1936"
+visual_studio = "2022 17.6"
+
+[[releases]]
+version = "14.35"
+date = "2023-02"
+_MSC_VER = "1935"
+visual_studio = "2022 17.5"
+
+[[releases]]
+version = "14.34"
+date = "2022-11"
+_MSC_VER = "1934"
+visual_studio = "2022 17.4"
+
+[[releases]]
+version = "14.33"
+date = "2022-08"
+_MSC_VER = "1933"
+visual_studio = "2022 17.3"
+
+[[releases]]
+version = "14.32"
+date = "2022-05"
+_MSC_VER = "1932"
+visual_studio = "2022 17.2"
+
+[[releases]]
+version = "14.31"
+date = "2022-02"
+_MSC_VER = "1931"
+visual_studio = "2022 17.1"
+
+[[releases]]
+version = "14.30"
+date = "2021-11"
+_MSC_VER = "1930"
+visual_studio = "2022 17.0"
+
+# Visual Studio 2019 (v16.x) — MSVC toolset 14.2x
+
+[[releases]]
+version = "14.29"
+date = "2021-05"
+_MSC_VER = "1929"
+visual_studio = "2019 16.10-16.11"
+
+[[releases]]
+version = "14.28"
+date = "2020-11"
+_MSC_VER = "1928"
+visual_studio = "2019 16.8-16.9"
+
+[[releases]]
+version = "14.27"
+date = "2020-08"
+_MSC_VER = "1927"
+visual_studio = "2019 16.7"
+
+[[releases]]
+version = "14.26"
+date = "2020-05"
+_MSC_VER = "1926"
+visual_studio = "2019 16.6"
+
+[[releases]]
+version = "14.25"
+date = "2020-03"
+_MSC_VER = "1925"
+visual_studio = "2019 16.5"
+
+[[releases]]
+version = "14.24"
+date = "2019-12"
+_MSC_VER = "1924"
+visual_studio = "2019 16.4"
+
+[[releases]]
+version = "14.23"
+date = "2019-09"
+_MSC_VER = "1923"
+visual_studio = "2019 16.3"
+
+[[releases]]
+version = "14.22"
+date = "2019-07"
+_MSC_VER = "1922"
+visual_studio = "2019 16.2"
+
+[[releases]]
+version = "14.21"
+date = "2019-05"
+_MSC_VER = "1921"
+visual_studio = "2019 16.1"
+
+[[releases]]
+version = "14.20"
+date = "2019-04"
+_MSC_VER = "1920"
+visual_studio = "2019 16.0"
+
+# Visual Studio 2017 (v15.x) — MSVC toolset 14.1x
+
+[[releases]]
+version = "14.16"
+date = "2018-11"
+_MSC_VER = "1916"
+visual_studio = "2017 15.9"
+
+[[releases]]
+version = "14.15"
+date = "2018-08"
+_MSC_VER = "1915"
+visual_studio = "2017 15.8"
+
+[[releases]]
+version = "14.14"
+date = "2018-05"
+_MSC_VER = "1914"
+visual_studio = "2017 15.7"
+
+[[releases]]
+version = "14.13"
+date = "2018-03"
+_MSC_VER = "1913"
+visual_studio = "2017 15.6"
+
+[[releases]]
+version = "14.12"
+date = "2017-12"
+_MSC_VER = "1912"
+visual_studio = "2017 15.5"
+
+[[releases]]
+version = "14.11"
+date = "2017-08"
+_MSC_VER = "1911"
+visual_studio = "2017 15.3"
+
+[[releases]]
+version = "14.10"
+date = "2017-03"
+_MSC_VER = "1910"
+visual_studio = "2017 15.0"
+
+# Visual Studio 2015 — MSVC toolset 14.0
+
+[[releases]]
+version = "14.00"
+date = "2015-07"
+_MSC_VER = "1900"
+visual_studio = "2015 14.0"
+
+# Visual Studio 2013
+
+[[releases]]
+version = "12.00"
+date = "2013-10"
+_MSC_VER = "1800"
+visual_studio = "2013 12.0"
+
+# Visual Studio 2012
+
+[[releases]]
+version = "11.00"
+date = "2012-09"
+_MSC_VER = "1700"
+visual_studio = "2012 11.0"
+
+# Visual Studio 2010
+
+[[releases]]
+version = "10.00"
+date = "2010-04"
+_MSC_VER = "1600"
+visual_studio = "2010 10.0"
+
+# Visual Studio 2008
+
+[[releases]]
+version = "9.00"
+date = "2007-11"
+_MSC_VER = "1500"
+visual_studio = "2008 9.0"
+
+# Visual Studio 2005
+
+[[releases]]
+version = "8.00"
+date = "2005-11"
+_MSC_VER = "1400"
+visual_studio = "2005 8.0"
+
+# Visual Studio .NET 2003
+
+[[releases]]
+version = "7.10"
+date = "2003-04"
+_MSC_VER = "1310"
+visual_studio = ".NET 2003 7.1"
+
+# Visual Studio .NET 2002
+
+[[releases]]
+version = "7.00"
+date = "2002-02"
+_MSC_VER = "1300"
+visual_studio = ".NET 2002 7.0"
+
+# Visual C++ 6.0
+
+[[releases]]
+version = "6.00"
+date = "1998-06"
+_MSC_VER = "1200"
+visual_studio = "6.0"

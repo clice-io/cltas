@@ -1,0 +1,2368 @@
+[meta]
+name = "LLVM/Clang"
+vendor = "LLVM Project"
+url = "https://github.com/llvm/llvm-project"
+description = "LLVM compiler infrastructure and Clang C/C++/Objective-C frontend"
+
+[[releases]]
+version = "7.1.0"
+date = "2019-05-11"
+tag = "llvmorg-7.1.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "8.0.1-rc1"
+date = "2019-05-22"
+tag = "llvmorg-8.0.1-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "linux",
+]
+
+[[releases]]
+version = "8.0.1-rc2"
+date = "2019-06-13"
+tag = "llvmorg-8.0.1-rc2"
+
+[[releases]]
+version = "8.0.1-rc4"
+date = "2019-07-16"
+tag = "llvmorg-8.0.1-rc4"
+
+[[releases]]
+version = "8.0.1"
+date = "2019-07-19"
+tag = "llvmorg-8.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "9.0.1-rc1"
+date = "2019-11-23"
+tag = "llvmorg-9.0.1-rc1"
+platforms = [
+    "aarch64",
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "9.0.1-rc2"
+date = "2019-12-06"
+tag = "llvmorg-9.0.1-rc2"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "x86_64",
+]
+
+[[releases]]
+version = "9.0.1-rc3"
+date = "2019-12-14"
+tag = "llvmorg-9.0.1-rc3"
+
+[[releases]]
+version = "9.0.1"
+date = "2019-12-19"
+tag = "llvmorg-9.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.0-rc1"
+date = "2020-02-03"
+tag = "llvmorg-10.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.0-rc2"
+date = "2020-02-13"
+tag = "llvmorg-10.0.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.0-rc3"
+date = "2020-03-04"
+tag = "llvmorg-10.0.0-rc3"
+platforms = [
+    "amd64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.0-rc4"
+date = "2020-03-13"
+tag = "llvmorg-10.0.0-rc4"
+platforms = [
+    "amd64",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.0-rc5"
+date = "2020-03-19"
+tag = "llvmorg-10.0.0-rc5"
+
+[[releases]]
+version = "10.0.0-rc6"
+date = "2020-03-23"
+tag = "llvmorg-10.0.0-rc6"
+
+[[releases]]
+version = "10.0.0"
+date = "2020-03-24"
+tag = "llvmorg-10.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.1-rc1"
+date = "2020-05-20"
+tag = "llvmorg-10.0.1-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "10.0.1-rc2"
+date = "2020-06-26"
+tag = "llvmorg-10.0.1-rc2"
+
+[[releases]]
+version = "10.0.1-rc4"
+date = "2020-07-13"
+tag = "llvmorg-10.0.1-rc4"
+
+[[releases]]
+version = "10.0.1"
+date = "2020-07-22"
+tag = "llvmorg-10.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0-rc1"
+date = "2020-07-28"
+tag = "llvmorg-11.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0-rc2"
+date = "2020-08-20"
+tag = "llvmorg-11.0.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0-rc3"
+date = "2020-09-22"
+tag = "llvmorg-11.0.0-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0-rc4"
+date = "2020-09-28"
+tag = "llvmorg-11.0.0-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0-rc5"
+date = "2020-09-30"
+tag = "llvmorg-11.0.0-rc5"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0-rc6"
+date = "2020-10-07"
+tag = "llvmorg-11.0.0-rc6"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.0"
+date = "2020-10-12"
+tag = "llvmorg-11.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.1-rc1"
+date = "2020-11-26"
+tag = "llvmorg-11.0.1-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.0.1-rc2"
+date = "2020-12-19"
+tag = "llvmorg-11.0.1-rc2"
+platforms = [
+    "amd64",
+    "freebsd",
+    "i386",
+    "win32",
+    "win64",
+]
+
+[[releases]]
+version = "11.0.1"
+date = "2021-01-06"
+tag = "llvmorg-11.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.1.0-rc1"
+date = "2021-01-13"
+tag = "llvmorg-11.1.0-rc1"
+
+[[releases]]
+version = "11.1.0-rc2"
+date = "2021-01-22"
+tag = "llvmorg-11.1.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.0-rc1"
+date = "2021-01-28"
+tag = "llvmorg-12.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.1.0-rc3"
+date = "2021-02-05"
+tag = "llvmorg-11.1.0-rc3"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "11.1.0"
+date = "2021-02-17"
+tag = "llvmorg-11.1.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.0-rc2"
+date = "2021-02-24"
+tag = "llvmorg-12.0.0-rc2"
+platforms = [
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.0-rc3"
+date = "2021-03-10"
+tag = "llvmorg-12.0.0-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.0-rc4"
+date = "2021-04-01"
+tag = "llvmorg-12.0.0-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.0-rc5"
+date = "2021-04-07"
+tag = "llvmorg-12.0.0-rc5"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.0"
+date = "2021-04-14"
+tag = "llvmorg-12.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.1-rc1"
+date = "2021-05-26"
+tag = "llvmorg-12.0.1-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.1-rc2"
+date = "2021-06-17"
+tag = "llvmorg-12.0.1-rc2"
+platforms = [
+    "amd64",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.1-rc3"
+date = "2021-06-26"
+tag = "llvmorg-12.0.1-rc3"
+platforms = [
+    "amd64",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.1-rc4"
+date = "2021-07-02"
+tag = "llvmorg-12.0.1-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "12.0.1"
+date = "2021-07-09"
+tag = "llvmorg-12.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.0-rc1"
+date = "2021-08-04"
+tag = "llvmorg-13.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.0-rc2"
+date = "2021-08-27"
+tag = "llvmorg-13.0.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.0-rc3"
+date = "2021-09-15"
+tag = "llvmorg-13.0.0-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.0-rc4"
+date = "2021-09-25"
+tag = "llvmorg-13.0.0-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.0"
+date = "2021-10-01"
+tag = "llvmorg-13.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.1-rc1"
+date = "2021-11-30"
+tag = "llvmorg-13.0.1-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.1-rc2"
+date = "2022-01-13"
+tag = "llvmorg-13.0.1-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.1-rc3"
+date = "2022-01-21"
+tag = "llvmorg-13.0.1-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "13.0.1"
+date = "2022-02-02"
+tag = "llvmorg-13.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.0-rc1"
+date = "2022-02-09"
+tag = "llvmorg-14.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.0-rc2"
+date = "2022-03-02"
+tag = "llvmorg-14.0.0-rc2"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.0-rc4"
+date = "2022-03-12"
+tag = "llvmorg-14.0.0-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.0"
+date = "2022-03-23"
+tag = "llvmorg-14.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "i386",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.1"
+date = "2022-04-13"
+tag = "llvmorg-14.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.2"
+date = "2022-04-27"
+tag = "llvmorg-14.0.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "darwin",
+    "freebsd",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.3"
+date = "2022-04-29"
+tag = "llvmorg-14.0.3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.4"
+date = "2022-05-25"
+tag = "llvmorg-14.0.4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.5"
+date = "2022-06-11"
+tag = "llvmorg-14.0.5"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "14.0.6"
+date = "2022-06-25"
+tag = "llvmorg-14.0.6"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.0-rc1"
+date = "2022-07-30"
+tag = "llvmorg-15.0.0-rc1"
+platforms = [
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.0-rc2"
+date = "2022-08-09"
+tag = "llvmorg-15.0.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.0-rc3"
+date = "2022-08-25"
+tag = "llvmorg-15.0.0-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.0"
+date = "2022-09-06"
+tag = "llvmorg-15.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.1"
+date = "2022-09-20"
+tag = "llvmorg-15.0.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.2"
+date = "2022-10-04"
+tag = "llvmorg-15.0.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "darwin",
+    "linux",
+    "rhel86",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.3"
+date = "2022-10-18"
+tag = "llvmorg-15.0.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.4"
+date = "2022-11-02"
+tag = "llvmorg-15.0.4"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.5"
+date = "2022-11-16"
+tag = "llvmorg-15.0.5"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.6"
+date = "2022-11-29"
+tag = "llvmorg-15.0.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "15.0.7"
+date = "2023-01-12"
+tag = "llvmorg-15.0.7"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "x86_64",
+]
+
+[[releases]]
+version = "16.0.0-rc1"
+date = "2023-01-28"
+tag = "llvmorg-16.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "woa64",
+]
+
+[[releases]]
+version = "16.0.0-rc2"
+date = "2023-02-08"
+tag = "llvmorg-16.0.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "16.0.0-rc3"
+date = "2023-02-22"
+tag = "llvmorg-16.0.0-rc3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "16.0.0-rc4"
+date = "2023-03-11"
+tag = "llvmorg-16.0.0-rc4"
+platforms = [
+    "amd64",
+    "arm64",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+]
+
+[[releases]]
+version = "16.0.0"
+date = "2023-03-17"
+tag = "llvmorg-16.0.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "16.0.1"
+date = "2023-04-05"
+tag = "llvmorg-16.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "16.0.2"
+date = "2023-04-19"
+tag = "llvmorg-16.0.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "16.0.3"
+date = "2023-05-03"
+tag = "llvmorg-16.0.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "16.0.4"
+date = "2023-05-17"
+tag = "llvmorg-16.0.4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "freebsd",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "16.0.5"
+date = "2023-06-02"
+tag = "llvmorg-16.0.5"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "darwin",
+    "freebsd",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "16.0.6"
+date = "2023-06-14"
+tag = "llvmorg-16.0.6"
+platforms = [
+    "aarch64",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.0-rc1"
+date = "2023-07-29"
+tag = "llvmorg-17.0.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.0-rc2"
+date = "2023-08-08"
+tag = "llvmorg-17.0.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.0-rc3"
+date = "2023-08-22"
+tag = "llvmorg-17.0.0-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.0-rc4"
+date = "2023-09-05"
+tag = "llvmorg-17.0.0-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.1"
+date = "2023-09-19"
+tag = "llvmorg-17.0.1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.2"
+date = "2023-10-03"
+tag = "llvmorg-17.0.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "17.0.3"
+date = "2023-10-17"
+tag = "llvmorg-17.0.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "17.0.4"
+date = "2023-10-31"
+tag = "llvmorg-17.0.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "17.0.5"
+date = "2023-11-14"
+tag = "llvmorg-17.0.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "17.0.6"
+date = "2023-11-28"
+tag = "llvmorg-17.0.6"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "armv7a",
+    "darwin",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.0-rc1"
+date = "2024-01-30"
+tag = "llvmorg-18.1.0-rc1"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "18.1.0-rc2"
+date = "2024-02-07"
+tag = "llvmorg-18.1.0-rc2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "18.1.0-rc3"
+date = "2024-02-21"
+tag = "llvmorg-18.1.0-rc3"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.0-rc4"
+date = "2024-02-27"
+tag = "llvmorg-18.1.0-rc4"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.0"
+date = "2024-03-06"
+tag = "llvmorg-18.1.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.1"
+date = "2024-03-08"
+tag = "llvmorg-18.1.1"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.2"
+date = "2024-03-20"
+tag = "llvmorg-18.1.2"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.3"
+date = "2024-04-04"
+tag = "llvmorg-18.1.3"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "woa64",
+]
+
+[[releases]]
+version = "18.1.4"
+date = "2024-04-17"
+tag = "llvmorg-18.1.4"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.5"
+date = "2024-05-02"
+tag = "llvmorg-18.1.5"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.6"
+date = "2024-05-18"
+tag = "llvmorg-18.1.6"
+platforms = [
+    "aarch64",
+    "amd64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.7"
+date = "2024-06-06"
+tag = "llvmorg-18.1.7"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "ubuntu",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "18.1.8"
+date = "2024-06-19"
+tag = "llvmorg-18.1.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "ubuntu",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.0-rc1"
+date = "2024-07-26"
+tag = "llvmorg-19.1.0-rc1"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+]
+
+[[releases]]
+version = "19.1.0-rc2"
+date = "2024-08-05"
+tag = "llvmorg-19.1.0-rc2"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+    "windows",
+]
+
+[[releases]]
+version = "19.1.0-rc3"
+date = "2024-08-20"
+tag = "llvmorg-19.1.0-rc3"
+platforms = [
+    "arm64",
+    "linux",
+    "macos",
+]
+
+[[releases]]
+version = "19.1.0-rc4"
+date = "2024-09-03"
+tag = "llvmorg-19.1.0-rc4"
+platforms = [
+    "linux",
+    "windows",
+]
+
+[[releases]]
+version = "19.1.0"
+date = "2024-09-17"
+tag = "llvmorg-19.1.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.1"
+date = "2024-10-01"
+tag = "llvmorg-19.1.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.2"
+date = "2024-10-15"
+tag = "llvmorg-19.1.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.3"
+date = "2024-10-30"
+tag = "llvmorg-19.1.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.4"
+date = "2024-11-19"
+tag = "llvmorg-19.1.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.5"
+date = "2024-12-03"
+tag = "llvmorg-19.1.5"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.6"
+date = "2024-12-17"
+tag = "llvmorg-19.1.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "19.1.7"
+date = "2025-01-14"
+tag = "llvmorg-19.1.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.0-rc1"
+date = "2025-02-02"
+tag = "llvmorg-20.1.0-rc1"
+platforms = [
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.0-rc2"
+date = "2025-02-12"
+tag = "llvmorg-20.1.0-rc2"
+platforms = [
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.0-rc3"
+date = "2025-02-26"
+tag = "llvmorg-20.1.0-rc3"
+platforms = [
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.0"
+date = "2025-03-04"
+tag = "llvmorg-20.1.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.1"
+date = "2025-03-18"
+tag = "llvmorg-20.1.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.2"
+date = "2025-04-02"
+tag = "llvmorg-20.1.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.3"
+date = "2025-04-16"
+tag = "llvmorg-20.1.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.4"
+date = "2025-04-30"
+tag = "llvmorg-20.1.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.5"
+date = "2025-05-14"
+tag = "llvmorg-20.1.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.6"
+date = "2025-05-28"
+tag = "llvmorg-20.1.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.7"
+date = "2025-06-13"
+tag = "llvmorg-20.1.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "20.1.8"
+date = "2025-07-09"
+tag = "llvmorg-20.1.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.0-rc1"
+date = "2025-07-17"
+tag = "llvmorg-21.1.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.0-rc2"
+date = "2025-07-29"
+tag = "llvmorg-21.1.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "windows",
+    "woa64",
+]
+
+[[releases]]
+version = "21.1.0-rc3"
+date = "2025-08-12"
+tag = "llvmorg-21.1.0-rc3"
+platforms = [
+    "aarch64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.0"
+date = "2025-08-26"
+tag = "llvmorg-21.1.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.1"
+date = "2025-09-10"
+tag = "llvmorg-21.1.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.2"
+date = "2025-09-23"
+tag = "llvmorg-21.1.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.3"
+date = "2025-10-07"
+tag = "llvmorg-21.1.3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.4"
+date = "2025-10-21"
+tag = "llvmorg-21.1.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.5"
+date = "2025-11-04"
+tag = "llvmorg-21.1.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.6"
+date = "2025-11-18"
+tag = "llvmorg-21.1.6"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.7"
+date = "2025-12-02"
+tag = "llvmorg-21.1.7"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "21.1.8"
+date = "2025-12-16"
+tag = "llvmorg-21.1.8"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win32",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "22.1.0-rc1"
+date = "2026-01-16"
+tag = "llvmorg-22.1.0-rc1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "22.1.0-rc2"
+date = "2026-01-27"
+tag = "llvmorg-22.1.0-rc2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "22.1.0-rc3"
+date = "2026-02-10"
+tag = "llvmorg-22.1.0-rc3"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "22.1.0"
+date = "2026-02-24"
+tag = "llvmorg-22.1.0"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "22.1.1"
+date = "2026-03-11"
+tag = "llvmorg-22.1.1"
+platforms = [
+    "aarch64",
+    "arm64",
+    "armv7a",
+    "linux",
+    "macos",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]
+
+[[releases]]
+version = "22.1.2"
+date = "2026-03-24"
+tag = "llvmorg-22.1.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+    "macos",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]

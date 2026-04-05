@@ -1,0 +1,469 @@
+# C++ Compilation Target Platforms (OS + Environment combinations)
+# Sources: LLVM target triple documentation, GCC documentation, cross-compilation references
+#
+# Target triple format: <arch>-<vendor>-<os>-<environment>
+
+# --- Linux ---
+
+[[platforms]]
+os = "linux"
+description = "Linux-based systems (kernel 2.6+)"
+environments = ["gnu", "gnueabi", "gnueabihf", "gnuabi64", "gnux32", "musl", "musleabi", "musleabihf", "muslabi64", "android", "androideabi"]
+object_format = "elf"
+common_vendors = ["unknown", "pc", "linux"]
+notes = "Most common server/desktop/embedded target. gnu = glibc, musl = musl-libc."
+
+[[platforms]]
+os = "windows"
+description = "Microsoft Windows (Win32/Win64 API)"
+environments = ["msvc", "gnu", "gnullvm"]
+object_format = "coff/pe"
+common_vendors = ["pc"]
+notes = "msvc = Microsoft Visual C++ ABI/CRT, gnu = MinGW/GCC ABI with MSVCRT, gnullvm = MinGW with LLVM tools."
+
+[[platforms]]
+os = "darwin"
+description = "Apple macOS / Mac OS X"
+environments = [""]
+object_format = "macho"
+common_vendors = ["apple"]
+notes = "Usually specified as <arch>-apple-darwin or <arch>-apple-macosx<version>."
+
+[[platforms]]
+os = "ios"
+description = "Apple iOS"
+environments = ["", "simulator", "macabi"]
+object_format = "macho"
+common_vendors = ["apple"]
+notes = "macabi = Mac Catalyst (iOS apps on macOS). Simulator targets use x86_64 or arm64."
+
+[[platforms]]
+os = "tvos"
+description = "Apple tvOS"
+environments = ["", "simulator"]
+object_format = "macho"
+common_vendors = ["apple"]
+notes = "Apple TV platform."
+
+[[platforms]]
+os = "watchos"
+description = "Apple watchOS"
+environments = ["", "simulator"]
+object_format = "macho"
+common_vendors = ["apple"]
+notes = "Apple Watch platform. Uses aarch64_32 (ILP32) for device."
+
+[[platforms]]
+os = "visionos"
+description = "Apple visionOS (xrOS)"
+environments = ["", "simulator"]
+object_format = "macho"
+common_vendors = ["apple"]
+notes = "Apple Vision Pro platform."
+
+[[platforms]]
+os = "driverkit"
+description = "Apple DriverKit (kernel extension replacement)"
+environments = [""]
+object_format = "macho"
+common_vendors = ["apple"]
+notes = "System extension framework for macOS/iOS."
+
+# --- BSD family ---
+
+[[platforms]]
+os = "freebsd"
+description = "FreeBSD"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Version may be appended, e.g. freebsd13."
+
+[[platforms]]
+os = "netbsd"
+description = "NetBSD"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Portable BSD variant."
+
+[[platforms]]
+os = "openbsd"
+description = "OpenBSD"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Security-focused BSD variant."
+
+[[platforms]]
+os = "dragonfly"
+description = "DragonFly BSD"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Fork of FreeBSD focused on SMP performance."
+
+# --- Solaris / illumos ---
+
+[[platforms]]
+os = "solaris"
+description = "Oracle Solaris / illumos"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown", "sun", "pc"]
+notes = "Often specified as solaris2.11 or solaris2.10."
+
+[[platforms]]
+os = "illumos"
+description = "illumos (OpenSolaris derivatives)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Community fork of OpenSolaris."
+
+# --- Android ---
+
+[[platforms]]
+os = "android"
+description = "Android (Linux-based, Bionic libc)"
+environments = ["", "androideabi"]
+object_format = "elf"
+common_vendors = ["linux"]
+notes = "Uses Bionic libc, not glibc. API level is often appended (e.g. android21). Often represented as linux-android in triple."
+
+# --- Fuchsia ---
+
+[[platforms]]
+os = "fuchsia"
+description = "Google Fuchsia (Zircon microkernel)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Capability-based OS by Google."
+
+# --- WebAssembly runtimes ---
+
+[[platforms]]
+os = "wasi"
+description = "WebAssembly System Interface"
+environments = ["", "pthread"]
+object_format = "wasm"
+common_vendors = ["wasi", "unknown"]
+notes = "Standard POSIX-like system interface for WebAssembly. wasip1/wasip2 = preview versions."
+
+[[platforms]]
+os = "emscripten"
+description = "Emscripten (WebAssembly in browser)"
+environments = [""]
+object_format = "wasm"
+common_vendors = ["unknown"]
+notes = "Compiles C/C++ to WebAssembly for browser execution."
+
+[[platforms]]
+os = "wasip1"
+description = "WASI Preview 1"
+environments = [""]
+object_format = "wasm"
+common_vendors = ["unknown"]
+notes = "First stable WASI snapshot."
+
+[[platforms]]
+os = "wasip2"
+description = "WASI Preview 2 (Component Model)"
+environments = [""]
+object_format = "wasm"
+common_vendors = ["unknown"]
+notes = "WASI with Component Model support."
+
+# --- Bare metal / RTOS ---
+
+[[platforms]]
+os = "none"
+description = "Bare metal / no OS (freestanding)"
+environments = ["eabi", "eabihf", "elf", ""]
+object_format = "elf"
+common_vendors = ["unknown", "none"]
+notes = "No operating system. Used for embedded, firmware, bootloaders, kernels. eabihf = hard float ABI."
+
+[[platforms]]
+os = "elf"
+description = "Generic ELF target (bare metal alias)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown", "none"]
+notes = "Often used interchangeably with 'none' for bare metal targets."
+
+# --- CUDA / GPU ---
+
+[[platforms]]
+os = "cuda"
+description = "NVIDIA CUDA (GPU compute)"
+environments = [""]
+object_format = "ptx"
+common_vendors = ["nvidia"]
+notes = "Used with nvptx/nvptx64 architecture."
+
+[[platforms]]
+os = "amdhsa"
+description = "AMD HSA runtime (GPU compute, ROCm)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["amd"]
+notes = "AMD GPU compute via ROCm/HIP."
+
+[[platforms]]
+os = "amdpal"
+description = "AMD PAL (Platform Abstraction Layer)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["amd"]
+notes = "AMD GPU graphics driver pipeline."
+
+[[platforms]]
+os = "mesa3d"
+description = "Mesa 3D (open-source GPU drivers)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["amd"]
+notes = "Open-source GPU driver stack."
+
+# --- IBM ---
+
+[[platforms]]
+os = "aix"
+description = "IBM AIX"
+environments = [""]
+object_format = "xcoff"
+common_vendors = ["ibm"]
+notes = "IBM's proprietary Unix on POWER systems."
+
+[[platforms]]
+os = "zos"
+description = "IBM z/OS"
+environments = [""]
+object_format = "goff"
+common_vendors = ["ibm"]
+notes = "IBM mainframe operating system."
+
+# --- Haiku ---
+
+[[platforms]]
+os = "haiku"
+description = "Haiku OS (BeOS successor)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Open-source continuation of BeOS."
+
+# --- Hurd ---
+
+[[platforms]]
+os = "hurd"
+description = "GNU Hurd"
+environments = ["gnu"]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "GNU microkernel OS. Rare in practice."
+
+# --- RTEMS ---
+
+[[platforms]]
+os = "rtems"
+description = "RTEMS (Real-Time Executive for Multiprocessor Systems)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Open-source RTOS for embedded systems, aerospace."
+
+# --- NuttX ---
+
+[[platforms]]
+os = "nuttx"
+description = "Apache NuttX RTOS"
+environments = ["eabi", "eabihf", ""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "POSIX-compliant RTOS for deeply embedded systems."
+
+# --- ESP-IDF ---
+
+[[platforms]]
+os = "espidf"
+description = "Espressif IoT Development Framework"
+environments = [""]
+object_format = "elf"
+common_vendors = ["esp", "espressif"]
+notes = "Framework for ESP32/ESP32-S2/ESP32-S3 chips."
+
+# --- Redox ---
+
+[[platforms]]
+os = "redox"
+description = "Redox OS (Unix-like OS in Rust)"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Microkernel OS written in Rust."
+
+# --- Hermit ---
+
+[[platforms]]
+os = "hermit"
+description = "HermitCore unikernel"
+environments = [""]
+object_format = "elf"
+common_vendors = ["unknown"]
+notes = "Lightweight unikernel for HPC."
+
+# --- UEFI ---
+
+[[platforms]]
+os = "uefi"
+description = "UEFI firmware applications"
+environments = [""]
+object_format = "coff/pe"
+common_vendors = ["unknown"]
+notes = "Unified Extensible Firmware Interface applications and drivers."
+
+# --- Cygwin ---
+
+[[platforms]]
+os = "cygwin"
+description = "Cygwin (POSIX on Windows)"
+environments = [""]
+object_format = "coff/pe"
+common_vendors = ["pc"]
+notes = "POSIX-compatible environment on Windows. Distinct from MinGW."
+
+# --- MSYS2 ---
+
+[[platforms]]
+os = "windows-msys"
+description = "MSYS2 (MinGW-w64 toolchains on Windows)"
+environments = [""]
+object_format = "coff/pe"
+common_vendors = ["pc"]
+notes = "Package management and build system for Windows, provides MinGW-w64 and UCRT variants."
+
+# --- Vulkan / OpenCL (SPIR-V targets) ---
+
+[[platforms]]
+os = "vulkan"
+description = "Vulkan SPIR-V shaders"
+environments = [""]
+object_format = "spirv"
+common_vendors = ["unknown"]
+notes = "Vulkan GPU shader targets."
+
+[[platforms]]
+os = "opencl"
+description = "OpenCL compute kernels"
+environments = [""]
+object_format = "spirv"
+common_vendors = ["unknown"]
+notes = "OpenCL GPU/accelerator compute targets."
+
+
+# ===========================================================================
+# Environments reference (used in the environment field of target triples)
+# ===========================================================================
+
+[[environments]]
+name = "gnu"
+description = "GNU C Library (glibc) with GCC-compatible ABI"
+notes = "Default Linux environment on most distributions."
+
+[[environments]]
+name = "gnueabi"
+description = "GNU EABI (soft float, ARM)"
+notes = "ARM embedded ABI with software floating point."
+
+[[environments]]
+name = "gnueabihf"
+description = "GNU EABI with hardware float (ARM)"
+notes = "ARM embedded ABI with hardware FPU (VFPv3+)."
+
+[[environments]]
+name = "gnuabi64"
+description = "GNU ABI 64-bit (MIPS N64 ABI)"
+notes = "Used for MIPS64 with N64 ABI."
+
+[[environments]]
+name = "gnux32"
+description = "GNU x32 ABI (x86_64 with 32-bit pointers)"
+notes = "ILP32 on x86_64 for reduced memory usage."
+
+[[environments]]
+name = "gnullvm"
+description = "GNU/MinGW with LLVM toolchain"
+notes = "MinGW environment using LLVM instead of GCC."
+
+[[environments]]
+name = "musl"
+description = "musl libc (static-friendly, lightweight)"
+notes = "Alternative libc. Commonly used for static linking."
+
+[[environments]]
+name = "musleabi"
+description = "musl with EABI (ARM soft float)"
+notes = "ARM musl with software floating point."
+
+[[environments]]
+name = "musleabihf"
+description = "musl with EABI hard float (ARM)"
+notes = "ARM musl with hardware floating point."
+
+[[environments]]
+name = "muslabi64"
+description = "musl 64-bit ABI (MIPS N64)"
+notes = "MIPS64 musl with N64 ABI."
+
+[[environments]]
+name = "msvc"
+description = "Microsoft Visual C++ runtime and ABI"
+notes = "Windows default. Uses MSVC CRT (ucrt/msvcrt). PE/COFF object format."
+
+[[environments]]
+name = "android"
+description = "Android Bionic libc"
+notes = "Android NDK environment. API level appended (e.g. android21)."
+
+[[environments]]
+name = "androideabi"
+description = "Android EABI (32-bit ARM)"
+notes = "Android NDK for 32-bit ARM targets."
+
+[[environments]]
+name = "eabi"
+description = "Embedded ABI (bare metal, soft float)"
+notes = "ARM bare metal with software floating point."
+
+[[environments]]
+name = "eabihf"
+description = "Embedded ABI with hardware float (bare metal)"
+notes = "ARM bare metal with hardware FPU."
+
+[[environments]]
+name = "macabi"
+description = "Mac Catalyst (iOS apps on macOS)"
+notes = "Allows running iOS apps natively on macOS."
+
+[[environments]]
+name = "simulator"
+description = "Apple platform simulator"
+notes = "Used for iOS/tvOS/watchOS simulator builds."
+
+[[environments]]
+name = "ohos"
+description = "OpenHarmony OS"
+notes = "Huawei's open-source OS environment."
+
+[[environments]]
+name = "uclibc"
+description = "uClibc (micro C library)"
+notes = "Lightweight C library for embedded Linux."
+
+[[environments]]
+name = "newlib"
+description = "Newlib C library"
+notes = "C library for embedded systems (Red Hat)."

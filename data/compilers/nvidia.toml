@@ -1,0 +1,445 @@
+[meta]
+name = "NVIDIA CUDA / HPC SDK Compilers"
+vendor = "NVIDIA"
+url = "https://developer.nvidia.com/cuda-toolkit-archive"
+description = "NVIDIA provides nvcc (CUDA C++ compiler) as part of the CUDA Toolkit, and nvc++ (C++ compiler with GPU offload via stdpar/OpenACC/OpenMP) as part of the NVIDIA HPC SDK (formerly PGI)."
+
+# CUDA Toolkit releases (nvcc)
+
+[[releases]]
+version = "cuda-12.8.1"
+date = "2025-02"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.8.0"
+date = "2025-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.6.3"
+date = "2024-11"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.6.2"
+date = "2024-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.6.1"
+date = "2024-08"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.6.0"
+date = "2024-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.5.1"
+date = "2024-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.5.0"
+date = "2024-05"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.4.1"
+date = "2024-03"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.4.0"
+date = "2024-02"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.3.2"
+date = "2024-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.3.1"
+date = "2023-11"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.3.0"
+date = "2023-10"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.2.2"
+date = "2023-08"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.2.1"
+date = "2023-07"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.2.0"
+date = "2023-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.1.1"
+date = "2023-04"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.1.0"
+date = "2023-02"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.0.1"
+date = "2023-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-12.0.0"
+date = "2022-12"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.8.0"
+date = "2022-10"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.7.1"
+date = "2022-07"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.7.0"
+date = "2022-05"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.6.2"
+date = "2022-03"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.6.1"
+date = "2022-02"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.6.0"
+date = "2022-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.5.2"
+date = "2022-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.5.1"
+date = "2021-11"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.5.0"
+date = "2021-10"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.4.4"
+date = "2022-01"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.4.3"
+date = "2021-10"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.4.2"
+date = "2021-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.4.1"
+date = "2021-07"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.4.0"
+date = "2021-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.3.1"
+date = "2021-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.3.0"
+date = "2021-04"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.2.2"
+date = "2021-03"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.2.1"
+date = "2021-02"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.2.0"
+date = "2020-12"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.1.1"
+date = "2020-10"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.1.0"
+date = "2020-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.0.3"
+date = "2020-08"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.0.2"
+date = "2020-07"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-11.0.1"
+date = "2020-06"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-10.2"
+date = "2019-11"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-10.1"
+date = "2019-02"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-10.0"
+date = "2018-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-9.2"
+date = "2018-05"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-9.1"
+date = "2017-12"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-9.0"
+date = "2017-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-8.0"
+date = "2016-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-7.5"
+date = "2015-09"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-7.0"
+date = "2015-03"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-6.5"
+date = "2014-08"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-6.0"
+date = "2014-04"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-5.5"
+date = "2013-07"
+compiler = "nvcc"
+
+[[releases]]
+version = "cuda-5.0"
+date = "2012-10"
+compiler = "nvcc"
+
+# NVIDIA HPC SDK releases (nvc++)
+
+[[releases]]
+version = "hpc-sdk-25.1"
+date = "2025-01"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-24.11"
+date = "2024-11"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-24.9"
+date = "2024-09"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-24.7"
+date = "2024-07"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-24.5"
+date = "2024-05"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-24.3"
+date = "2024-03"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-24.1"
+date = "2024-01"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-23.11"
+date = "2023-11"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-23.9"
+date = "2023-09"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-23.7"
+date = "2023-07"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-23.5"
+date = "2023-05"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-23.3"
+date = "2023-03"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-23.1"
+date = "2023-01"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.11"
+date = "2022-11"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.9"
+date = "2022-09"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.7"
+date = "2022-07"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.5"
+date = "2022-05"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.3"
+date = "2022-03"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.2"
+date = "2022-02"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-22.1"
+date = "2022-01"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.11"
+date = "2021-11"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.9"
+date = "2021-09"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.7"
+date = "2021-07"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.5"
+date = "2021-05"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.3"
+date = "2021-03"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.2"
+date = "2021-02"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-21.1"
+date = "2021-01"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-20.11"
+date = "2020-11"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-20.9"
+date = "2020-09"
+compiler = "nvc++"
+
+[[releases]]
+version = "hpc-sdk-20.7"
+date = "2020-07"
+compiler = "nvc++"
+note = "First NVIDIA HPC SDK release (replacing PGI)"

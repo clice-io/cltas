@@ -1,0 +1,664 @@
+# C++ Compilation Target Architectures
+# Sources: clang --print-targets, LLVM target triple documentation, GCC documentation
+#
+# Target triple format: <arch>-<vendor>-<os>-<environment>
+
+# --- x86 family ---
+
+[[architectures]]
+name = "x86_64"
+aliases = ["amd64", "x86-64", "x64"]
+description = "64-bit x86 (EM64T / AMD64)"
+pointer_width = 64
+endian = "little"
+vendors = ["pc", "unknown", "apple"]
+common_os = ["linux", "windows", "darwin", "freebsd", "netbsd", "openbsd", "dragonfly", "solaris", "haiku"]
+common_triples = [
+    "x86_64-pc-linux-gnu",
+    "x86_64-pc-linux-musl",
+    "x86_64-unknown-linux-gnu",
+    "x86_64-unknown-linux-musl",
+    "x86_64-pc-windows-msvc",
+    "x86_64-pc-windows-gnu",
+    "x86_64-apple-darwin",
+    "x86_64-apple-macosx",
+    "x86_64-unknown-freebsd",
+    "x86_64-unknown-netbsd",
+    "x86_64-unknown-openbsd",
+]
+
+[[architectures]]
+name = "i686"
+aliases = ["i386", "i486", "i586", "x86", "ia32"]
+description = "32-bit x86 (Pentium Pro and above)"
+pointer_width = 32
+endian = "little"
+vendors = ["pc", "unknown", "apple"]
+common_os = ["linux", "windows", "freebsd"]
+common_triples = [
+    "i686-pc-linux-gnu",
+    "i686-pc-linux-musl",
+    "i686-unknown-linux-gnu",
+    "i686-pc-windows-msvc",
+    "i686-pc-windows-gnu",
+    "i686-apple-darwin",
+    "i686-unknown-freebsd",
+]
+
+# --- ARM family ---
+
+[[architectures]]
+name = "aarch64"
+aliases = ["arm64"]
+description = "64-bit ARM (ARMv8-A and later, little endian)"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown", "apple", "pc", "linux"]
+common_os = ["linux", "darwin", "windows", "ios", "android", "freebsd", "fuchsia"]
+common_triples = [
+    "aarch64-unknown-linux-gnu",
+    "aarch64-unknown-linux-musl",
+    "aarch64-linux-gnu",
+    "aarch64-linux-android",
+    "aarch64-apple-darwin",
+    "aarch64-apple-ios",
+    "aarch64-apple-macosx",
+    "aarch64-pc-windows-msvc",
+    "aarch64-unknown-freebsd",
+    "aarch64-unknown-fuchsia",
+    "aarch64-none-elf",
+]
+
+[[architectures]]
+name = "aarch64_be"
+aliases = ["arm64_be"]
+description = "64-bit ARM (ARMv8-A, big endian)"
+pointer_width = 64
+endian = "big"
+vendors = ["unknown"]
+common_os = ["linux"]
+common_triples = [
+    "aarch64_be-unknown-linux-gnu",
+]
+
+[[architectures]]
+name = "aarch64_32"
+aliases = ["arm64_32"]
+description = "64-bit ARM with ILP32 ABI (used on watchOS)"
+pointer_width = 32
+endian = "little"
+vendors = ["apple"]
+common_os = ["watchos"]
+common_triples = [
+    "aarch64_32-apple-watchos",
+    "arm64_32-apple-watchos",
+]
+
+[[architectures]]
+name = "armv7"
+aliases = ["arm", "armv7a", "armv7-a"]
+description = "32-bit ARM (ARMv7-A, little endian)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "none", "linux"]
+common_os = ["linux", "android", "none"]
+common_triples = [
+    "armv7-unknown-linux-gnueabihf",
+    "armv7-unknown-linux-gnueabi",
+    "armv7-unknown-linux-musleabihf",
+    "armv7-linux-androideabi",
+    "armv7a-linux-androideabi",
+    "armv7-none-eabi",
+    "armv7-none-eabihf",
+    "armv7a-none-eabi",
+]
+
+[[architectures]]
+name = "armv7eb"
+aliases = ["armeb", "armv7-aeb"]
+description = "32-bit ARM (ARMv7-A, big endian)"
+pointer_width = 32
+endian = "big"
+vendors = ["unknown"]
+common_os = ["linux"]
+common_triples = [
+    "armeb-unknown-linux-gnueabi",
+    "armeb-unknown-linux-gnueabihf",
+]
+
+[[architectures]]
+name = "armv6"
+aliases = ["armv6k", "armv6kz"]
+description = "32-bit ARM (ARMv6, e.g. Raspberry Pi 1 / Zero)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown"]
+common_os = ["linux", "none"]
+common_triples = [
+    "arm-unknown-linux-gnueabihf",
+    "arm-unknown-linux-gnueabi",
+    "arm-unknown-linux-musleabihf",
+    "arm-none-eabi",
+]
+
+[[architectures]]
+name = "armv5te"
+aliases = ["armv5", "armv5tej"]
+description = "32-bit ARM (ARMv5TE, legacy embedded)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown"]
+common_os = ["linux", "none"]
+common_triples = [
+    "armv5te-unknown-linux-gnueabi",
+    "armv5te-none-eabi",
+]
+
+[[architectures]]
+name = "armv4t"
+aliases = ["armv4"]
+description = "32-bit ARM (ARMv4T, legacy)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown"]
+common_os = ["linux", "none"]
+common_triples = [
+    "armv4t-unknown-linux-gnueabi",
+    "armv4t-none-eabi",
+]
+
+[[architectures]]
+name = "thumb"
+aliases = ["thumbv7m", "thumbv7em", "thumbv6m", "thumbv8m.main", "thumbv8m.base"]
+description = "ARM Thumb instruction set (Cortex-M microcontrollers)"
+pointer_width = 32
+endian = "little"
+vendors = ["none"]
+common_os = ["none"]
+common_triples = [
+    "thumbv6m-none-eabi",
+    "thumbv7m-none-eabi",
+    "thumbv7em-none-eabi",
+    "thumbv7em-none-eabihf",
+    "thumbv8m.main-none-eabi",
+    "thumbv8m.main-none-eabihf",
+    "thumbv8m.base-none-eabi",
+]
+
+[[architectures]]
+name = "thumbeb"
+aliases = []
+description = "ARM Thumb instruction set (big endian)"
+pointer_width = 32
+endian = "big"
+vendors = ["none"]
+common_os = ["none"]
+common_triples = [
+    "thumbeb-none-eabi",
+]
+
+# --- RISC-V family ---
+
+[[architectures]]
+name = "riscv32"
+aliases = ["riscv32gc", "riscv32imac", "riscv32imc"]
+description = "32-bit RISC-V"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "sifive"]
+common_os = ["linux", "none"]
+common_triples = [
+    "riscv32-unknown-linux-gnu",
+    "riscv32-unknown-elf",
+    "riscv32gc-unknown-linux-gnu",
+    "riscv32imac-unknown-none-elf",
+    "riscv32imc-unknown-none-elf",
+    "riscv32imc-esp-espidf",
+]
+
+[[architectures]]
+name = "riscv64"
+aliases = ["riscv64gc", "riscv64imac"]
+description = "64-bit RISC-V"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown", "sifive"]
+common_os = ["linux", "none"]
+common_triples = [
+    "riscv64-unknown-linux-gnu",
+    "riscv64-unknown-linux-musl",
+    "riscv64gc-unknown-linux-gnu",
+    "riscv64gc-unknown-linux-musl",
+    "riscv64gc-unknown-none-elf",
+    "riscv64-unknown-elf",
+]
+
+# --- MIPS family ---
+
+[[architectures]]
+name = "mips"
+aliases = ["mips32", "mipsbe"]
+description = "32-bit MIPS (big endian)"
+pointer_width = 32
+endian = "big"
+vendors = ["unknown", "mti", "img"]
+common_os = ["linux", "none"]
+common_triples = [
+    "mips-unknown-linux-gnu",
+    "mips-unknown-linux-musl",
+]
+
+[[architectures]]
+name = "mipsel"
+aliases = ["mips32el"]
+description = "32-bit MIPS (little endian)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "mti", "img"]
+common_os = ["linux", "none"]
+common_triples = [
+    "mipsel-unknown-linux-gnu",
+    "mipsel-unknown-linux-musl",
+    "mipsel-linux-android",
+]
+
+[[architectures]]
+name = "mips64"
+aliases = ["mips64be"]
+description = "64-bit MIPS (big endian)"
+pointer_width = 64
+endian = "big"
+vendors = ["unknown", "mti", "img"]
+common_os = ["linux"]
+common_triples = [
+    "mips64-unknown-linux-gnuabi64",
+    "mips64-unknown-linux-muslabi64",
+]
+
+[[architectures]]
+name = "mips64el"
+aliases = []
+description = "64-bit MIPS (little endian)"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown", "mti", "img"]
+common_os = ["linux"]
+common_triples = [
+    "mips64el-unknown-linux-gnuabi64",
+    "mips64el-unknown-linux-muslabi64",
+]
+
+# --- PowerPC family ---
+
+[[architectures]]
+name = "powerpc"
+aliases = ["ppc", "ppc32"]
+description = "32-bit PowerPC (big endian)"
+pointer_width = 32
+endian = "big"
+vendors = ["unknown", "ibm"]
+common_os = ["linux", "aix"]
+common_triples = [
+    "powerpc-unknown-linux-gnu",
+    "powerpc-unknown-linux-musl",
+]
+
+[[architectures]]
+name = "powerpc64"
+aliases = ["ppc64"]
+description = "64-bit PowerPC (big endian)"
+pointer_width = 64
+endian = "big"
+vendors = ["unknown", "ibm"]
+common_os = ["linux", "aix", "freebsd"]
+common_triples = [
+    "powerpc64-unknown-linux-gnu",
+    "powerpc64-unknown-linux-musl",
+    "powerpc64-ibm-aix",
+    "powerpc64-unknown-freebsd",
+]
+
+[[architectures]]
+name = "powerpc64le"
+aliases = ["ppc64le", "ppc64el"]
+description = "64-bit PowerPC (little endian)"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown", "ibm"]
+common_os = ["linux"]
+common_triples = [
+    "powerpc64le-unknown-linux-gnu",
+    "powerpc64le-unknown-linux-musl",
+]
+
+[[architectures]]
+name = "ppc32le"
+aliases = ["powerpce"]
+description = "32-bit PowerPC (little endian)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown"]
+common_os = ["linux"]
+common_triples = [
+    "powerpcle-unknown-linux-gnu",
+]
+
+# --- SystemZ / s390x ---
+
+[[architectures]]
+name = "s390x"
+aliases = ["systemz", "z/Architecture"]
+description = "IBM System z / s390x (64-bit, big endian)"
+pointer_width = 64
+endian = "big"
+vendors = ["unknown", "ibm"]
+common_os = ["linux"]
+common_triples = [
+    "s390x-unknown-linux-gnu",
+    "s390x-unknown-linux-musl",
+    "s390x-ibm-linux-gnu",
+]
+
+# --- WebAssembly ---
+
+[[architectures]]
+name = "wasm32"
+aliases = []
+description = "WebAssembly 32-bit"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "wasi"]
+common_os = ["wasi", "emscripten", "unknown"]
+common_triples = [
+    "wasm32-unknown-unknown",
+    "wasm32-wasi",
+    "wasm32-wasip1",
+    "wasm32-wasip2",
+    "wasm32-unknown-emscripten",
+    "wasm32-wasi-pthread",
+]
+
+[[architectures]]
+name = "wasm64"
+aliases = []
+description = "WebAssembly 64-bit (memory64 proposal)"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown", "wasi"]
+common_os = ["wasi", "emscripten", "unknown"]
+common_triples = [
+    "wasm64-unknown-unknown",
+    "wasm64-wasi",
+    "wasm64-unknown-emscripten",
+]
+
+# --- SPARC ---
+
+[[architectures]]
+name = "sparc"
+aliases = ["sparcel", "sparcv8"]
+description = "32-bit SPARC"
+pointer_width = 32
+endian = "big"
+vendors = ["unknown", "sun"]
+common_os = ["linux", "solaris"]
+common_triples = [
+    "sparc-unknown-linux-gnu",
+    "sparc-sun-solaris2.11",
+]
+
+[[architectures]]
+name = "sparcv9"
+aliases = ["sparc64", "ultrasparc"]
+description = "64-bit SPARC V9"
+pointer_width = 64
+endian = "big"
+vendors = ["unknown", "sun"]
+common_os = ["linux", "solaris"]
+common_triples = [
+    "sparcv9-unknown-linux-gnu",
+    "sparcv9-sun-solaris2.11",
+]
+
+# --- LoongArch ---
+
+[[architectures]]
+name = "loongarch64"
+aliases = ["la64"]
+description = "64-bit LoongArch"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown", "loongson"]
+common_os = ["linux"]
+common_triples = [
+    "loongarch64-unknown-linux-gnu",
+    "loongarch64-unknown-linux-musl",
+]
+
+[[architectures]]
+name = "loongarch32"
+aliases = ["la32"]
+description = "32-bit LoongArch"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "loongson"]
+common_os = ["linux", "none"]
+common_triples = [
+    "loongarch32-unknown-linux-gnu",
+    "loongarch32-unknown-none-elf",
+]
+
+# --- Hexagon ---
+
+[[architectures]]
+name = "hexagon"
+aliases = ["qdsp6"]
+description = "Qualcomm Hexagon DSP"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "qualcomm"]
+common_os = ["linux", "none"]
+common_triples = [
+    "hexagon-unknown-linux-musl",
+    "hexagon-unknown-none-elf",
+]
+
+# --- M68k ---
+
+[[architectures]]
+name = "m68k"
+aliases = ["motorola68k", "68000"]
+description = "Motorola 68000 family"
+pointer_width = 32
+endian = "big"
+vendors = ["unknown"]
+common_os = ["linux"]
+common_triples = [
+    "m68k-unknown-linux-gnu",
+]
+
+# --- AVR ---
+
+[[architectures]]
+name = "avr"
+aliases = ["atmega", "attiny"]
+description = "Atmel AVR 8-bit microcontroller"
+pointer_width = 16
+endian = "little"
+vendors = ["unknown", "atmel"]
+common_os = ["none"]
+common_triples = [
+    "avr-unknown-none",
+    "avr-atmel-none",
+]
+
+# --- MSP430 ---
+
+[[architectures]]
+name = "msp430"
+aliases = []
+description = "Texas Instruments MSP430 16-bit microcontroller (experimental)"
+pointer_width = 16
+endian = "little"
+vendors = ["unknown", "ti"]
+common_os = ["none"]
+common_triples = [
+    "msp430-unknown-none-elf",
+]
+
+# --- BPF ---
+
+[[architectures]]
+name = "bpf"
+aliases = ["bpfel", "bpfeb", "ebpf"]
+description = "Berkeley Packet Filter (eBPF)"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown"]
+common_os = ["none"]
+common_triples = [
+    "bpfel-unknown-none",
+    "bpfeb-unknown-none",
+    "bpf-unknown-none",
+]
+
+# --- NVIDIA PTX ---
+
+[[architectures]]
+name = "nvptx64"
+aliases = ["nvptx"]
+description = "NVIDIA PTX 64-bit (GPU compute)"
+pointer_width = 64
+endian = "little"
+vendors = ["nvidia"]
+common_os = ["cuda"]
+common_triples = [
+    "nvptx64-nvidia-cuda",
+]
+
+[[architectures]]
+name = "nvptx"
+aliases = []
+description = "NVIDIA PTX 32-bit (GPU compute, legacy)"
+pointer_width = 32
+endian = "little"
+vendors = ["nvidia"]
+common_os = ["cuda"]
+common_triples = [
+    "nvptx-nvidia-cuda",
+]
+
+# --- AMD GPU ---
+
+[[architectures]]
+name = "amdgcn"
+aliases = ["amdgpu"]
+description = "AMD GCN/RDNA GPUs"
+pointer_width = 64
+endian = "little"
+vendors = ["amd"]
+common_os = ["amdhsa", "amdpal", "mesa3d"]
+common_triples = [
+    "amdgcn-amd-amdhsa",
+    "amdgcn-amd-amdpal",
+    "amdgcn-amd-mesa3d",
+]
+
+# --- SPIR-V ---
+
+[[architectures]]
+name = "spirv64"
+aliases = ["spirv"]
+description = "SPIR-V 64-bit (GPU intermediate representation)"
+pointer_width = 64
+endian = "little"
+vendors = ["unknown"]
+common_os = ["unknown", "vulkan", "opencl"]
+common_triples = [
+    "spirv64-unknown-unknown",
+]
+
+[[architectures]]
+name = "spirv32"
+aliases = []
+description = "SPIR-V 32-bit"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown"]
+common_os = ["unknown"]
+common_triples = [
+    "spirv32-unknown-unknown",
+]
+
+# --- NEC SX-Aurora ---
+
+[[architectures]]
+name = "ve"
+aliases = ["sx-aurora"]
+description = "NEC SX-Aurora TSUBASA Vector Engine"
+pointer_width = 64
+endian = "little"
+vendors = ["nec"]
+common_os = ["linux"]
+common_triples = [
+    "ve-unknown-linux-gnu",
+]
+
+# --- Lanai ---
+
+[[architectures]]
+name = "lanai"
+aliases = []
+description = "Lanai processor (Google TPU-related)"
+pointer_width = 32
+endian = "big"
+vendors = ["unknown"]
+common_os = ["none"]
+common_triples = [
+    "lanai-unknown-unknown",
+]
+
+# --- XCore ---
+
+[[architectures]]
+name = "xcore"
+aliases = ["xmos"]
+description = "XMOS XCore multicore microcontroller"
+pointer_width = 32
+endian = "little"
+vendors = ["xmos"]
+common_os = ["none"]
+common_triples = [
+    "xcore-xmos-elf",
+]
+
+# --- Xtensa ---
+
+[[architectures]]
+name = "xtensa"
+aliases = ["esp32", "esp8266"]
+description = "Xtensa 32-bit (Espressif ESP32 family)"
+pointer_width = 32
+endian = "little"
+vendors = ["unknown", "espressif"]
+common_os = ["none", "espidf"]
+common_triples = [
+    "xtensa-esp32-none-elf",
+    "xtensa-esp32s2-none-elf",
+    "xtensa-esp32s3-none-elf",
+    "xtensa-esp32-espidf",
+]
+
+# --- R600 (legacy AMD GPU) ---
+
+[[architectures]]
+name = "r600"
+aliases = []
+description = "AMD GPUs HD2XXX-HD6XXX (legacy)"
+pointer_width = 32
+endian = "little"
+vendors = ["amd"]
+common_os = ["mesa3d"]
+common_triples = [
+    "r600-amd-mesa3d",
+]

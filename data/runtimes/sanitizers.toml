@@ -1,0 +1,311 @@
+# Sanitizers and Dynamic Analysis Tools
+# Last updated: 2026-04-05
+
+# =============================================================================
+# COMPILER-INTEGRATED SANITIZERS
+# =============================================================================
+# Sanitizers are instrumentation-based tools built into LLVM/GCC that detect
+# various classes of bugs at runtime. They work by inserting checks at compile
+# time and using a runtime library to track state and report errors.
+#
+# General usage: compile and link with -fsanitize=<name>.
+# Most sanitizers cannot be combined with each other (exceptions noted).
+
+# -----------------------------------------------------------------------------
+# AddressSanitizer (ASan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "AddressSanitizer"
+short_name = "ASan"
+flag = "-fsanitize=address"
+vendors = ["LLVM", "GCC"]
+platforms = ["linux", "darwin", "windows", "freebsd", "netbsd", "android"]
+runtime_lib = "compiler-rt (LLVM) / libasan (GCC)"
+description = "Fast memory error detector. Uses shadow memory to track the validity of each byte of application memory. Detects: heap/stack/global buffer overflows, use-after-free, use-after-return (with flags), use-after-scope, double-free, and invalid free."
+overhead_cpu = "~2x slowdown"
+overhead_memory = "~3x increase"
+url = "https://clang.llvm.org/docs/AddressSanitizer.html"
+combinable_with = ["UBSan"]
+notes = "Cannot be combined with TSan or MSan. On Linux, requires position-independent executables for full coverage. GCC's version (libasan) is ABI-compatible. Use ASAN_OPTIONS environment variable to configure behavior."
+
+# -----------------------------------------------------------------------------
+# MemorySanitizer (MSan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "MemorySanitizer"
+short_name = "MSan"
+flag = "-fsanitize=memory"
+vendors = ["LLVM"]
+platforms = ["linux", "freebsd"]
+runtime_lib = "compiler-rt"
+description = "Detects reads of uninitialized memory. Tracks the initialized state of every bit using shadow memory. Reports an error when an uninitialized value is used in a conditional branch, system call, or other sensitive operation (not merely copied)."
+overhead_cpu = "~3x slowdown"
+overhead_memory = "~3x increase"
+url = "https://clang.llvm.org/docs/MemorySanitizer.html"
+combinable_with = ["UBSan"]
+notes = "Requires all code (including libraries) to be instrumented for accurate results; uninstrumented code produces false positives. Use -fsanitize-memory-track-origins=2 to track where uninitialized values originate. Not available in GCC."
+
+# -----------------------------------------------------------------------------
+# ThreadSanitizer (TSan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "ThreadSanitizer"
+short_name = "TSan"
+flag = "-fsanitize=thread"
+vendors = ["LLVM", "GCC"]
+platforms = ["linux", "darwin", "freebsd"]
+runtime_lib = "compiler-rt (LLVM) / libtsan (GCC)"
+description = "Data race detector for multithreaded C/C++ programs. Instruments all memory accesses and synchronization operations, using a fast vector-clock-based algorithm to detect when two threads access the same memory location without proper synchronization and at least one access is a write."
+overhead_cpu = "~5-15x slowdown"
+overhead_memory = "~5-10x increase"
+url = "https://clang.llvm.org/docs/ThreadSanitizer.html"
+combinable_with = ["UBSan"]
+notes = "Cannot be combined with ASan or MSan. Requires 64-bit targets (large virtual address space for shadow memory). Supports suppression files to ignore known-benign races. Use TSAN_OPTIONS to configure."
+
+# -----------------------------------------------------------------------------
+# UndefinedBehaviorSanitizer (UBSan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "UndefinedBehaviorSanitizer"
+short_name = "UBSan"
+flag = "-fsanitize=undefined"
+vendors = ["LLVM", "GCC"]
+platforms = ["linux", "darwin", "windows", "freebsd", "netbsd", "android"]
+runtime_lib = "compiler-rt (LLVM) / libubsan (GCC)"
+description = "Detects various forms of undefined behavior at runtime. Includes many sub-checks: signed integer overflow, null pointer dereference, misaligned pointer access, out-of-bounds array indexing, float cast overflow, invalid bool/enum values, unreachable code reached, shift exponent errors, and more."
+overhead_cpu = "~1.2x slowdown (minimal)"
+overhead_memory = "Minimal"
+url = "https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html"
+combinable_with = ["ASan", "MSan", "TSan"]
+sub_checks = [
+    "alignment", "bool", "builtin", "bounds", "enum", "float-cast-overflow",
+    "float-divide-by-zero", "function", "implicit-conversion", "integer-divide-by-zero",
+    "nonnull-attribute", "null", "nullability", "object-size", "pointer-overflow",
+    "return", "returns-nonnull-attribute", "shift", "signed-integer-overflow",
+    "unreachable", "unsigned-integer-overflow", "vla-bound", "vptr"
+]
+notes = "The lightest sanitizer; can be combined with any other. Use -fno-sanitize-recover=undefined to make errors fatal. Individual checks can be enabled/disabled: -fsanitize=signed-integer-overflow,null."
+
+# -----------------------------------------------------------------------------
+# LeakSanitizer (LSan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "LeakSanitizer"
+short_name = "LSan"
+flag = "-fsanitize=leak"
+vendors = ["LLVM", "GCC"]
+platforms = ["linux", "darwin", "android"]
+runtime_lib = "compiler-rt (LLVM) / liblsan (GCC)"
+description = "Memory leak detector. Performs a conservative garbage-collection-style scan at program exit to find heap allocations that are no longer reachable from the stack, globals, or registers. Reports the allocation stack trace for each leak."
+overhead_cpu = "Minimal (only at exit)"
+overhead_memory = "Minimal"
+url = "https://clang.llvm.org/docs/LeakSanitizer.html"
+combinable_with = ["ASan", "UBSan"]
+notes = "Integrated into ASan by default (ASan runs LSan at exit). Can also be used standalone with -fsanitize=leak for lower overhead when only leak detection is needed. Use LSAN_OPTIONS to configure suppressions and verbosity."
+
+# -----------------------------------------------------------------------------
+# HWAddressSanitizer (HWASan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "HWAddressSanitizer"
+short_name = "HWASan"
+flag = "-fsanitize=hwaddress"
+vendors = ["LLVM"]
+platforms = ["linux", "android", "fuchsia"]
+runtime_lib = "compiler-rt"
+description = "Hardware-assisted memory error detector using ARM Top Byte Ignore (TBI) or similar hardware features to tag pointers and memory. Detects the same classes of bugs as ASan (use-after-free, buffer overflow) but with much lower memory overhead because it uses tag-based checking instead of shadow memory."
+overhead_cpu = "~1.5-2x slowdown"
+overhead_memory = "~15-20% increase"
+url = "https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html"
+combinable_with = ["UBSan"]
+notes = "Primarily designed for AArch64 with TBI. Less precise than ASan (probabilistic: 1/256 chance of missing a bug per check) but the low memory overhead makes it suitable for system-wide deployment (e.g., Android). x86_64 support exists via LAM (Linear Address Masking)."
+
+# -----------------------------------------------------------------------------
+# DataFlowSanitizer (DFSan)
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "DataFlowSanitizer"
+short_name = "DFSan"
+flag = "-fsanitize=dataflow"
+vendors = ["LLVM"]
+platforms = ["linux"]
+runtime_lib = "compiler-rt"
+description = "A general-purpose data flow analysis framework. Attaches user-defined labels to data and propagates them through the program, allowing developers to track how specific data flows through computations. Used for taint analysis, information flow tracking, and building custom analysis tools."
+overhead_cpu = "Variable (depends on label complexity)"
+overhead_memory = "~2x increase"
+url = "https://clang.llvm.org/docs/DataFlowSanitizer.html"
+combinable_with = []
+notes = "Unlike other sanitizers, DFSan is a framework rather than a bug detector. Users define what labels mean and how to interpret the results. Requires an ABI list to specify which functions to instrument."
+
+# =============================================================================
+# HARDENING / PROTECTION MECHANISMS
+# =============================================================================
+# These are compiler-based hardening features that protect against
+# specific attack vectors. They are lighter than full sanitizers and
+# suitable for production deployment.
+
+# -----------------------------------------------------------------------------
+# SafeStack
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "SafeStack"
+short_name = "SafeStack"
+flag = "-fsanitize=safe-stack"
+vendors = ["LLVM"]
+platforms = ["linux", "freebsd", "netbsd"]
+runtime_lib = "compiler-rt"
+description = "Stack buffer overflow protection mechanism. Separates the program stack into a 'safe stack' (return addresses, spilled registers) and an 'unsafe stack' (local variables that may be accessed through pointers). Stack buffer overflows on the unsafe stack cannot overwrite return addresses or other critical data on the safe stack."
+overhead_cpu = "<1% (negligible)"
+overhead_memory = "~10% increase (dual stacks)"
+url = "https://clang.llvm.org/docs/SafeStack.html"
+combinable_with = ["UBSan"]
+notes = "Much lower overhead than ASan; suitable for production hardening. Protects against stack-based buffer overflows and use-after-return but does not detect them—it prevents exploitation. Compatible with unmodified libraries."
+
+# -----------------------------------------------------------------------------
+# ShadowCallStack
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "ShadowCallStack"
+short_name = "SCS"
+flag = "-fsanitize=shadow-call-stack"
+vendors = ["LLVM"]
+platforms = ["linux", "android"]
+runtime_lib = "compiler-rt"
+description = "Return address protection using a separate shadow call stack. On function entry, the return address is saved to a shadow stack (pointed to by a dedicated register, x18 on AArch64). On function return, the return address is loaded from the shadow stack, preventing ROP (Return-Oriented Programming) attacks that overwrite the return address on the regular stack."
+overhead_cpu = "<1% (negligible)"
+overhead_memory = "Minimal (one pointer per frame)"
+url = "https://clang.llvm.org/docs/ShadowCallStack.html"
+combinable_with = ["UBSan", "ASan"]
+notes = "Currently only supported on AArch64 and RISC-V. Uses platform register x18 (AArch64) or x3/gp (RISC-V) as the shadow stack pointer. The shadow stack location should be kept secret for full security. Android uses SCS system-wide."
+
+# =============================================================================
+# GCC SANITIZER RUNTIME LIBRARIES
+# =============================================================================
+# GCC ships its own sanitizer runtime libraries, originally derived from
+# LLVM's compiler-rt sanitizer code. They provide the same runtime support
+# but are built and versioned with GCC.
+
+[[sanitizers]]
+name = "GCC Sanitizer Runtimes"
+short_name = "gcc-sanitizers"
+flag = "-fsanitize=address,thread,undefined,leak"
+vendors = ["GCC"]
+platforms = ["linux", "freebsd"]
+runtime_lib = "libasan, libtsan, libubsan, liblsan"
+description = "GCC ships its own builds of the ASan, TSan, UBSan, and LSan runtime libraries (libasan.so, libtsan.so, libubsan.so, liblsan.so). These are derived from the LLVM compiler-rt source but built with GCC and versioned alongside GCC releases. They provide the same functionality as their LLVM counterparts."
+overhead_cpu = "Same as LLVM equivalents"
+overhead_memory = "Same as LLVM equivalents"
+url = "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html"
+combinable_with = []
+notes = "GCC does not support MSan, HWASan, DFSan, SafeStack, or ShadowCallStack. GCC sanitizer libraries use a different shared library name (libasan.so.N vs compiler-rt's static archive approach). Cannot mix GCC-built sanitizer runtimes with LLVM-compiled code or vice versa."
+
+# =============================================================================
+# EXTERNAL DYNAMIC ANALYSIS TOOLS
+# =============================================================================
+# Standalone tools that do not require recompilation. They use binary
+# instrumentation, emulation, or OS-level hooks to detect bugs.
+
+# -----------------------------------------------------------------------------
+# Valgrind
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "Valgrind"
+short_name = "Valgrind"
+flag = ""
+vendors = ["Valgrind Developers"]
+platforms = ["linux", "darwin", "freebsd", "solaris", "android"]
+runtime_lib = ""
+description = "A dynamic binary instrumentation framework. The most well-known tool is Memcheck, which detects memory errors (use of uninitialized memory, invalid reads/writes, memory leaks, mismatched malloc/free). Other tools include Cachegrind (cache profiler), Callgrind (call-graph profiler), Helgrind (thread error detector), DRD (data race detector), and Massif (heap profiler)."
+overhead_cpu = "~10-50x slowdown (Memcheck)"
+overhead_memory = "~2-3x increase"
+url = "https://valgrind.org/"
+
+# Valgrind releases from valgrind.org; the project uses a sourceware git repo.
+# GitHub mirrors exist but have no tags. Versions curated from release announcements.
+[sanitizers.versions]
+"3.24.0" = "2024-11-13"
+"3.23.0" = "2024-04-26"
+"3.22.0" = "2023-10-27"
+"3.21.0" = "2023-04-28"
+"3.20.0" = "2022-10-21"
+"3.19.0" = "2022-04-11"
+"3.18.1" = "2021-10-15"
+"3.18.0" = "2021-10-14"
+"3.17.0" = "2021-03-15"
+"3.16.1" = "2020-06-24"
+"3.16.0" = "2020-06-22"
+"3.15.0" = "2019-04-15"
+"3.14.0" = "2018-10-12"
+"3.13.0" = "2017-06-15"
+
+[sanitizers.tools]
+memcheck = "Memory error detector (default tool)"
+cachegrind = "Cache and branch-prediction profiler"
+callgrind = "Call-graph generating cache profiler"
+helgrind = "Thread error detector (lock ordering, data races)"
+drd = "Thread error detector (data races, lock misuse)"
+massif = "Heap memory profiler"
+dhat = "Dynamic heap analysis tool"
+lackey = "Example/demo tool"
+nulgrind = "Null tool (no instrumentation, for benchmarking Valgrind overhead)"
+
+notes = "Requires no recompilation—operates on unmodified binaries via dynamic binary translation. Slower than compiler-based sanitizers but catches errors in all code including system libraries. Cannot currently instrument JIT-compiled code well. macOS support has lagged behind Linux."
+
+# -----------------------------------------------------------------------------
+# Dr. Memory
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "Dr. Memory"
+short_name = "DrMemory"
+flag = ""
+vendors = ["Google (original), DynamoRIO"]
+platforms = ["linux", "windows", "android"]
+runtime_lib = ""
+description = "A memory monitoring tool built on the DynamoRIO dynamic instrumentation framework. Detects memory-related programming errors: uninitialized reads, invalid heap accesses (buffer overflows, use-after-free, double-free), memory leaks, handle leaks (Windows), and GDI usage errors (Windows). Provides a Valgrind-Memcheck-like experience on Windows."
+overhead_cpu = "~10x slowdown"
+overhead_memory = "~2x increase"
+url = "https://drmemory.org/"
+
+[sanitizers.versions]
+"2.6.0" = "2023-06-01"
+"2.5.0" = "2022-03-22"
+"2.4.0" = "2021-10-12"
+"2.3.0" = "2019-07-09"
+"2.2.0" = "2018-12-20"
+"2.1.0" = "2018-07-13"
+"2.0.0" = "2017-12-01"
+"1.11.0" = "2016-10-19"
+
+notes = "One of the few full memory debuggers for Windows (where Valgrind is not available). Built on DynamoRIO; also works on Linux. Less mature/complete than Valgrind on Linux but fills a critical gap on Windows. Supports Dr. Fuzz for fuzz testing integration."
+
+# -----------------------------------------------------------------------------
+# Electric Fence
+# -----------------------------------------------------------------------------
+
+[[sanitizers]]
+name = "Electric Fence"
+short_name = "efence"
+flag = ""
+vendors = ["Bruce Perens (original)"]
+platforms = ["linux"]
+runtime_lib = "libefence.so"
+description = "A simple malloc() debugger that uses virtual memory hardware to detect buffer overruns and use-after-free. Places each allocation on a separate page boundary so that overflows immediately trigger a SIGSEGV. Freed memory is made inaccessible so that use-after-free is also caught immediately."
+overhead_cpu = "Minimal per-access"
+overhead_memory = "Very high (one or more pages per allocation)"
+url = "https://linux.die.net/man/3/efence"
+
+[sanitizers.versions]
+"2.2.0" = "2003-01-31"
+
+notes = "Extremely high memory usage (each malloc gets its own page). Best suited for targeted debugging of small programs or specific test cases. The DUMA (Detect Unintended Memory Access) project is a fork/successor with additional features. Largely superseded by ASan for most use cases, but its simplicity (LD_PRELOAD, no recompilation) remains an advantage."
