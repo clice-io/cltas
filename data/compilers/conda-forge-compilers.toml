@@ -1,0 +1,140 @@
+[meta]
+name = "conda-forge Compilers"
+vendor = "conda-forge"
+url = "https://conda-forge.org/"
+description = "Cross-compilation toolchains distributed via conda-forge. These packages provide relocatable GCC and Clang compilers with custom target triples (e.g. x86_64-conda-linux-gnu) for reproducible builds across Linux, macOS, and Windows. They are commonly used with conda-build and pixi for creating portable binary packages."
+
+# GCC toolchains for Linux targets
+
+[[toolchains]]
+name = "gcc_linux-64"
+package = "gcc_linux-64"
+compiler = "GCC"
+version = "15.2.0"
+target = "x86_64-conda-linux-gnu"
+description = "GCC for Linux x86_64"
+
+[[toolchains]]
+name = "gcc_linux-aarch64"
+package = "gcc_linux-aarch64"
+compiler = "GCC"
+version = "15.2.0"
+target = "aarch64-conda-linux-gnu"
+description = "GCC cross-compiler for Linux AArch64"
+
+[[toolchains]]
+name = "gcc_linux-ppc64le"
+package = "gcc_linux-ppc64le"
+compiler = "GCC"
+version = "15.2.0"
+target = "powerpc64le-conda-linux-gnu"
+description = "GCC cross-compiler for Linux POWER (little-endian)"
+
+[[toolchains]]
+name = "gcc_linux-s390x"
+package = "gcc_linux-s390x"
+compiler = "GCC"
+version = "14.2.0"
+target = "s390x-conda-linux-gnu"
+description = "GCC cross-compiler for Linux s390x (IBM Z)"
+
+# GCC toolchains for macOS targets (cross-compile from Linux)
+
+[[toolchains]]
+name = "gcc_osx-64"
+package = "gcc_osx-64"
+compiler = "GCC"
+version = "15.2.0"
+target = "x86_64-apple-darwin13.4.0"
+description = "GCC cross-compiler for macOS x86_64"
+
+[[toolchains]]
+name = "gcc_osx-arm64"
+package = "gcc_osx-arm64"
+compiler = "GCC"
+version = "15.2.0"
+target = "arm64-apple-darwin20.0.0"
+description = "GCC cross-compiler for macOS ARM64 (Apple Silicon)"
+
+# GCC toolchain for Windows (cross-compile from Linux via MinGW)
+
+[[toolchains]]
+name = "gcc_win-64"
+package = "gcc_win-64"
+compiler = "GCC"
+version = "15.2.0"
+target = "x86_64-w64-mingw32"
+description = "GCC cross-compiler for Windows x86_64 (MinGW-w64)"
+
+# Clang/LLVM toolchains for Linux targets
+
+[[toolchains]]
+name = "clang_linux-64"
+package = "clang_linux-64"
+compiler = "Clang"
+version = "21.1"
+target = "x86_64-conda-linux-gnu"
+description = "Clang/LLVM for Linux x86_64"
+
+[[toolchains]]
+name = "clang_linux-aarch64"
+package = "clang_linux-aarch64"
+compiler = "Clang"
+version = "21.1"
+target = "aarch64-conda-linux-gnu"
+description = "Clang/LLVM cross-compiler for Linux AArch64"
+
+[[toolchains]]
+name = "clang_linux-ppc64le"
+package = "clang_linux-ppc64le"
+compiler = "Clang"
+version = "21.1"
+target = "powerpc64le-conda-linux-gnu"
+description = "Clang/LLVM cross-compiler for Linux POWER (little-endian)"
+
+# Clang/LLVM toolchains for macOS targets
+
+[[toolchains]]
+name = "clang_osx-64"
+package = "clang_osx-64"
+compiler = "Clang"
+version = "22.1.0"
+target = "x86_64-apple-darwin13.4.0"
+description = "Clang/LLVM for macOS x86_64"
+
+[[toolchains]]
+name = "clang_osx-arm64"
+package = "clang_osx-arm64"
+compiler = "Clang"
+version = "22.1.0"
+target = "arm64-apple-darwin20.0.0"
+description = "Clang/LLVM for macOS ARM64 (Apple Silicon)"
+
+# Clang/LLVM toolchain for Windows
+
+[[toolchains]]
+name = "clang_win-64"
+package = "clang_win-64"
+compiler = "Clang"
+version = "22.1"
+target = "x86_64-w64-mingw32"
+description = "Clang/LLVM for Windows x86_64"
+
+# Implementation packages (these are the actual compiler binaries;
+# the above packages are activation wrappers that set up environment variables)
+
+[[toolchains]]
+name = "gcc_impl_linux-64"
+package = "gcc_impl_linux-64"
+compiler = "GCC"
+version = "15.2.0"
+target = "x86_64-conda-linux-gnu"
+description = "GCC implementation package for Linux x86_64 (actual compiler binary)"
+
+[[toolchains]]
+name = "clang_impl_linux-64"
+package = "clang_impl_linux-64"
+compiler = "Clang"
+version = "22.1.0"
+target = "x86_64-conda-linux-gnu"
+description = "Clang implementation package for Linux x86_64 (actual compiler binary)"

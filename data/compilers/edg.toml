@@ -1,0 +1,61 @@
+[meta]
+name = "EDG C++ Frontend"
+vendor = "Edison Design Group"
+url = "https://www.edg.com/"
+description = "The Edison Design Group (EDG) C/C++ frontend is the most widely licensed commercial compiler frontend. It is not a standalone compiler but a parsing/semantic-analysis component that other vendors integrate with their own code generators. As of January 2017, there were 183 commercial licensees. The frontend consists of approximately 655,000 lines of source code."
+
+# EDG does not publish public releases or version numbers.
+# The following are known major milestones based on publicly available information.
+
+# Compilers and tools known to use the EDG frontend:
+#   - Intel C++ Compiler (icc/icpc, classic — NOT the newer LLVM-based icx)
+#   - NVIDIA nvcc (CUDA host compiler frontend)
+#   - Cray C++ (CCE classic, before Clang-based rewrite)
+#   - Comeau C++ (discontinued)
+#   - Green Hills C++
+#   - IAR Embedded Workbench C++
+#   - Texas Instruments C++ compilers
+#   - Analog Devices C++ compilers
+#   - Wind River Diab C++
+#   - Mentor Graphics / Siemens EDA tools
+#   - Coverity / Synopsys static analysis
+#   - GrammaTech CodeSonar
+#   - Parasoft C++test
+#   - Axivion Bauhaus Suite
+#   - Keil (ARM) C++ compilers
+#   - Fujitsu C++ compilers
+#   - TASKING C++ compilers (Infineon targets)
+
+# C++ standard support milestones (approximate, EDG is typically among the
+# first to implement new standard features):
+#   - C++98/03: fully supported
+#   - C++11:    fully supported
+#   - C++14:    fully supported
+#   - C++17:    fully supported
+#   - C++20:    support in progress / largely complete
+# EDG also supports dialect modes for: ANSI C (C89, C99), Embedded C TR,
+# Microsoft C/C++ (including C++/CLI), GNU C/C++, Clang C/C++, Sun C++,
+# cfront 2.1 and 3.0.x dialects, and K&R/pcc C.
+
+# Known version milestones (EDG version numbers are not publicly documented
+# in detail; these are approximate from conference talks and changelogs):
+
+[[milestones]]
+version = "6.x"
+note = "C++20 support in progress, improved modules support"
+
+[[milestones]]
+version = "5.x"
+note = "C++17 full support, improved constexpr evaluation"
+
+[[milestones]]
+version = "4.x"
+note = "C++14 support, improved C++11 conformance"
+
+[[milestones]]
+version = "3.x"
+note = "C++11 support"
+
+[[milestones]]
+version = "2.x"
+note = "C++98/03 conformance"

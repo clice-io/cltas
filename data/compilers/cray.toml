@@ -1,0 +1,143 @@
+[meta]
+name = "Cray C++ (CCE)"
+vendor = "HPE/Cray"
+url = "https://cpe.ext.hpe.com/docs/cce/index.html"
+description = "The Cray Compiling Environment (CCE) is the C/C++/Fortran compiler suite for Cray and HPE supercomputers. Modern CCE versions (9.0+) use a Clang-based C/C++ frontend with Cray-specific optimizations for HPC workloads, OpenMP offload, and Cray interconnect support. Earlier versions used an EDG-based frontend. CCE is part of the Cray Programming Environment (CPE) and is the default compiler on Cray EX (Frontier, LUMI, etc.) and Cray XC systems."
+
+# CCE is distributed as part of the Cray Programming Environment (CPE).
+# No public downloads; available only on Cray/HPE systems.
+
+# Modern CCE (9.0+) is Clang-based. The Clang base version is approximate
+# and derived from HPE release notes and system documentation.
+
+[[releases]]
+version = "19.0.0"
+date = "2025"
+clang_base = "19"
+note = "CPE 25.03"
+
+[[releases]]
+version = "18.0.0"
+date = "2024"
+clang_base = "18"
+note = "CPE 24.07"
+
+[[releases]]
+version = "17.0.1"
+date = "2024"
+clang_base = "17"
+note = "CPE 24.03"
+
+[[releases]]
+version = "17.0.0"
+date = "2023"
+clang_base = "17"
+note = "CPE 23.12"
+
+[[releases]]
+version = "16.0.1"
+date = "2023"
+clang_base = "16"
+note = "CPE 23.09"
+
+[[releases]]
+version = "16.0.0"
+date = "2023"
+clang_base = "16"
+note = "CPE 23.05"
+
+[[releases]]
+version = "15.0.1"
+date = "2023"
+clang_base = "15"
+note = "CPE 23.02"
+
+[[releases]]
+version = "15.0.0"
+date = "2022"
+clang_base = "14"
+note = "CPE 22.11"
+
+[[releases]]
+version = "14.0.4"
+date = "2022"
+clang_base = "14"
+note = "CPE 22.08"
+
+[[releases]]
+version = "14.0.3"
+date = "2022"
+clang_base = "14"
+note = "CPE 22.06"
+
+[[releases]]
+version = "14.0.2"
+date = "2022"
+clang_base = "13"
+note = "CPE 22.02"
+
+[[releases]]
+version = "13.0.2"
+date = "2021"
+clang_base = "13"
+note = "CPE 21.12"
+
+[[releases]]
+version = "13.0.0"
+date = "2021"
+clang_base = "12"
+note = "CPE 21.09"
+
+[[releases]]
+version = "12.0.3"
+date = "2021"
+clang_base = "12"
+note = "CPE 21.06"
+
+[[releases]]
+version = "12.0.1"
+date = "2021"
+clang_base = "11"
+note = "CPE 21.03"
+
+[[releases]]
+version = "11.0.4"
+date = "2020"
+clang_base = "11"
+
+[[releases]]
+version = "11.0.0"
+date = "2020"
+clang_base = "10"
+
+[[releases]]
+version = "10.0.4"
+date = "2020"
+clang_base = "9"
+
+[[releases]]
+version = "10.0.0"
+date = "2019"
+clang_base = "8"
+
+[[releases]]
+version = "9.1.3"
+date = "2019"
+clang_base = "7"
+
+[[releases]]
+version = "9.0.0"
+date = "2018"
+clang_base = "6"
+note = "First Clang-based CCE release"
+
+# Classic CCE (pre-9.0) used the EDG frontend
+[[releases]]
+version = "8.7.x"
+date = "2018"
+note = "EDG-based frontend, last major classic CCE line"
+
+[[releases]]
+version = "8.6.x"
+date = "2017"
+note = "EDG-based frontend"
