@@ -1,0 +1,163 @@
+[[binary_utils]]
+name = "GNU binutils"
+vendor = "GNU Project"
+url = "https://www.gnu.org/software/binutils/"
+category = "binary-utilities"
+description = "Collection of binary tools: assembler, linker, and object file utilities"
+components = ["as", "ld", "ar", "nm", "objdump", "objcopy", "readelf", "strip", "ranlib", "strings", "size", "addr2line"]
+releases = [
+    { version = "2.20", date = "2009-10-16", tag = "binutils-2_20" },
+    { version = "2.20.1", date = "2010-03-03", tag = "binutils-2_20_1" },
+    { version = "2.21", date = "2011-01-24", tag = "binutils-2_21" },
+    { version = "2.21.1", date = "2011-05-15", tag = "binutils-2_21_1" },
+    { version = "2.22", date = "2011-11-22", tag = "binutils-2_22" },
+    { version = "2.23", date = "2012-09-04", tag = "binutils-2_23" },
+    { version = "2.23.1", date = "2012-10-29", tag = "binutils-2_23_1" },
+    { version = "2.23.2", date = "2013-02-18", tag = "binutils-2_23_2" },
+    { version = "2.24", date = "2013-12-20", tag = "binutils-2_24" },
+    { version = "2.25", date = "2014-12-23", tag = "binutils-2_25" },
+    { version = "2.25.1", date = "2015-07-22", tag = "binutils-2_25_1" },
+    { version = "2.26", date = "2016-01-25", tag = "binutils-2_26" },
+    { version = "2.26.1", date = "2016-06-02", tag = "binutils-2_26_1" },
+    { version = "2.27", date = "2016-08-04", tag = "binutils-2_27" },
+    { version = "2.28", date = "2017-03-06", tag = "binutils-2_28" },
+    { version = "2.28.1", date = "2017-07-24", tag = "binutils-2_28_1" },
+    { version = "2.29", date = "2017-07-24", tag = "binutils-2_29" },
+    { version = "2.29.1", date = "2017-10-16", tag = "binutils-2_29_1" },
+    { version = "2.30", date = "2018-01-28", tag = "binutils-2_30" },
+    { version = "2.31", date = "2018-07-20", tag = "binutils-2_31" },
+    { version = "2.31.1", date = "2018-09-18", tag = "binutils-2_31_1" },
+    { version = "2.32", date = "2019-02-02", tag = "binutils-2_32" },
+    { version = "2.33", date = "2019-10-12", tag = "binutils-2_33" },
+    { version = "2.33.1", date = "2019-10-12", tag = "binutils-2_33_1" },
+    { version = "2.34", date = "2020-02-01", tag = "binutils-2_34" },
+    { version = "2.35", date = "2020-07-24", tag = "binutils-2_35" },
+    { version = "2.35.1", date = "2020-09-19", tag = "binutils-2_35_1" },
+    { version = "2.35.2", date = "2021-01-30", tag = "binutils-2_35_2" },
+    { version = "2.36", date = "2021-01-24", tag = "binutils-2_36" },
+    { version = "2.36.1", date = "2021-02-06", tag = "binutils-2_36_1" },
+    { version = "2.37", date = "2021-07-18", tag = "binutils-2_37" },
+    { version = "2.38", date = "2022-02-09", tag = "binutils-2_38" },
+    { version = "2.39", date = "2022-08-05", tag = "binutils-2_39" },
+    { version = "2.40", date = "2023-01-14", tag = "binutils-2_40" },
+    { version = "2.41", date = "2023-07-30", tag = "binutils-2_41" },
+    { version = "2.42", date = "2024-01-29", tag = "binutils-2_42" },
+    { version = "2.43", date = "2024-08-04", tag = "binutils-2_43" },
+    { version = "2.43.1", date = "2024-09-22", tag = "binutils-2_43_1" },
+    { version = "2.44", date = "2025-02-02", tag = "binutils-2_44" },
+]
+
+[[binary_utils]]
+name = "LLVM binary utilities"
+vendor = "LLVM Project"
+url = "https://llvm.org/"
+category = "binary-utilities"
+description = "LLVM replacements for GNU binutils, providing cross-platform binary inspection and manipulation"
+components = ["llvm-ar", "llvm-nm", "llvm-objdump", "llvm-objcopy", "llvm-readelf", "llvm-strip", "llvm-strings", "llvm-size", "llvm-addr2line", "llvm-ranlib"]
+note = "Versions follow LLVM releases; see compilers.toml for LLVM release history"
+
+[[binary_utils]]
+name = "elfutils"
+vendor = "elfutils project"
+url = "https://sourceware.org/elfutils/"
+category = "binary-utilities"
+description = "Collection of ELF binary utilities and libraries (libelf, libdw) for Linux"
+components = ["eu-readelf", "eu-objdump", "eu-strip", "eu-nm", "eu-addr2line", "eu-ar", "eu-elflint", "eu-findtextrel", "eu-size", "eu-strings", "eu-ranlib", "eu-stack", "eu-elfcompress", "libelf", "libdw"]
+releases = [
+    { version = "0.158", date = "2013-12-17", tag = "elfutils-0.158" },
+    { version = "0.159", date = "2014-06-13", tag = "elfutils-0.159" },
+    { version = "0.160", date = "2014-08-15", tag = "elfutils-0.160" },
+    { version = "0.161", date = "2014-12-18", tag = "elfutils-0.161" },
+    { version = "0.162", date = "2015-06-10", tag = "elfutils-0.162" },
+    { version = "0.163", date = "2015-06-30", tag = "elfutils-0.163" },
+    { version = "0.164", date = "2015-09-09", tag = "elfutils-0.164" },
+    { version = "0.165", date = "2016-01-15", tag = "elfutils-0.165" },
+    { version = "0.166", date = "2016-03-31", tag = "elfutils-0.166" },
+    { version = "0.167", date = "2016-07-14", tag = "elfutils-0.167" },
+    { version = "0.168", date = "2017-02-03", tag = "elfutils-0.168" },
+    { version = "0.169", date = "2017-05-04", tag = "elfutils-0.169" },
+    { version = "0.170", date = "2017-09-04", tag = "elfutils-0.170" },
+    { version = "0.171", date = "2018-03-14", tag = "elfutils-0.171" },
+    { version = "0.172", date = "2018-06-11", tag = "elfutils-0.172" },
+    { version = "0.173", date = "2018-07-05", tag = "elfutils-0.173" },
+    { version = "0.174", date = "2018-09-14", tag = "elfutils-0.174" },
+    { version = "0.175", date = "2018-11-16", tag = "elfutils-0.175" },
+    { version = "0.176", date = "2019-02-15", tag = "elfutils-0.176" },
+    { version = "0.177", date = "2019-07-05", tag = "elfutils-0.177" },
+    { version = "0.178", date = "2019-11-12", tag = "elfutils-0.178" },
+    { version = "0.179", date = "2020-03-30", tag = "elfutils-0.179" },
+    { version = "0.180", date = "2020-06-11", tag = "elfutils-0.180" },
+    { version = "0.181", date = "2020-09-08", tag = "elfutils-0.181" },
+    { version = "0.182", date = "2020-10-31", tag = "elfutils-0.182" },
+    { version = "0.183", date = "2021-02-07", tag = "elfutils-0.183" },
+    { version = "0.184", date = "2021-05-10", tag = "elfutils-0.184" },
+    { version = "0.185", date = "2021-05-22", tag = "elfutils-0.185" },
+    { version = "0.186", date = "2021-10-07", tag = "elfutils-0.186" },
+    { version = "0.187", date = "2022-04-24", tag = "elfutils-0.187" },
+    { version = "0.188", date = "2022-11-01", tag = "elfutils-0.188" },
+    { version = "0.189", date = "2023-02-09", tag = "elfutils-0.189" },
+    { version = "0.190", date = "2023-10-06", tag = "elfutils-0.190" },
+    { version = "0.191", date = "2024-02-01", tag = "elfutils-0.191" },
+    { version = "0.192", date = "2024-10-29", tag = "elfutils-0.192" },
+]
+
+[[binary_utils]]
+name = "cctools"
+vendor = "Apple"
+url = "https://opensource.apple.com/source/cctools/"
+category = "binary-utilities"
+description = "Apple's binary and object file tools for Mach-O format"
+components = ["otool", "install_name_tool", "lipo", "libtool", "as", "ld", "nm", "size", "strings", "strip", "ar", "ranlib", "codesign_allocate", "bitcode_strip", "vtool"]
+note = "Bundled with Xcode Command Line Tools; versioned with Xcode releases"
+
+[[binary_utils]]
+name = "patchelf"
+vendor = "NixOS"
+url = "https://github.com/NixOS/patchelf"
+category = "binary-utilities"
+description = "Utility to modify the dynamic linker and RPATH of ELF binaries"
+releases = [
+    { version = "0.1", date = "2022-07-16", tag = "0.1" },
+    { version = "0.2", date = "2022-07-16", tag = "0.2" },
+    { version = "0.3", date = "2022-07-16", tag = "0.3" },
+    { version = "0.4", date = "2022-07-16", tag = "0.4" },
+    { version = "0.5", date = "2022-07-16", tag = "0.5" },
+    { version = "0.6", date = "2022-07-16", tag = "0.6" },
+    { version = "0.7", date = "2022-07-16", tag = "0.7" },
+    { version = "0.8", date = "2022-07-16", tag = "0.8" },
+    { version = "0.9", date = "2022-07-16", tag = "0.9" },
+    { version = "0.10", date = "2022-07-16", tag = "0.10" },
+    { version = "0.11", date = "2022-07-16", tag = "0.11" },
+    { version = "0.12", date = "2020-08-27", tag = "0.12" },
+    { version = "0.13", date = "2021-08-05", tag = "0.13" },
+    { version = "0.13.1", date = "2021-11-27", tag = "0.13.1" },
+    { version = "0.14", date = "2021-11-27", tag = "0.14" },
+    { version = "0.14.1", date = "2021-11-28", tag = "0.14.1" },
+    { version = "0.14.2", date = "2021-11-29", tag = "0.14.2" },
+    { version = "0.14.3", date = "2021-12-05", tag = "0.14.3" },
+    { version = "0.14.4", date = "2022-07-16", tag = "0.14.4" },
+    { version = "0.14.5", date = "2022-02-21", tag = "0.14.5" },
+    { version = "0.15.0", date = "2022-07-16", tag = "0.15.0" },
+    { version = "0.16.0", date = "2022-10-27", tag = "0.16.0" },
+    { version = "0.16.1", date = "2022-10-28", tag = "0.16.1" },
+    { version = "0.17.0", date = "2022-11-07", tag = "0.17.0" },
+    { version = "0.17.1", date = "2023-01-10", tag = "0.17.1" },
+    { version = "0.17.2", date = "2023-01-10", tag = "0.17.2" },
+    { version = "0.18.0", date = "2023-04-23", tag = "0.18.0" },
+    { version = "0.15.1", date = "2025-08-12", tag = "0.15.1" },
+    { version = "0.15.2", date = "2025-08-12", tag = "0.15.2" },
+    { version = "0.15.3", date = "2025-08-13", tag = "0.15.3" },
+    { version = "0.15.4", date = "2025-08-13", tag = "0.15.4" },
+    { version = "0.15.5", date = "2025-08-13", tag = "0.15.5" },
+]
+
+[[binary_utils]]
+name = "bloaty"
+vendor = "Google"
+url = "https://github.com/google/bloaty"
+category = "binary-utilities"
+description = "Size profiler for ELF and Mach-O binaries to understand code and data size"
+releases = [
+    { version = "1.0", date = "2018-08-07", tag = "v1.0" },
+    { version = "1.1", date = "2020-05-24", tag = "v1.1" },
+]

@@ -1,0 +1,93 @@
+[[tools]]
+name = "Doxygen"
+vendor = "Doxygen project"
+url = "https://github.com/doxygen/doxygen"
+category = "documentation"
+description = "Documentation generator for C++ and other languages"
+releases = [
+    { version = "1.9.0", date = "2022-12-24", tag = "Release_1_9_0" },
+    { version = "1.9.1", date = "2022-12-24", tag = "Release_1_9_1" },
+    { version = "1.9.2", date = "2022-12-24", tag = "Release_1_9_2" },
+    { version = "1.9.3", date = "2022-12-24", tag = "Release_1_9_3" },
+    { version = "1.9.4", date = "2022-12-24", tag = "Release_1_9_4" },
+    { version = "1.9.5", date = "2022-12-24", tag = "Release_1_9_5" },
+    { version = "1.9.6", date = "2022-12-27", tag = "Release_1_9_6" },
+    { version = "1.9.7", date = "2023-05-18", tag = "Release_1_9_7" },
+    { version = "1.9.8", date = "2023-08-25", tag = "Release_1_9_8" },
+    { version = "1.10.0", date = "2023-12-25", tag = "Release_1_10_0" },
+    { version = "1.11.0", date = "2024-05-20", tag = "Release_1_11_0" },
+    { version = "1.12.0", date = "2024-08-07", tag = "Release_1_12_0" },
+    { version = "1.13.0", date = "2024-12-28", tag = "Release_1_13_0" },
+    { version = "1.13.1", date = "2025-01-02", tag = "Release_1_13_1" },
+    { version = "1.13.2", date = "2025-01-09", tag = "Release_1_13_2" },
+    { version = "1.14.0", date = "2025-05-24", tag = "Release_1_14_0" },
+    { version = "1.15.0", date = "2025-10-22", tag = "Release_1_15_0" },
+    { version = "1.16.0", date = "2026-01-05", tag = "Release_1_16_0" },
+    { version = "1.16.1", date = "2026-01-11", tag = "Release_1_16_1" },
+]
+
+[[tools]]
+name = "Sphinx + Breathe"
+vendor = "Breathe project"
+url = "https://github.com/breathe-doc/breathe"
+category = "documentation"
+description = "Sphinx documentation with C++ support via the Breathe bridge to Doxygen"
+releases = [
+    { version = "4.29.0", date = "2021-04-09", tag = "v4.29.0" },
+    { version = "4.29.1", date = "2021-04-23", tag = "v4.29.1" },
+    { version = "4.29.2", date = "2021-04-30", tag = "v4.29.2" },
+    { version = "4.30.0", date = "2021-05-06", tag = "v4.30.0" },
+    { version = "4.31.0", date = "2021-09-14", tag = "v4.31.0" },
+    { version = "4.32.0", date = "2022-01-30", tag = "v4.32.0" },
+    { version = "4.33.0", date = "2022-02-14", tag = "v4.33.0" },
+    { version = "4.33.1", date = "2022-02-14", tag = "v4.33.1" },
+    { version = "4.34.0", date = "2022-06-20", tag = "v4.34.0" },
+    { version = "4.35.0", date = "2023-03-31", tag = "v4.35.0" },
+    { version = "4.36.0", date = "2025-02-22", tag = "v4.36.0" },
+]
+
+[[tools]]
+name = "Standardese"
+vendor = "Standardese project"
+url = "https://github.com/standardese/standardese"
+category = "documentation"
+description = "Next-generation C++ documentation generator"
+releases = [
+    { version = "0.3", date = "2015-03-11", tag = "v0.3" },
+    { version = "1.0.0", date = "2015-03-17", tag = "v1.0.0" },
+    { version = "1.1.0", date = "2015-03-24", tag = "v1.1.0" },
+    { version = "1.2.0", date = "2015-04-15", tag = "v1.2.0" },
+    { version = "1.2.1", date = "2015-04-26", tag = "v1.2.1" },
+    { version = "1.3.0", date = "2015-08-05", tag = "v1.3.0" },
+    { version = "1.3.1", date = "2015-08-20", tag = "v1.3.1" },
+    { version = "2.0.0", date = "2015-09-14", tag = "v2.0.0" },
+    { version = "2.0.1", date = "2015-09-19", tag = "v2.0.1" },
+    { version = "2.0.2", date = "2015-09-20", tag = "v2.0.2" },
+    { version = "2.1.0", date = "2015-09-21", tag = "v2.1.0" },
+    { version = "2.1.1", date = "2015-11-25", tag = "v2.1.1" },
+    { version = "2.2.0", date = "2015-12-08", tag = "v2.2.0" },
+    { version = "2.2.1", date = "2016-03-06", tag = "v2.2.1" },
+    { version = "2.2.2", date = "2016-06-20", tag = "v2.2.2" },
+    { version = "2.3.0", date = "2016-11-23", tag = "v2.3.0" },
+    { version = "2.3.1", date = "2017-02-07", tag = "v2.3.1" },
+    { version = "2.3.2", date = "2017-04-08", tag = "v2.3.2" },
+    { version = "2.3.3", date = "2018-11-05", tag = "v2.3.3" },
+    { version = "2.4.0", date = "2022-02-21", tag = "v2.4.0" },
+    { version = "2.4.1", date = "2022-04-26", tag = "v2.4.1" },
+    { version = "2.4.2", date = "2023-05-13", tag = "v2.4.2" },
+    { version = "2.4.3", date = "2025-10-14", tag = "v2.4.3" },
+]
+
+[[tools]]
+name = "hdoc"
+vendor = "hdoc"
+url = "https://hdoc.io/"
+category = "documentation"
+description = "Modern C++ documentation tool with search and cross-referencing"
+
+[[tools]]
+name = "cldoc"
+vendor = "cldoc project"
+url = "https://github.com/jessevdk/cldoc"
+category = "documentation"
+description = "Clang-based C/C++ documentation generator"

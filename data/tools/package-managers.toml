@@ -1,0 +1,557 @@
+# C/C++ Package Managers and Toolchain Distribution Channels
+#
+# Note: Conan and vcpkg are covered in build-systems/build-systems.toml
+# as they are tightly integrated with build systems.
+
+[[tools]]
+name = "Spack"
+vendor = "LLNL / Spack community"
+url = "https://spack.io/"
+repo = "https://github.com/spack/spack"
+category = "package-manager"
+description = "Flexible package manager for HPC, supporting multiple versions, configurations, and compilers"
+releases = [
+    { version = "0.8.15", date = "2015-02-24", tag = "v0.8.15" },
+    { version = "0.8.16", date = "2015-03-14", tag = "v0.8.16" },
+    { version = "0.8.17", date = "2015-03-24", tag = "v0.8.17" },
+    { version = "0.10.0", date = "2017-01-17", tag = "v0.10.0" },
+    { version = "0.11.0", date = "2018-01-17", tag = "v0.11.0" },
+    { version = "0.11.1", date = "2018-01-19", tag = "v0.11.1" },
+    { version = "0.11.2", date = "2018-02-07", tag = "v0.11.2" },
+    { version = "0.12.0", date = "2018-11-13", tag = "v0.12.0" },
+    { version = "0.12.1", date = "2019-01-13", tag = "v0.12.1" },
+    { version = "0.13.0", date = "2019-10-26", tag = "v0.13.0" },
+    { version = "0.13.1", date = "2019-11-05", tag = "v0.13.1" },
+    { version = "0.13.2", date = "2019-12-05", tag = "v0.13.2" },
+    { version = "0.13.3", date = "2019-12-24", tag = "v0.13.3" },
+    { version = "0.13.4", date = "2020-02-07", tag = "v0.13.4" },
+    { version = "0.14.0", date = "2020-02-24", tag = "v0.14.0" },
+    { version = "0.14.1", date = "2020-03-20", tag = "v0.14.1" },
+    { version = "0.14.2", date = "2020-04-15", tag = "v0.14.2" },
+    { version = "0.15.0", date = "2020-07-01", tag = "v0.15.0" },
+    { version = "0.15.1", date = "2020-07-11", tag = "v0.15.1" },
+    { version = "0.15.2", date = "2020-07-23", tag = "v0.15.2" },
+    { version = "0.15.3", date = "2020-07-28", tag = "v0.15.3" },
+    { version = "0.15.4", date = "2020-08-13", tag = "v0.15.4" },
+    { version = "0.16.0", date = "2020-11-18", tag = "v0.16.0" },
+    { version = "0.16.1", date = "2021-02-23", tag = "v0.16.1" },
+    { version = "0.16.2", date = "2021-05-22", tag = "v0.16.2" },
+    { version = "0.16.3", date = "2021-09-22", tag = "v0.16.3" },
+    { version = "0.17.0", date = "2021-11-06", tag = "v0.17.0" },
+    { version = "0.17.1", date = "2021-12-23", tag = "v0.17.1" },
+    { version = "0.17.2", date = "2022-04-14", tag = "v0.17.2" },
+    { version = "0.17.3", date = "2022-07-20", tag = "v0.17.3" },
+    { version = "0.18.0", date = "2022-05-28", tag = "v0.18.0" },
+    { version = "0.18.1", date = "2022-07-20", tag = "v0.18.1" },
+    { version = "0.19.0", date = "2022-11-11", tag = "v0.19.0" },
+    { version = "0.19.1", date = "2023-02-10", tag = "v0.19.1" },
+    { version = "0.19.2", date = "2023-04-08", tag = "v0.19.2" },
+    { version = "0.20.0", date = "2023-05-20", tag = "v0.20.0" },
+    { version = "0.20.1", date = "2023-07-10", tag = "v0.20.1" },
+    { version = "0.20.2", date = "2023-10-04", tag = "v0.20.2" },
+    { version = "0.20.3", date = "2023-11-01", tag = "v0.20.3" },
+    { version = "0.21.0", date = "2023-11-12", tag = "v0.21.0" },
+    { version = "0.21.1", date = "2024-01-13", tag = "v0.21.1" },
+    { version = "0.21.2", date = "2024-03-05", tag = "v0.21.2" },
+    { version = "0.21.3", date = "2024-10-03", tag = "v0.21.3" },
+    { version = "0.22.0", date = "2024-05-12", tag = "v0.22.0" },
+    { version = "0.22.1", date = "2024-07-05", tag = "v0.22.1" },
+    { version = "0.22.2", date = "2024-09-21", tag = "v0.22.2" },
+    { version = "0.22.3", date = "2024-11-19", tag = "v0.22.3" },
+    { version = "0.22.5", date = "2025-02-21", tag = "v0.22.5" },
+    { version = "0.23.0", date = "2024-11-17", tag = "v0.23.0" },
+    { version = "0.23.1", date = "2025-02-19", tag = "v0.23.1" },
+    { version = "1.0.0", date = "2025-07-20", tag = "v1.0.0" },
+    { version = "1.0.1", date = "2025-08-12", tag = "v1.0.1" },
+    { version = "1.0.2", date = "2025-09-16", tag = "v1.0.2" },
+    { version = "1.0.4", date = "2026-02-23", tag = "v1.0.4" },
+    { version = "1.1.0", date = "2025-11-15", tag = "v1.1.0" },
+    { version = "1.1.1", date = "2026-01-27", tag = "v1.1.1" },
+]
+
+[[tools]]
+name = "Homebrew"
+vendor = "Homebrew contributors"
+url = "https://brew.sh/"
+repo = "https://github.com/Homebrew/brew"
+category = "package-manager"
+description = "macOS and Linux package manager, major distribution channel for C/C++ toolchains (GCC, LLVM, CMake, etc.)"
+releases = [
+    { version = "1.0.0", date = "2016-09-21", tag = "1.0.0" },
+    { version = "1.1.0", date = "2016-11-07", tag = "1.1.0" },
+    { version = "1.2.0", date = "2017-05-01", tag = "1.2.0" },
+    { version = "1.3.0", date = "2017-07-31", tag = "1.3.0" },
+    { version = "1.4.0", date = "2017-12-11", tag = "1.4.0" },
+    { version = "1.5.0", date = "2018-01-19", tag = "1.5.0" },
+    { version = "1.6.0", date = "2018-04-10", tag = "1.6.0" },
+    { version = "1.7.0", date = "2018-07-16", tag = "1.7.0" },
+    { version = "1.8.0", date = "2018-10-23", tag = "1.8.0" },
+    { version = "1.9.0", date = "2019-01-09", tag = "1.9.0" },
+    { version = "2.0.0", date = "2019-02-02", tag = "2.0.0" },
+    { version = "2.1.0", date = "2019-02-07", tag = "2.0.1" },
+    { version = "2.2.0", date = "2019-12-21", tag = "2.2.0" },
+    { version = "2.5.0", date = "2020-09-28", tag = "2.5.0" },
+    { version = "2.6.0", date = "2020-12-01", tag = "2.6.0" },
+    { version = "2.7.0", date = "2021-02-05", tag = "2.7.0" },
+    { version = "3.0.0", date = "2021-02-05", tag = "3.0.0" },
+    { version = "3.1.0", date = "2021-04-08", tag = "3.1.0" },
+    { version = "3.2.0", date = "2021-07-19", tag = "3.2.0" },
+    { version = "3.3.0", date = "2021-11-18", tag = "3.3.0" },
+    { version = "3.4.0", date = "2022-03-14", tag = "3.4.0" },
+    { version = "3.5.0", date = "2022-06-27", tag = "3.5.0" },
+    { version = "3.6.0", date = "2022-09-10", tag = "3.6.0" },
+    { version = "4.0.0", date = "2023-02-16", tag = "4.0.0" },
+    { version = "4.1.0", date = "2023-07-20", tag = "4.1.0" },
+    { version = "4.2.0", date = "2023-12-18", tag = "4.2.0" },
+    { version = "4.3.0", date = "2024-05-14", tag = "4.3.0" },
+    { version = "4.4.0", date = "2024-10-01", tag = "4.4.0" },
+    { version = "4.5.0", date = "2025-04-29", tag = "4.5.0" },
+    { version = "4.6.0", date = "2025-08-05", tag = "4.6.0" },
+    { version = "5.0.0", date = "2025-11-12", tag = "5.0.0" },
+    { version = "5.1.0", date = "2026-03-11", tag = "5.1.0" },
+    { version = "5.1.1", date = "2026-03-23", tag = "5.1.1" },
+    { version = "5.1.2", date = "2026-03-30", tag = "5.1.2" },
+    { version = "5.1.3", date = "2026-03-31", tag = "5.1.3" },
+]
+
+[[tools]]
+name = "pixi"
+vendor = "prefix.dev"
+url = "https://pixi.sh/"
+repo = "https://github.com/prefix-dev/pixi"
+category = "package-manager"
+description = "Fast conda-based package manager for C/C++ and multi-language projects"
+releases = [
+    { version = "0.0.1", date = "2023-06-09", tag = "v0.0.1" },
+    { version = "0.0.2", date = "2023-06-13", tag = "v0.0.2" },
+    { version = "0.0.3", date = "2023-06-16", tag = "v0.0.3" },
+    { version = "0.0.4", date = "2023-06-26", tag = "v0.0.4" },
+    { version = "0.0.5", date = "2023-06-26", tag = "v0.0.5" },
+    { version = "0.0.6", date = "2023-06-30", tag = "v0.0.6" },
+    { version = "0.0.7", date = "2023-07-11", tag = "v0.0.7" },
+    { version = "0.0.8", date = "2023-08-01", tag = "v0.0.8" },
+    { version = "0.1.0", date = "2023-08-11", tag = "v0.1.0" },
+    { version = "0.2.0", date = "2023-08-22", tag = "v0.2.0" },
+    { version = "0.3.0", date = "2023-09-11", tag = "v0.3.0" },
+    { version = "0.4.0", date = "2023-09-22", tag = "v0.4.0" },
+    { version = "0.5.0", date = "2023-10-03", tag = "v0.5.0" },
+    { version = "0.6.0", date = "2023-10-17", tag = "v0.6.0" },
+    { version = "0.7.0", date = "2023-11-14", tag = "v0.7.0" },
+    { version = "0.8.0", date = "2023-11-27", tag = "v0.8.0" },
+    { version = "0.9.0", date = "2023-11-28", tag = "v0.9.0" },
+    { version = "0.9.1", date = "2023-11-29", tag = "v0.9.1" },
+    { version = "0.10.0", date = "2023-12-08", tag = "v0.10.0" },
+    { version = "0.11.0", date = "2024-01-05", tag = "v0.11.0" },
+    { version = "0.11.1", date = "2024-01-10", tag = "v0.11.1" },
+    { version = "0.12.0", date = "2024-01-15", tag = "v0.12.0" },
+    { version = "0.13.0", date = "2024-02-01", tag = "v0.13.0" },
+    { version = "0.14.0", date = "2024-02-16", tag = "v0.14.0" },
+    { version = "0.15.0", date = "2024-02-26", tag = "v0.15.0" },
+    { version = "0.15.1", date = "2024-02-26", tag = "v0.15.1" },
+    { version = "0.15.2", date = "2024-02-29", tag = "v0.15.2" },
+    { version = "0.16.0", date = "2024-03-09", tag = "v0.16.0" },
+    { version = "0.16.1", date = "2024-03-11", tag = "v0.16.1" },
+    { version = "0.17.0", date = "2024-03-20", tag = "v0.17.0" },
+    { version = "0.17.1", date = "2024-03-21", tag = "v0.17.1" },
+    { version = "0.18.0", date = "2024-04-03", tag = "v0.18.0" },
+    { version = "0.19.0", date = "2024-04-10", tag = "v0.19.0" },
+    { version = "0.19.1", date = "2024-04-11", tag = "v0.19.1" },
+    { version = "0.20.0", date = "2024-04-19", tag = "v0.20.0" },
+    { version = "0.20.1", date = "2024-04-26", tag = "v0.20.1" },
+    { version = "0.21.0", date = "2024-05-06", tag = "v0.21.0" },
+    { version = "0.21.1", date = "2024-05-07", tag = "v0.21.1" },
+    { version = "0.22.0", date = "2024-05-13", tag = "v0.22.0" },
+    { version = "0.23.0", date = "2024-05-27", tag = "v0.23.0" },
+    { version = "0.24.0", date = "2024-06-12", tag = "v0.24.0" },
+    { version = "0.24.1", date = "2024-06-12", tag = "v0.24.1" },
+    { version = "0.24.2", date = "2024-06-14", tag = "v0.24.2" },
+    { version = "0.25.0", date = "2024-07-05", tag = "v0.25.0" },
+    { version = "0.26.0", date = "2024-07-22", tag = "v0.26.0" },
+    { version = "0.26.1", date = "2024-07-22", tag = "v0.26.1" },
+    { version = "0.27.0", date = "2024-08-07", tag = "v0.27.0" },
+    { version = "0.27.1", date = "2024-08-09", tag = "v0.27.1" },
+    { version = "0.28.0", date = "2024-08-23", tag = "v0.28.0" },
+    { version = "0.28.1", date = "2024-08-26", tag = "v0.28.1" },
+    { version = "0.28.2", date = "2024-08-29", tag = "v0.28.2" },
+    { version = "0.29.0", date = "2024-09-04", tag = "v0.29.0" },
+    { version = "0.30.0", date = "2024-09-19", tag = "v0.30.0" },
+    { version = "0.31.0", date = "2024-10-03", tag = "v0.31.0" },
+    { version = "0.32.0", date = "2024-10-08", tag = "v0.32.0" },
+    { version = "0.32.1", date = "2024-10-08", tag = "v0.32.1" },
+    { version = "0.32.2", date = "2024-10-16", tag = "v0.32.2" },
+    { version = "0.33.0", date = "2024-10-16", tag = "v0.33.0" },
+    { version = "0.34.0", date = "2024-10-22", tag = "v0.34.0" },
+    { version = "0.35.0", date = "2024-11-06", tag = "v0.35.0" },
+    { version = "0.36.0", date = "2024-11-12", tag = "v0.36.0" },
+    { version = "0.37.0", date = "2024-11-18", tag = "v0.37.0" },
+    { version = "0.38.0", date = "2024-11-26", tag = "v0.38.0" },
+    { version = "0.39.0", date = "2024-12-02", tag = "v0.39.0" },
+    { version = "0.39.1", date = "2024-12-09", tag = "v0.39.1" },
+    { version = "0.39.2", date = "2024-12-11", tag = "v0.39.2" },
+    { version = "0.39.3", date = "2024-12-19", tag = "v0.39.3" },
+    { version = "0.39.4", date = "2024-12-24", tag = "v0.39.4" },
+    { version = "0.39.5", date = "2025-01-06", tag = "v0.39.5" },
+    { version = "0.40.0", date = "2025-01-13", tag = "v0.40.0" },
+    { version = "0.40.1", date = "2025-01-14", tag = "v0.40.1" },
+    { version = "0.40.2", date = "2025-01-17", tag = "v0.40.2" },
+    { version = "0.40.3", date = "2025-01-23", tag = "v0.40.3" },
+    { version = "0.41.0", date = "2025-02-05", tag = "v0.41.0" },
+    { version = "0.41.1", date = "2025-02-07", tag = "v0.41.1" },
+    { version = "0.41.2", date = "2025-02-11", tag = "v0.41.2" },
+    { version = "0.41.3", date = "2025-02-12", tag = "v0.41.3" },
+    { version = "0.41.4", date = "2025-02-19", tag = "v0.41.4" },
+    { version = "0.42.0", date = "2025-03-05", tag = "v0.42.0" },
+    { version = "0.42.1", date = "2025-03-06", tag = "v0.42.1" },
+    { version = "0.43.0", date = "2025-03-21", tag = "v0.43.0" },
+    { version = "0.43.1", date = "2025-03-24", tag = "v0.43.1" },
+    { version = "0.43.2", date = "2025-03-25", tag = "v0.43.2" },
+    { version = "0.43.3", date = "2025-03-25", tag = "v0.43.3" },
+    { version = "0.44.0", date = "2025-03-31", tag = "v0.44.0" },
+    { version = "0.45.0", date = "2025-04-07", tag = "v0.45.0" },
+    { version = "0.46.0", date = "2025-04-22", tag = "v0.46.0" },
+    { version = "0.47.0", date = "2025-05-13", tag = "v0.47.0" },
+    { version = "0.48.0", date = "2025-06-03", tag = "v0.48.0" },
+    { version = "0.48.1", date = "2025-06-10", tag = "v0.48.1" },
+    { version = "0.48.2", date = "2025-06-16", tag = "v0.48.2" },
+    { version = "0.49.0", date = "2025-06-30", tag = "v0.49.0" },
+    { version = "0.50.0", date = "2025-07-24", tag = "v0.50.0" },
+    { version = "0.50.1", date = "2025-07-25", tag = "v0.50.1" },
+    { version = "0.50.2", date = "2025-07-28", tag = "v0.50.2" },
+    { version = "0.51.0", date = "2025-08-12", tag = "v0.51.0" },
+    { version = "0.52.0", date = "2025-08-14", tag = "v0.52.0" },
+    { version = "0.53.0", date = "2025-08-19", tag = "v0.53.0" },
+    { version = "0.54.0", date = "2025-09-02", tag = "v0.54.0" },
+    { version = "0.54.1", date = "2025-09-03", tag = "v0.54.1" },
+    { version = "0.54.2", date = "2025-09-08", tag = "v0.54.2" },
+    { version = "0.55.0", date = "2025-09-15", tag = "v0.55.0" },
+    { version = "0.56.0", date = "2025-10-07", tag = "v0.56.0" },
+    { version = "0.57.0", date = "2025-10-20", tag = "v0.57.0" },
+    { version = "0.58.0", date = "2025-10-22", tag = "v0.58.0" },
+    { version = "0.59.0", date = "2025-10-29", tag = "v0.59.0" },
+    { version = "0.60.0", date = "2025-12-03", tag = "v0.60.0" },
+    { version = "0.61.0", date = "2025-12-09", tag = "v0.61.0" },
+    { version = "0.62.0", date = "2025-12-17", tag = "v0.62.0" },
+    { version = "0.62.1", date = "2025-12-18", tag = "v0.62.1" },
+    { version = "0.62.2", date = "2025-12-22", tag = "v0.62.2" },
+    { version = "0.63.0", date = "2026-01-14", tag = "v0.63.0" },
+    { version = "0.63.1", date = "2026-01-15", tag = "v0.63.1" },
+    { version = "0.63.2", date = "2026-01-19", tag = "v0.63.2" },
+    { version = "0.64.0", date = "2026-02-24", tag = "v0.64.0" },
+    { version = "0.65.0", date = "2026-02-27", tag = "v0.65.0" },
+    { version = "0.66.0", date = "2026-03-17", tag = "v0.66.0" },
+]
+
+[[tools]]
+name = "mamba"
+vendor = "mamba-org / QuantStack"
+url = "https://mamba.readthedocs.io/"
+repo = "https://github.com/mamba-org/mamba"
+category = "package-manager"
+description = "Fast cross-platform conda package manager, used for C/C++ toolchain and library distribution via conda-forge"
+releases = [
+    { version = "2021.11.17", date = "2021-11-18", tag = "2021.11.17" },
+    { version = "2021.11.19", date = "2021-11-22", tag = "2021.11.19" },
+    { version = "2022.01.25", date = "2022-01-25", tag = "2022.01.25" },
+    { version = "2022.02.07", date = "2022-02-07", tag = "2022.02.07" },
+    { version = "2022.02.11", date = "2022-02-11", tag = "2022.02.11" },
+    { version = "2022.02.25", date = "2022-04-26", tag = "2022.02.25" },
+    { version = "2022.02.28", date = "2022-04-26", tag = "2022.02.28" },
+    { version = "2022.04.21", date = "2022-04-26", tag = "2022.04.21" },
+    { version = "2022.05.11", date = "2022-05-20", tag = "2022.05.11" },
+    { version = "2022.05.12", date = "2022-05-20", tag = "2022.05.12" },
+    { version = "2022.05.20", date = "2022-05-20", tag = "2022.05.20" },
+    { version = "2022.05.31", date = "2022-06-01", tag = "2022.05.31" },
+    { version = "2022.07.26", date = "2022-07-26", tag = "2022.07.26" },
+    { version = "2022.09.30", date = "2022-09-30", tag = "2022.09.30" },
+    { version = "2022.10.04", date = "2022-10-05", tag = "2022.10.04" },
+    { version = "2022.11.01", date = "2022-11-01", tag = "2022.11.01" },
+    { version = "2022.11.25", date = "2023-01-09", tag = "2022.11.25" },
+    { version = "2023.01.16", date = "2023-01-16", tag = "2023.01.16" },
+    { version = "2023.02.03", date = "2023-02-03", tag = "2023.02.03" },
+    { version = "2023.02.09", date = "2023-02-10", tag = "2023.02.09" },
+    { version = "2023.03.22", date = "2023-03-23", tag = "2023.03.22" },
+    { version = "2023.03.28", date = "2023-03-28", tag = "2023.03.28" },
+    { version = "2023.04.06", date = "2023-04-06", tag = "2023.04.06" },
+    { version = "2023.05.15", date = "2023-05-15", tag = "2023.05.15" },
+    { version = "2023.05.16", date = "2023-05-16", tag = "2023.05.16" },
+    { version = "2023.06.27", date = "2023-06-27", tag = "2023.06.27" },
+    { version = "2023.06.30", date = "2023-06-30", tag = "2023.06.30" },
+    { version = "2023.07.06", date = "2023-07-06", tag = "2023.07.06" },
+    { version = "2023.07.11", date = "2023-07-11", tag = "2023.07.11" },
+    { version = "2023.07.13", date = "2023-07-13", tag = "2023.07.13" },
+    { version = "2023.08.24", date = "2023-08-24", tag = "2023.08.24" },
+    { version = "2023.09.05", date = "2023-09-05", tag = "2023.09.05" },
+    { version = "2023.10.16", date = "2023-10-16", tag = "2023.10.16" },
+    { version = "2023.10.30", date = "2023-10-31", tag = "2023.10.30" },
+    { version = "2023.12.05", date = "2023-12-05", tag = "2023.12.05" },
+    { version = "2023.12.11", date = "2023-12-11", tag = "2023.12.11" },
+    { version = "2023.12.21", date = "2023-12-21", tag = "2023.12.21" },
+    { version = "2024.03.04", date = "2024-03-04", tag = "2024.03.04" },
+    { version = "2024.03.25", date = "2024-03-25", tag = "2024.03.25" },
+    { version = "2024.08.31", date = "2024-08-30", tag = "2024.08.31" },
+    { version = "2024.09.20", date = "2024-09-23", tag = "2024.09.20" },
+    { version = "2024.09.25", date = "2024-09-25", tag = "2024.09.25" },
+    { version = "2024.09.30", date = "2024-10-01", tag = "2024.09.30" },
+    { version = "2024.10.02", date = "2024-11-12", tag = "2024.10.02" },
+    { version = "2024.11.22", date = "2024-11-22", tag = "2024.11.22" },
+    { version = "2024.11.22-2", date = "2024-11-25", tag = "2024.11.22-2" },
+    { version = "2024.12.12", date = "2024-12-12", tag = "2024.12.12" },
+    { version = "2025.01.02", date = "2025-01-02", tag = "2025.01.02" },
+    { version = "2.0.7", date = "2025-03-11", tag = "2.0.7" },
+    { version = "2.0.8", date = "2025-03-19", tag = "2.0.8" },
+    { version = "2.1.0", date = "2025-04-09", tag = "2.1.0" },
+    { version = "2.1.1", date = "2025-05-05", tag = "2.1.1" },
+    { version = "2.2.0", date = "2025-06-04", tag = "2.2.0" },
+    { version = "2.3.0", date = "2025-06-16", tag = "2.3.0" },
+    { version = "2.3.1", date = "2025-08-08", tag = "2.3.1" },
+    { version = "2.3.2", date = "2025-08-26", tag = "2.3.2" },
+    { version = "2.3.3", date = "2025-10-17", tag = "2.3.3" },
+    { version = "2.4.0", date = "2025-11-21", tag = "2.4.0" },
+    { version = "2.5.0", date = "2026-01-08", tag = "2.5.0" },
+]
+
+[[tools]]
+name = "conda"
+vendor = "Anaconda / conda community"
+url = "https://docs.conda.io/"
+repo = "https://github.com/conda/conda"
+category = "package-manager"
+description = "Cross-platform package and environment manager, widely used for distributing C/C++ libraries via conda-forge"
+note = "conda releases are frequent; only major/minor versions listed. See github.com/conda/conda for full history."
+releases = [
+    { version = "4.8.0", date = "2019-12-18" },
+    { version = "4.9.0", date = "2020-10-07" },
+    { version = "4.10.0", date = "2021-03-23" },
+    { version = "4.11.0", date = "2021-11-22" },
+    { version = "4.12.0", date = "2022-03-08" },
+    { version = "4.13.0", date = "2022-05-25" },
+    { version = "4.14.0", date = "2022-08-02" },
+    { version = "22.9.0", date = "2022-11-01" },
+    { version = "22.11.0", date = "2022-12-06" },
+    { version = "23.1.0", date = "2023-01-31" },
+    { version = "23.3.0", date = "2023-03-31" },
+    { version = "23.5.0", date = "2023-05-31" },
+    { version = "23.7.0", date = "2023-07-18" },
+    { version = "23.9.0", date = "2023-10-02" },
+    { version = "23.11.0", date = "2023-11-29" },
+    { version = "24.1.0", date = "2024-01-31" },
+    { version = "24.3.0", date = "2024-03-29" },
+    { version = "24.5.0", date = "2024-06-04" },
+    { version = "24.7.0", date = "2024-07-23" },
+    { version = "24.9.0", date = "2024-10-01" },
+    { version = "24.11.0", date = "2024-11-19" },
+    { version = "25.1.0", date = "2025-01-27" },
+    { version = "25.3.0", date = "2025-03-25" },
+]
+
+[[tools]]
+name = "CPM.cmake"
+vendor = "cpm-cmake"
+url = "https://github.com/cpm-cmake/CPM.cmake"
+category = "package-manager"
+description = "CMake Package Manager - setup-free, cross-platform CMake dependency management"
+releases = [
+    { version = "0.1", date = "2019-04-09", tag = "v0.1" },
+    { version = "0.2", date = "2019-04-09", tag = "v0.2" },
+    { version = "0.3", date = "2019-04-09", tag = "v0.3" },
+    { version = "0.4", date = "2019-04-10", tag = "v0.4" },
+    { version = "0.5", date = "2019-04-15", tag = "v0.5" },
+    { version = "0.6", date = "2019-04-17", tag = "v0.6" },
+    { version = "0.7", date = "2019-04-26", tag = "v0.7" },
+    { version = "0.7.1", date = "2019-04-28", tag = "v0.7.1" },
+    { version = "0.8", date = "2019-05-04", tag = "v0.8" },
+    { version = "0.9", date = "2019-05-17", tag = "v0.9" },
+    { version = "0.10", date = "2019-05-20", tag = "v0.10" },
+    { version = "0.11", date = "2019-05-20", tag = "v0.11" },
+    { version = "0.12", date = "2019-06-22", tag = "v0.12" },
+    { version = "0.13", date = "2019-10-07", tag = "v0.13" },
+    { version = "0.14", date = "2019-10-10", tag = "v0.14" },
+    { version = "0.15", date = "2019-10-24", tag = "v0.15" },
+    { version = "0.15.1", date = "2019-10-25", tag = "v0.15.1" },
+    { version = "0.16", date = "2020-02-06", tag = "v0.16" },
+    { version = "0.17", date = "2020-02-25", tag = "v0.17" },
+    { version = "0.17.2", date = "2020-03-16", tag = "v0.17.2" },
+    { version = "0.18", date = "2020-04-14", tag = "v0.18" },
+    { version = "0.20", date = "2020-04-24", tag = "v0.20" },
+    { version = "0.21", date = "2020-04-29", tag = "v0.21" },
+    { version = "0.22", date = "2020-04-29", tag = "v0.22" },
+    { version = "0.23", date = "2020-05-07", tag = "v0.23" },
+    { version = "0.24", date = "2020-05-19", tag = "v0.24" },
+    { version = "0.25", date = "2020-05-27", tag = "v0.25" },
+    { version = "0.25.1", date = "2020-05-28", tag = "v0.25.1" },
+    { version = "0.26", date = "2020-05-29", tag = "v0.26" },
+    { version = "0.26.1", date = "2020-05-29", tag = "v0.26.1" },
+    { version = "0.26.2", date = "2020-05-29", tag = "v0.26.2" },
+    { version = "0.27", date = "2020-06-04", tag = "v0.27" },
+    { version = "0.27.1", date = "2020-06-15", tag = "v0.27.1" },
+    { version = "0.27.2", date = "2020-08-04", tag = "v0.27.2" },
+    { version = "0.27.3", date = "2020-08-20", tag = "v0.27.3" },
+    { version = "0.27.4", date = "2020-09-27", tag = "v0.27.4" },
+    { version = "0.27.5", date = "2020-10-19", tag = "v0.27.5" },
+    { version = "0.28.0", date = "2021-01-20", tag = "v0.28.0" },
+    { version = "0.28.1", date = "2021-01-25", tag = "v0.28.1" },
+    { version = "0.28.2", date = "2021-01-27", tag = "v0.28.2" },
+    { version = "0.28.3", date = "2021-02-07", tag = "v0.28.3" },
+    { version = "0.28.4", date = "2021-02-08", tag = "v0.28.4" },
+    { version = "0.29.0", date = "2021-02-16", tag = "v0.29.0" },
+    { version = "0.30.0", date = "2021-02-17", tag = "v0.30.0" },
+    { version = "0.31.0", date = "2021-02-22", tag = "v0.31.0" },
+    { version = "0.31.1", date = "2021-02-23", tag = "v0.31.1" },
+    { version = "0.31.2", date = "2021-03-25", tag = "v0.31.2" },
+    { version = "0.32.0", date = "2021-03-25", tag = "v0.32.0" },
+    { version = "0.32.1", date = "2021-04-16", tag = "v0.32.1" },
+    { version = "0.32.2", date = "2021-06-08", tag = "v0.32.2" },
+    { version = "0.32.3", date = "2021-08-29", tag = "v0.32.3" },
+    { version = "0.33.0", date = "2021-09-15", tag = "v0.33.0" },
+    { version = "0.34.0", date = "2021-09-15", tag = "v0.34.0" },
+    { version = "0.34.1", date = "2021-12-05", tag = "v0.34.1" },
+    { version = "0.34.2", date = "2021-12-15", tag = "v0.34.2" },
+    { version = "0.34.3", date = "2021-12-30", tag = "v0.34.3" },
+    { version = "0.35.0", date = "2022-02-11", tag = "v0.35.0" },
+    { version = "0.35.1", date = "2022-05-16", tag = "v0.35.1" },
+    { version = "0.35.2", date = "2022-07-26", tag = "v0.35.2" },
+    { version = "0.35.3", date = "2022-07-31", tag = "v0.35.3" },
+    { version = "0.35.4", date = "2022-08-03", tag = "v0.35.4" },
+    { version = "0.35.5", date = "2022-08-11", tag = "v0.35.5" },
+    { version = "0.35.6", date = "2022-09-13", tag = "v0.35.6" },
+    { version = "0.36.0", date = "2022-10-04", tag = "v0.36.0" },
+    { version = "0.37.0", date = "2023-01-28", tag = "v0.37.0" },
+    { version = "0.38.0", date = "2023-02-21", tag = "v0.38.0" },
+    { version = "0.38.1", date = "2023-03-05", tag = "v0.38.1" },
+    { version = "0.38.2", date = "2023-07-12", tag = "v0.38.2" },
+    { version = "0.38.3", date = "2023-09-18", tag = "v0.38.3" },
+    { version = "0.38.4", date = "2023-09-18", tag = "v0.38.4" },
+    { version = "0.38.5", date = "2023-09-18", tag = "v0.38.5" },
+    { version = "0.38.6", date = "2023-10-08", tag = "v0.38.6" },
+    { version = "0.38.7", date = "2023-11-30", tag = "v0.38.7" },
+    { version = "0.38.8", date = "2024-04-07", tag = "v0.38.8" },
+    { version = "0.39.0", date = "2024-04-08", tag = "v0.39.0" },
+    { version = "0.40.0", date = "2024-06-12", tag = "v0.40.0" },
+    { version = "0.40.1", date = "2024-07-29", tag = "v0.40.1" },
+    { version = "0.40.2", date = "2024-08-02", tag = "v0.40.2" },
+    { version = "0.40.3", date = "2024-12-20", tag = "v0.40.3" },
+    { version = "0.40.4", date = "2024-12-22", tag = "v0.40.4" },
+    { version = "0.40.5", date = "2024-12-29", tag = "v0.40.5" },
+    { version = "0.40.6", date = "2025-03-02", tag = "v0.40.6" },
+    { version = "0.40.7", date = "2025-03-04", tag = "v0.40.7" },
+    { version = "0.40.8", date = "2025-03-12", tag = "v0.40.8" },
+    { version = "0.41.0", date = "2025-05-03", tag = "v0.41.0" },
+    { version = "0.42.0", date = "2025-05-18", tag = "v0.42.0" },
+    { version = "0.42.1", date = "2026-01-18", tag = "v0.42.1" },
+]
+
+[[tools]]
+name = "Hunter"
+vendor = "cpp-pm community"
+url = "https://hunter.readthedocs.io/"
+repo = "https://github.com/cpp-pm/hunter"
+category = "package-manager"
+description = "CMake-driven cross-platform package manager for C/C++ projects"
+releases = [
+    { version = "0.24.5", date = "2022-08-25", tag = "v0.24.5" },
+    { version = "0.24.6", date = "2022-09-02", tag = "v0.24.6" },
+    { version = "0.24.7", date = "2022-09-13", tag = "v0.24.7" },
+    { version = "0.24.8", date = "2022-10-27", tag = "v0.24.8" },
+    { version = "0.24.9", date = "2022-11-30", tag = "v0.24.9" },
+    { version = "0.24.10", date = "2022-12-12", tag = "v0.24.10" },
+    { version = "0.24.11", date = "2022-12-16", tag = "v0.24.11" },
+    { version = "0.24.12", date = "2022-12-21", tag = "v0.24.12" },
+    { version = "0.24.13", date = "2023-01-05", tag = "v0.24.13" },
+    { version = "0.24.14", date = "2023-01-10", tag = "v0.24.14" },
+    { version = "0.24.15", date = "2023-01-24", tag = "v0.24.15" },
+    { version = "0.24.16", date = "2023-04-13", tag = "v0.24.16" },
+    { version = "0.24.17", date = "2023-05-28", tag = "v0.24.17" },
+    { version = "0.24.18", date = "2023-06-12", tag = "v0.24.18" },
+    { version = "0.25.0", date = "2023-09-25", tag = "v0.25.0" },
+    { version = "0.25.1", date = "2023-10-25", tag = "v0.25.1" },
+    { version = "0.25.2", date = "2023-10-27", tag = "v0.25.2" },
+    { version = "0.25.3", date = "2023-10-31", tag = "v0.25.3" },
+    { version = "0.25.4", date = "2024-01-29", tag = "v0.25.4" },
+    { version = "0.25.5", date = "2024-01-29", tag = "v0.25.5" },
+    { version = "0.25.6", date = "2024-06-18", tag = "v0.25.6" },
+    { version = "0.25.7", date = "2024-09-06", tag = "v0.25.7" },
+    { version = "0.25.8", date = "2024-11-15", tag = "v0.25.8" },
+    { version = "0.26.0", date = "2025-06-06", tag = "v0.26.0" },
+    { version = "0.26.1", date = "2025-06-10", tag = "v0.26.1" },
+    { version = "0.26.2", date = "2025-09-12", tag = "v0.26.2" },
+    { version = "0.26.3", date = "2025-09-16", tag = "v0.26.3" },
+    { version = "0.26.4", date = "2025-09-16", tag = "v0.26.4" },
+    { version = "0.26.5", date = "2025-09-18", tag = "v0.26.5" },
+    { version = "0.26.6", date = "2025-09-22", tag = "v0.26.6" },
+]
+
+[[tools]]
+name = "build2"
+vendor = "build2 project"
+url = "https://build2.org/"
+repo = "https://github.com/build2/build2"
+category = "package-manager"
+description = "Build system with integrated package manager (bpkg) and repository (cppget.org)"
+note = "build2 includes bpkg (package manager) and bdep (project dependency manager)"
+releases = [
+    { version = "0.6.0", date = "2017-04-28" },
+    { version = "0.7.0", date = "2018-01-19" },
+    { version = "0.8.0", date = "2018-07-12" },
+    { version = "0.9.0", date = "2019-01-15" },
+    { version = "0.10.0", date = "2019-04-08" },
+    { version = "0.11.0", date = "2019-07-01" },
+    { version = "0.12.0", date = "2019-12-04" },
+    { version = "0.13.0", date = "2020-06-17" },
+    { version = "0.14.0", date = "2021-01-14" },
+    { version = "0.15.0", date = "2022-03-09" },
+    { version = "0.16.0", date = "2023-06-02" },
+    { version = "0.17.0", date = "2024-09-10" },
+]
+
+[[tools]]
+name = "Buckaroo"
+vendor = "LoopPerfect"
+url = "https://buckaroo.pm/"
+repo = "https://github.com/LoopPerfect/buckaroo"
+category = "package-manager"
+description = "Decentralized C++ package manager using Buck build system"
+status = "inactive"
+note = "Project largely inactive since ~2019"
+releases = [
+    { version = "1.0.0", date = "2017-06-12" },
+    { version = "1.1.0", date = "2017-07-04" },
+    { version = "1.2.0", date = "2017-08-22" },
+    { version = "1.3.0", date = "2017-11-06" },
+    { version = "1.4.0", date = "2017-12-19" },
+    { version = "2.0.0", date = "2018-10-02" },
+]
+
+[[tools]]
+name = "cget"
+vendor = "pfultz2"
+url = "https://github.com/pfultz2/cget"
+repo = "https://github.com/pfultz2/cget"
+category = "package-manager"
+description = "CMake package retrieval, installs CMake packages with a single command"
+note = "Lightweight tool focused on cmake --install workflow"
+releases = [
+    { version = "0.1.0", date = "2016-09-26" },
+    { version = "0.1.1", date = "2017-04-12" },
+    { version = "0.1.2", date = "2017-04-12" },
+    { version = "0.1.3", date = "2017-04-16" },
+    { version = "0.1.4", date = "2017-05-06" },
+    { version = "0.1.5", date = "2017-05-06" },
+    { version = "0.1.6", date = "2017-07-17" },
+    { version = "0.1.7", date = "2017-10-09" },
+    { version = "0.1.8", date = "2017-12-11" },
+    { version = "0.1.9", date = "2018-04-19" },
+    { version = "0.2.0", date = "2019-03-22" },
+]
+
+[[tools]]
+name = "FetchContent"
+vendor = "Kitware"
+url = "https://cmake.org/cmake/help/latest/module/FetchContent.html"
+category = "package-manager"
+description = "CMake built-in module for downloading and including dependencies at configure time"
+note = "Available since CMake 3.11 (2018). Not a standalone tool; part of CMake."
+releases = [
+    { version = "3.11", date = "2018-03-28", note = "FetchContent introduced" },
+    { version = "3.14", date = "2019-03-14", note = "FetchContent_MakeAvailable added" },
+    { version = "3.24", date = "2022-08-04", note = "find_package integration via FIND_PACKAGE_ARGS" },
+]

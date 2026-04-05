@@ -1,0 +1,180 @@
+[[profilers]]
+name = "perf"
+vendor = "Linux Kernel"
+url = "https://perf.wiki.kernel.org/"
+category = "profiler"
+description = "Linux performance counters tool for hardware and software event profiling"
+note = "Part of linux-tools, version tracks kernel version"
+
+[[profilers]]
+name = "Intel VTune Profiler"
+vendor = "Intel"
+url = "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html"
+category = "profiler"
+description = "Commercial performance analysis tool for serial and multithreaded applications"
+releases = [
+    { version = "2020", date = "2019-11-01" },
+    { version = "2020 Update 1", date = "2020-03-01" },
+    { version = "2020 Update 2", date = "2020-06-01" },
+    { version = "2021.1", date = "2020-12-01" },
+    { version = "2021.2", date = "2021-03-01" },
+    { version = "2021.3", date = "2021-06-01" },
+    { version = "2021.4", date = "2021-09-01" },
+    { version = "2021.5", date = "2021-12-01" },
+    { version = "2021.6", date = "2022-03-01" },
+    { version = "2021.7", date = "2022-06-01" },
+    { version = "2022.1", date = "2022-09-01" },
+    { version = "2022.2", date = "2022-12-01" },
+    { version = "2023.0", date = "2023-03-01" },
+    { version = "2023.1", date = "2023-06-01" },
+    { version = "2023.2", date = "2023-09-01" },
+    { version = "2024.0", date = "2023-12-01" },
+    { version = "2024.1", date = "2024-03-01" },
+    { version = "2024.2", date = "2024-06-01" },
+    { version = "2025.0", date = "2024-10-01" },
+]
+
+[[profilers]]
+name = "AMD uProf"
+vendor = "AMD"
+url = "https://www.amd.com/en/developer/uprof.html"
+category = "profiler"
+description = "AMD performance profiler for CPU, GPU, and memory analysis"
+releases = [
+    { version = "3.0", date = "2019-11-01" },
+    { version = "3.1", date = "2020-03-01" },
+    { version = "3.2", date = "2020-06-01" },
+    { version = "3.3", date = "2020-10-01" },
+    { version = "3.4", date = "2021-04-01" },
+    { version = "3.5", date = "2021-09-01" },
+    { version = "3.6", date = "2022-03-01" },
+    { version = "4.0", date = "2022-09-01" },
+    { version = "4.1", date = "2023-06-01" },
+    { version = "4.2", date = "2023-12-01" },
+    { version = "5.0", date = "2024-08-01" },
+]
+
+[[profilers]]
+name = "gprof"
+vendor = "GNU"
+url = "https://sourceware.org/binutils/docs/gprof/"
+category = "profiler"
+description = "GNU profiler for call graph and flat profile analysis, part of binutils"
+note = "Part of GNU binutils, version tracks binutils releases"
+
+[[profilers]]
+name = "gperftools"
+vendor = "Google"
+url = "https://github.com/gperftools/gperftools"
+category = "profiler"
+description = "Google Performance Tools: tcmalloc, CPU profiler, heap profiler, and heap checker"
+releases = [
+    { version = "2.1", date = "2015-08-15", tag = "gperftools-2.1" },
+    { version = "2.2", date = "2015-08-15", tag = "gperftools-2.2" },
+    { version = "2.2.1", date = "2015-08-15", tag = "gperftools-2.2.1" },
+    { version = "2.3", date = "2015-08-15", tag = "gperftools-2.3" },
+    { version = "2.4", date = "2015-08-15", tag = "gperftools-2.4" },
+    { version = "2.5", date = "2016-03-12", tag = "gperftools-2.5" },
+    { version = "2.6", date = "2017-07-05", tag = "gperftools-2.6" },
+    { version = "2.6.1", date = "2017-07-09", tag = "gperftools-2.6.1" },
+    { version = "2.6.2", date = "2017-11-30", tag = "gperftools-2.6.2" },
+    { version = "2.6.3", date = "2017-12-09", tag = "gperftools-2.6.3" },
+    { version = "2.7", date = "2018-04-30", tag = "gperftools-2.7" },
+    { version = "2.8", date = "2020-07-06", tag = "gperftools-2.8" },
+    { version = "2.8.1", date = "2020-12-21", tag = "gperftools-2.8.1" },
+    { version = "2.9", date = "2021-02-21", tag = "gperftools-2.9" },
+    { version = "2.9.1", date = "2021-03-03", tag = "gperftools-2.9.1" },
+    { version = "2.10", date = "2022-05-31", tag = "gperftools-2.10" },
+    { version = "2.11", date = "2023-08-15", tag = "gperftools-2.11" },
+    { version = "2.12", date = "2023-08-24", tag = "gperftools-2.12" },
+    { version = "2.13", date = "2023-09-11", tag = "gperftools-2.13" },
+    { version = "2.14", date = "2024-01-01", tag = "gperftools-2.14" },
+    { version = "2.15", date = "2024-01-05", tag = "gperftools-2.15" },
+    { version = "2.16", date = "2024-09-25", tag = "gperftools-2.16" },
+    { version = "2.17", date = "2025-08-04", tag = "gperftools-2.17" },
+    { version = "2.17.1", date = "2025-08-13", tag = "gperftools-2.17.1" },
+    { version = "2.17.2", date = "2025-08-15", tag = "gperftools-2.17.2" },
+    { version = "2.18", date = "2026-01-25", tag = "gperftools-2.18" },
+    { version = "2.18.1", date = "2026-03-06", tag = "gperftools-2.18.1" },
+]
+
+[[profilers]]
+name = "Tracy"
+vendor = "Bartosz Taudul"
+url = "https://github.com/wolfpld/tracy"
+category = "profiler"
+description = "Real-time, nanosecond resolution frame profiler for C, C++, and other languages"
+releases = [
+    { version = "0.6.3", date = "2020-04-10", tag = "v0.6.3" },
+    { version = "0.7", date = "2020-06-11", tag = "v0.7" },
+    { version = "0.7.1", date = "2020-08-24", tag = "v0.7.1" },
+    { version = "0.7.2", date = "2020-09-14", tag = "v0.7.2" },
+    { version = "0.7.3", date = "2020-10-06", tag = "v0.7.3" },
+    { version = "0.7.4", date = "2020-11-15", tag = "v0.7.4" },
+    { version = "0.7.5", date = "2021-01-23", tag = "v0.7.5" },
+    { version = "0.7.6", date = "2021-02-06", tag = "v0.7.6" },
+    { version = "0.7.7", date = "2021-04-01", tag = "v0.7.7" },
+    { version = "0.7.8", date = "2021-05-19", tag = "v0.7.8" },
+    { version = "0.8", date = "2022-03-28", tag = "v0.8" },
+    { version = "0.8.1", date = "2022-04-21", tag = "v0.8.1" },
+    { version = "0.8.2", date = "2022-06-28", tag = "v0.8.2" },
+    { version = "0.9", date = "2022-10-26", tag = "v0.9" },
+    { version = "0.9.1", date = "2023-02-26", tag = "v0.9.1" },
+    { version = "0.10", date = "2023-10-16", tag = "v0.10" },
+    { version = "0.11.0", date = "2024-07-16", tag = "v0.11.0" },
+    { version = "0.11.1", date = "2024-08-22", tag = "v0.11.1" },
+    { version = "0.12.0", date = "2025-05-30", tag = "v0.12.0" },
+    { version = "0.12.1", date = "2025-06-07", tag = "v0.12.1" },
+    { version = "0.12.2", date = "2025-06-25", tag = "v0.12.2" },
+    { version = "0.13.0", date = "2025-11-11", tag = "v0.13.0" },
+    { version = "0.13.1", date = "2025-12-11", tag = "v0.13.1" },
+]
+
+[[profilers]]
+name = "Orbit"
+vendor = "Google"
+url = "https://github.com/google/orbit"
+category = "profiler"
+description = "C/C++ performance profiler for Windows and Linux with dynamic instrumentation"
+releases = [
+    { version = "1.0.2", date = "2018-07-06", tag = "v1.0.2" },
+]
+note = "Development continued via nightly prerelease builds"
+
+[[profilers]]
+name = "Heaptrack"
+vendor = "KDE"
+url = "https://github.com/KDE/heaptrack"
+category = "heap-profiler"
+description = "Heap memory profiler for Linux that traces all memory allocations"
+releases = [
+    { version = "1.0", date = "2017-08-19", tag = "v1.0" },
+    { version = "1.2.0", date = "2020-09-02", tag = "v1.2.0" },
+    { version = "1.3.0", date = "2021-12-21", tag = "v1.3.0" },
+]
+
+[[profilers]]
+name = "Massif"
+vendor = "Valgrind Developers"
+url = "https://valgrind.org/docs/manual/ms-manual.html"
+category = "heap-profiler"
+description = "Heap profiler that measures how much heap memory programs use, part of Valgrind"
+note = "Part of Valgrind, version tracks Valgrind releases"
+
+[[profilers]]
+name = "Callgrind"
+vendor = "Valgrind Developers"
+url = "https://valgrind.org/docs/manual/cl-manual.html"
+category = "call-graph-profiler"
+description = "Call graph generating cache and branch prediction profiler, part of Valgrind"
+note = "Part of Valgrind, version tracks Valgrind releases"
+
+[[profilers]]
+name = "FlameGraph"
+vendor = "Brendan Gregg"
+url = "https://github.com/brendangregg/FlameGraph"
+category = "visualization"
+description = "Stack trace visualizer that generates interactive SVG flame graphs from profiling data"
+releases = [
+    { version = "1.0", date = "2017-08-19", tag = "v1.0" },
+]

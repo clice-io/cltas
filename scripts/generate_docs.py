@@ -41,6 +41,14 @@ DISPLAY_NAMES = {
     "architectures": "CPU Architectures",
     "platforms": "Platforms & OS",
     "llvm-targets": "LLVM Registered Targets",
+    "linkers": "Linkers",
+    "debuggers": "Debuggers",
+    "binary-utils": "Binary Utilities",
+    "profilers": "Profilers",
+    "coverage": "Code Coverage",
+    "testing": "Testing Frameworks",
+    "documentation": "Documentation Tools",
+    "package-managers": "Package Managers",
 }
 
 
