@@ -4,6 +4,20 @@ vendor = "Microsoft"
 url = "https://visualstudio.microsoft.com/"
 description = "Microsoft Visual C++ (MSVC) is the C/C++ compiler included with Visual Studio and the Build Tools. The compiler executable is cl.exe. _MSC_VER is the primary version macro."
 
+# Visual Studio 2026 (v18.x) — MSVC toolset 14.5x
+
+[[releases]]
+version = "14.51"
+date = "2026-03"
+_MSC_VER = "1951"
+visual_studio = "2026 18.4"
+
+[[releases]]
+version = "14.50"
+date = "2025-11"
+_MSC_VER = "1950"
+visual_studio = "2026 18.0"
+
 # Visual Studio 2022 (v17.x) — MSVC toolset 14.3x-14.4x
 
 [[releases]]
