@@ -7,6 +7,18 @@ description = "Microsoft Visual C++ (MSVC) is the C/C++ compiler included with V
 # Visual Studio 2022 (v17.x) — MSVC toolset 14.3x-14.4x
 
 [[releases]]
+version = "14.44"
+date = "2025-05"
+_MSC_VER = "1944"
+visual_studio = "2022 17.14"
+
+[[releases]]
+version = "14.43"
+date = "2025-02"
+_MSC_VER = "1943"
+visual_studio = "2022 17.13"
+
+[[releases]]
 version = "14.42"
 date = "2024-11"
 _MSC_VER = "1942"

@@ -79,8 +79,10 @@ def render_releases_table(releases, max_cols=6):
     if not releases:
         return ""
 
-    # Newest first
-    releases = list(reversed(releases))
+    # Sort newest first by date (or version as fallback)
+    def sort_key(r):
+        return r.get("date", r.get("version", ""))
+    releases = sorted(releases, key=sort_key, reverse=True)
 
     skip = {"download_urls", "assets", "url"}
     keys = []
