@@ -243,28 +243,6 @@ releases = [
 ]
 
 [[implementations]]
-name = "uclibc-ng"
-full_name = "uClibc-ng"
-vendor = "uClibc-ng project"
-url = "https://uclibc-ng.org/"
-platforms = [
-    "linux",
-]
-description = "Small C library for embedded Linux systems, actively maintained fork of uClibc"
-releases = []
-
-[[implementations]]
-name = "mingw-w64"
-full_name = "mingw-w64"
-vendor = "mingw-w64 project"
-url = "https://www.mingw-w64.org/"
-platforms = [
-    "windows",
-]
-description = "Windows C runtime headers and import libraries for GCC, targeting msvcrt or ucrt"
-releases = []
-
-[[implementations]]
 name = "picolibc"
 full_name = "picolibc"
 vendor = "Keith Packard"
@@ -307,6 +285,28 @@ releases = [
     { version = "1.8.10", date = "2025-04-17", tag = "1.8.10" },
     { version = "1.8.11", date = "2026-01-27", tag = "1.8.11" },
 ]
+
+[[implementations]]
+name = "uclibc-ng"
+full_name = "uClibc-ng"
+vendor = "uClibc-ng project"
+url = "https://uclibc-ng.org/"
+platforms = [
+    "linux",
+]
+description = "Small C library for embedded Linux systems, actively maintained fork of uClibc"
+releases = []
+
+[[implementations]]
+name = "mingw-w64"
+full_name = "mingw-w64"
+vendor = "mingw-w64 project"
+url = "https://www.mingw-w64.org/"
+platforms = [
+    "windows",
+]
+description = "Windows C runtime headers and import libraries for GCC, targeting msvcrt or ucrt"
+releases = []
 
 [[implementations]]
 name = "wasi-libc"
