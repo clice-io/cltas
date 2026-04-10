@@ -5610,6 +5610,18 @@ platforms = [
     "x86_64",
 ]
 
+[[build_systems.releases]]
+version = "9.0.2"
+date = "2026-04-09"
+tag = "9.0.2"
+platforms = [
+    "arm64",
+    "darwin",
+    "linux",
+    "windows",
+    "x86_64",
+]
+
 [[build_systems]]
 name = "Buck2"
 vendor = "Meta"
