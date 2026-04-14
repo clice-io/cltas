@@ -3583,6 +3583,7 @@ releases = [
     { version = "1.10.0", date = "2025-12-08", tag = "1.10.0" },
     { version = "1.10.1", date = "2026-01-18", tag = "1.10.1" },
     { version = "1.10.2", date = "2026-03-15", tag = "1.10.2" },
+    { version = "1.11.0", date = "2026-04-13", tag = "1.11.0" },
 ]
 
 [[build_systems]]
@@ -9518,6 +9519,21 @@ platforms = [
 version = "2.27.0"
 date = "2026-03-25"
 tag = "2.27.0"
+platforms = [
+    "aarch64",
+    "amd64",
+    "arm64",
+    "i686",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "2.27.1"
+date = "2026-04-13"
+tag = "2.27.1"
 platforms = [
     "aarch64",
     "amd64",
