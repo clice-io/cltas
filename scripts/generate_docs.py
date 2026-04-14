@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT / "docs"
+TEXT_ENCODING = "utf-8"
 
 CATEGORIES = [
     ("compilers", "Compilers"),
@@ -74,6 +75,8 @@ def format_value(val):
         return str(val)
     return str(val)
 
+def write_text(path: Path, content: str) -> None:
+    path.write_text(content, encoding=TEXT_ENCODING)
 
 def render_releases_table(releases, max_cols=6):
     if not releases:
@@ -104,6 +107,26 @@ def render_releases_table(releases, max_cols=6):
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
 
+def render_mapping_table(mapping):
+    if not mapping:
+        return ""
+    lines = [
+        "| key | value |",
+        "| --- | --- |",
+    ]
+    for k, v in mapping.items():
+        lines.append(f"| `{k}` | {format_value(v)} |")
+    return "\n".join(lines)
+
+def render_details_block(title: str, table: str):
+    if not table:
+        return []
+    lines = [f"??? note \"{title}\"", ""]
+    for line in table.split("\n"):
+        lines.append(f"    {line}")
+    lines.append("")
+    return lines
+
 
 def render_item_card(item):
     lines = []
@@ -117,17 +140,19 @@ def render_item_card(item):
         if isinstance(v, list) and v and isinstance(v[0], dict):
             releases = (k, v)
             continue
+        if isinstance(v, dict):
+            table = render_mapping_table(v)
+            if table:
+                lines.extend(render_details_block(f"{k} ({len(v)})", table))
+            else:
+                lines.append(f"- **{k}**: {format_value(v)}")
+            continue
         lines.append(f"- **{k}**: {format_value(v)}")
 
     lines.append("")
     if releases:
         key, data = releases
-        lines.append(f"??? note \"{len(data)} {key}\"")
-        lines.append("")
-        table = render_releases_table(data)
-        for line in table.split("\n"):
-            lines.append(f"    {line}")
-        lines.append("")
+        lines.extend(render_details_block(f"{len(data)} {key}", render_releases_table(data)))
 
     return "\n".join(lines)
 
@@ -183,7 +208,8 @@ def generate():
     DOCS_DIR.mkdir(parents=True)
 
     # Write index
-    (DOCS_DIR / "index.md").write_text(
+    write_text(
+        DOCS_DIR / "index.md",
         "# cltas\n\n"
         "**C/C++ Language Toolchain And System** — a unified, open database of C++ toolchain metadata.\n\n"
         "Browse the categories in the navigation to explore:\n\n"
@@ -214,13 +240,13 @@ def generate():
         file_links = "\n".join(
             f"- [{display_name(f.stem)}]({f.stem}.md)" for f in files
         )
-        cat_index.write_text(f"# {label}\n\n{file_links}\n")
+        write_text(cat_index, f"# {label}\n\n{file_links}\n")
 
         section_items = [{"Overview": f"{dir_name}/index.md"}]
         for filepath in files:
             md_content = render_file(filepath)
             md_file = out_dir / f"{filepath.stem}.md"
-            md_file.write_text(md_content)
+            write_text(md_file, md_content)
 
             name = display_name(filepath.stem)
             rel = f"{dir_name}/{filepath.stem}.md"
@@ -242,7 +268,7 @@ def write_mkdocs_yml(nav):
     nav_yaml = yaml.dump({"nav": nav}, default_flow_style=False, sort_keys=False, allow_unicode=True)
 
     yml_path = ROOT / "mkdocs.yml"
-    yml_path.write_text(f"""\
+    write_text(yml_path, f"""\
 site_name: "cltas — C/C++ Language Toolchain And System"
 site_url: https://clice-io.github.io/cltas
 repo_url: https://github.com/clice-io/cltas
