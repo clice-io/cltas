@@ -67,6 +67,7 @@ releases = [
     { version = "rocm-7.1.1", date = "2025-11-26", tag = "rocm-7.1.1" },
     { version = "rocm-7.2.0", date = "2026-01-23", tag = "rocm-7.2.0" },
     { version = "rocm-7.2.1", date = "2026-03-25", tag = "rocm-7.2.1" },
+    { version = "rocm-7.2.2", date = "2026-04-14", tag = "rocm-7.2.2" },
 ]
 
 [meta]
