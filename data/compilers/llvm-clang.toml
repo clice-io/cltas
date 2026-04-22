@@ -2383,3 +2383,18 @@ platforms = [
     "woa64",
     "x86_64",
 ]
+
+[[releases]]
+version = "22.1.4"
+date = "2026-04-21"
+tag = "llvmorg-22.1.4"
+platforms = [
+    "aarch64",
+    "arm64",
+    "linux",
+    "macos",
+    "win64",
+    "windows",
+    "woa64",
+    "x86_64",
+]

@@ -3480,6 +3480,34 @@ platforms = [
     "x86_64",
 ]
 
+[[build_systems.releases]]
+version = "4.3.2"
+date = "2026-04-21"
+tag = "v4.3.2"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
+[[build_systems.releases]]
+version = "4.2.5"
+date = "2026-04-21"
+tag = "v4.2.5"
+platforms = [
+    "aarch64",
+    "arm64",
+    "i386",
+    "linux",
+    "macos",
+    "windows",
+    "x86_64",
+]
+
 [[build_systems]]
 name = "Meson"
 vendor = "Meson Project"
